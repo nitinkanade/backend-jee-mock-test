@@ -1,4 +1,4 @@
-# JEE Mock Test — Workspace Context
+﻿# JEE Mock Test — Workspace Context
 
 > Context file for AI coding assistants (Claude Code, Codex, Antigravity, Cursor, etc.) and for humans returning to this project. Keep this file updated when architecture or workflows change.
 
@@ -25,7 +25,7 @@ https://ni18-in.github.io/backend-jee-mock-test/
    └── <paper_folder>/img/<image>.png      ← question diagram images
 ```
 
-- **Data is remote-first with a device cache**: the app fetches `manifest.json` and paper JSONs from GitHub Pages at runtime (`ExamProvider.baseUrl` in `jee-mock-test-paper/lib/providers/exam_provider.dart`). Papers are NOT bundled as app assets. Every successful fetch is cached to a file on device via `JsonCache` (`lib/services/json_cache.dart`, uses `path_provider`): the manifest loads **cache-first** (instant home screen, background network refresh swaps in fresh data), paper JSONs load **network-first with cache fallback** (previously opened papers work offline). All cache failures are non-fatal; corrupted entries self-delete.
+- **Data is remote-first with a device cache**: the app fetches `manifest.json` and paper JSONs from GitHub Pages at runtime (`ExamProvider.baseUrl` in `jee-mock-test-paper/lib/providers/exam_provider.dart`). Papers are NOT bundled as app assets. Every successful fetch is cached to a file on device via `JsonCache` (`lib/services/json_cache.dart`, uses `path_provider`): the manifest loads **cache-first** (instant home screen, background network refresh swaps in fresh data), paper JSONs load **network-first with cache fallback** (previously opened papers work offline). All cache failures are non-fatal; corrupted entries self-delete. Question images render through `QuestionImage` (`lib/widgets/question_image.dart`, backed by `cached_network_image`) and are prefetched to the on-device image cache when a paper loads, so exams work fully offline including diagrams.
 - **User state is local**: attempt history, bookmarks, and in-progress exam sessions persist in `shared_preferences`. No accounts, no server-side state.
 - Publishing a new paper = add folder + JSON + images to `backend-jee-mock-test/`, register it in `manifest.json`, push to the `main` branch of the **upstream** (`ni18-in`) repo → GitHub Pages redeploys automatically.
 
@@ -39,7 +39,8 @@ https://ni18-in.github.io/backend-jee-mock-test/
   - `screens/` — `home_screen.dart` (dashboard, history, resume banner, bookmarks tab), `instructions_screen.dart`, `exam_screen.dart` (CBT player with palette sidebar), `result_screen.dart` (scores, subject tables, solutions).
   - `widgets/math_text.dart` — `MathText` LaTeX renderer (see critical rules below).
   - `services/json_cache.dart` — best-effort file cache for backend JSON (manifest + papers).
-- **Key packages**: `provider`, `shared_preferences`, `http`, `flutter_math_fork`, `tex_markdown`, `google_fonts`, `url_launcher`.
+  - `widgets/question_image.dart` — cached question/diagram image widget (disk cache via cached_network_image).
+- **Key packages**: `provider`, `shared_preferences`, `http`, `flutter_math_fork`, `tex_markdown`, `google_fonts`, `url_launcher`, `path_provider`, `cached_network_image`/`flutter_cache_manager`.
 - **Android config**: package `in.ni18.jeemocktest`; NDK `27.0.12077973` pinned in `android/app/build.gradle.kts`; Kotlin package keyword escaped as `` package `in`.ni18.jeemocktest `` in `MainActivity.kt`.
 - **Per-project details**: see `jee-mock-test-paper/CLAUDE.md` for scoring rules, question statuses, session persistence, and LaTeX/chemMap rules.
 
