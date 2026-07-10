@@ -78,6 +78,10 @@ Pure static hosting — no server code. Contents:
 
 Currently hosts ~8 papers: JEE Mains 2024/2025 shifts, JEE Advanced 2023/2024/2025 Paper 1, IIT JEE 2007 Paper 2.
 
+### Local admin console
+
+Run `python tools/admin/app.py` in `backend-jee-mock-test/` -> opens http://127.0.0.1:8770 (localhost only). Browse all papers/questions with rendered LaTeX + images, edit questions (JSON editor), edit paper settings, run validation, commit (auto-generated messages), and publish (validates first, then pushes to all remotes). Smart rule: editing a question in a published paper auto-bumps its manifest `version` once per publish cycle. Deps: `pip install -r tools/requirements.txt`.
+
 ### Adding a new paper (standard workflow)
 
 **One-shot flow**: hand the PDF to the AI assistant — the `pdf-to-json-converter` skill runs the full pipeline: `python tools/extract_pdf_images.py <pdf>` (diagram extraction with question-number hints) -> question conversion -> assemble `<paper_folder>/` -> `python tools/add_paper.py <folder> --id .. --title .. --year ..` (manifest registration + validation with automatic rollback on failure). Manual steps below for reference:

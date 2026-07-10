@@ -1,0 +1,3 @@
+# pip install -r tools/requirements.txt
+flask>=3.0      # tools/admin local console
+pymupdf>=1.24   # tools/extract_pdf_images.py
