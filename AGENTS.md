@@ -80,6 +80,8 @@ Currently hosts ~8 papers: JEE Mains 2024/2025 shifts, JEE Advanced 2023/2024/20
 
 ### Adding a new paper (standard workflow)
 
+**One-shot flow**: hand the PDF to the AI assistant — the `pdf-to-json-converter` skill runs the full pipeline: `python tools/extract_pdf_images.py <pdf>` (diagram extraction with question-number hints) -> question conversion -> assemble `<paper_folder>/` -> `python tools/add_paper.py <folder> --id .. --title .. --year ..` (manifest registration + validation with automatic rollback on failure). Manual steps below for reference:
+
 1. Convert the source PDF/scan to app JSON. Use the **`pdf-to-json-converter` skill** at `jee-mock-test-paper/.agents/skills/pdf-to-json-converter/SKILL.md` — it documents the full QuestionPaper JSON schema (paper → sections → questions, question types `single_correct` / `multi_correct` / `numerical` / `matching`, per-question marks/negativeMarks, LaTeX conventions).
 2. Create `backend-jee-mock-test/<paper_folder>/` with the JSON and an `img/` folder for any diagrams; set `hasImage`/`imageName` on questions that reference images.
 3. Append an entry to `manifest.json` with `"version": 1` (bump it on any later correction to invalidate device caches).
