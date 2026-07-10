@@ -899,8 +899,8 @@
                                 },
                                 {
                                     "id": "4",
-                                    "text": "$\\sqrt{2p^2-2p+1}$ s",
-                                    "isCorrect": false
+                                      "text": "$\\sqrt{2p^2+2p+1}$ s",
+                                      "isCorrect": false
                                 }
                             ],
                             "explanation": "S₁=(1/2)a(p-1)², S₂=(1/2)ap². S₁+S₂=(1/2)at². (p-1)²+p²=t². t=√(2p²-2p+1).",

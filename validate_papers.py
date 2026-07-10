@@ -47,6 +47,15 @@ def validate_question(q, paper_dir, paper_id):
         if not ok:
             errors.append(f"LaTeX error in 'questionText': {err}")
 
+    # Every published question must include a usable worked explanation.
+    explanation = q.get('explanation')
+    if not explanation or not isinstance(explanation, str) or not explanation.strip():
+        errors.append("Missing or empty 'explanation'")
+    else:
+        ok, err = check_latex_balance(explanation)
+        if not ok:
+            errors.append(f"LaTeX error in 'explanation': {err}")
+
     # Check marks
     if 'marks' not in q:
         errors.append("Missing 'marks'")
