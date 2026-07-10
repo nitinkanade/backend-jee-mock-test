@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import sys
 
 # Dynamically resolve backend directory relative to this script
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -184,40 +185,78 @@ def validate_paper(filepath):
                     
     return True, paper_errors, questions_to_remove
 
+def validate_manifest_entry(paper, seen_ids):
+    errors = []
+    paper_id = paper.get('id')
+    if not paper_id:
+        errors.append("Missing 'id'")
+    elif paper_id in seen_ids:
+        errors.append(f"Duplicate paper id: '{paper_id}'")
+    else:
+        seen_ids.add(paper_id)
+    if not paper.get('title'):
+        errors.append("Missing 'title'")
+    if not isinstance(paper.get('year'), int):
+        errors.append("Missing or non-integer 'year'")
+    if 'version' in paper and not isinstance(paper['version'], int):
+        errors.append(f"'version' must be an integer (found {paper['version']!r})")
+    if paper.get('comingSoon') is not True and not paper.get('filename'):
+        errors.append("Missing 'filename' on a paper that is not comingSoon")
+    return errors
+
 def run_validation():
     if not os.path.exists(MANIFEST_PATH):
         print(f"Error: manifest.json not found at {MANIFEST_PATH}")
-        return
+        return False
 
-    with open(MANIFEST_PATH, 'r', encoding='utf-8') as f:
-        manifest_data = json.load(f)
-        
+    try:
+        with open(MANIFEST_PATH, 'r', encoding='utf-8') as f:
+            manifest_data = json.load(f)
+    except json.JSONDecodeError as je:
+        print(f"CRITICAL: manifest.json is not valid JSON: {je}")
+        return False
+
     papers_list = manifest_data.get('papers', [])
     all_errors = {}
-    
+    manifest_errors = []
+    critical_errors = []
+    seen_ids = set()
+
     for paper in papers_list:
+        entry_errors = validate_manifest_entry(paper, seen_ids)
+        if entry_errors:
+            label = paper.get('id') or paper.get('title') or 'unknown entry'
+            manifest_errors.append((label, entry_errors))
+
         if paper.get('comingSoon') is True:
             continue
-            
+
         filename_rel = paper.get('filename')
         if not filename_rel:
             continue
-            
+
         filepath = os.path.join(BACKEND_DIR, filename_rel)
         if not os.path.exists(filepath):
-            print(f"Error: Paper file not found: {filepath}")
+            critical_errors.append(f"Paper file not found: {filepath}")
             continue
-            
+
         ok, errors, to_remove = validate_paper(filepath)
         if errors:
             all_errors[paper['id']] = (filepath, errors, to_remove)
-            
+
     print("\n" + "="*50)
     print("VALIDATION SUMMARY")
     print("="*50)
-    if not all_errors:
+    passed = not all_errors and not manifest_errors and not critical_errors
+    if passed:
         print("All papers and questions are fully valid! No issues found.")
     else:
+        for msg in critical_errors:
+            print(f"\nCRITICAL: {msg}")
+        for label, errs in manifest_errors:
+            print(f"\nManifest entry: {label}")
+            for e in errs:
+                print(f"  - {e}")
         for paper_id, (filepath, errs, to_remove) in all_errors.items():
             print(f"\nPaper ID: {paper_id} ({os.path.basename(filepath)})")
             if "json_error" in errs:
@@ -231,6 +270,7 @@ def run_validation():
                         print(f"    - {e}")
                 print(f"  Total questions with issues: {len(errs)}")
         print("\nFix issues or run python fix_papers.py (if available) before committing.")
+    return passed
 
 if __name__ == "__main__":
-    run_validation()
+    sys.exit(0 if run_validation() else 1)

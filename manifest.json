@@ -5,56 +5,64 @@
             "title": "JEE Main 2025 Session-2 - 2 April Shift 1",
             "year": 2025,
             "filename": "jee_mains_02_apr_2025_shift_1/jee_mains_02_apr_2025_shift_1.json",
-            "description": "JEE Main 2025 Session-2 2 April Shift 1."
+            "description": "JEE Main 2025 Session-2 2 April Shift 1.",
+            "version": 1
         },
         {
             "id": "2024_mains_jan_29_s1",
             "title": "JEE Mains 2024 - 29 Jan Morning Shift",
             "year": 2024,
             "filename": "jee_mains_29_jan_2024_shift_1/jee_mains_29_jan_2024_shift_1.json",
-            "description": "JEE Mains Question Paper 29 January 2024 Morning Shift."
+            "description": "JEE Mains Question Paper 29 January 2024 Morning Shift.",
+            "version": 1
         },
         {
             "id": "2025_mains_jan_22_s1",
             "title": "JEE Mains 2025 - 22 Jan Morning Shift",
             "year": 2025,
             "filename": "jee_mains_22_jan_2025_shift_1/jee_mains_22_jan_2025_shift_1.json",
-            "description": "JEE Mains 2025 22 January Morning Shift."
+            "description": "JEE Mains 2025 22 January Morning Shift.",
+            "version": 1
         },
         {
             "id": "2025_mains_jan_22_s2",
             "title": "JEE Mains 2025 - 22 Jan Evening Shift",
             "year": 2025,
             "filename": "jee_mains_22_jan_2025_shift_2/jee_mains_22_jan_2025_shift_2.json",
-            "description": "JEE Mains 2025 22 January Evening Shift."
+            "description": "JEE Mains 2025 22 January Evening Shift.",
+            "version": 1
         },
         {
             "id": "2025_p1",
             "title": "JEE Advanced 2025 - Paper 1",
             "year": 2025,
             "filename": "2025_paper_1/2025_paper_1.json",
-            "description": "Mock test based on 2025 pattern."
+            "description": "Mock test based on 2025 pattern.",
+            "version": 1
         },
         {
             "id": "2024_p1",
             "title": "JEE Advanced 2024 - Paper 1",
             "year": 2024,
             "filename": "2024_paper_1/2024_paper_1.json",
-            "description": "Full syllabus mock test based on 2024 pattern."
+            "description": "Full syllabus mock test based on 2024 pattern.",
+            "version": 1
         },
         {
             "id": "2023_p1",
             "title": "JEE Advanced 2023 - Paper 1",
             "year": 2023,
             "filename": "2023_paper_1/2023_paper_1.json",
-            "description": "Full syllabus mock test based on 2024 pattern."
+            "description": "Full syllabus mock test based on 2024 pattern.",
+            "version": 1
         },
         {
             "id": "2007_p2",
             "title": "IIT JEE 2007 - Paper 2",
             "year": 2007,
             "filename": "jee2007_paper2/jee2007_paper2.json",
-            "description": "IIT JEE 2007 Paper 2."
+            "description": "IIT JEE 2007 Paper 2.",
+            "version": 1
         },
         {
             "id": "2022_p1",
@@ -62,7 +70,8 @@
             "year": 2022,
             "description": "Previous year paper.",
             "filename": "",
-            "comingSoon": true
+            "comingSoon": true,
+            "version": 1
         },
         {
             "id": "2021_p1",
@@ -70,7 +79,8 @@
             "year": 2021,
             "description": "Previous year paper.",
             "filename": "",
-            "comingSoon": true
+            "comingSoon": true,
+            "version": 1
         },
         {
             "id": "2020_p1",
@@ -78,7 +88,8 @@
             "year": 2020,
             "description": "Previous year paper.",
             "filename": "",
-            "comingSoon": true
+            "comingSoon": true,
+            "version": 1
         }
     ]
 }

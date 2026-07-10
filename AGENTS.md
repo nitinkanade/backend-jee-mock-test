@@ -25,7 +25,7 @@ https://ni18-in.github.io/backend-jee-mock-test/
    └── <paper_folder>/img/<image>.png      ← question diagram images
 ```
 
-- **Data is remote-first with a device cache**: the app fetches `manifest.json` and paper JSONs from GitHub Pages at runtime (`ExamProvider.baseUrl` in `jee-mock-test-paper/lib/providers/exam_provider.dart`). Papers are NOT bundled as app assets. Every successful fetch is cached to a file on device via `JsonCache` (`lib/services/json_cache.dart`, uses `path_provider`): the manifest loads **cache-first** (instant home screen, background network refresh swaps in fresh data), paper JSONs load **network-first with cache fallback** (previously opened papers work offline). All cache failures are non-fatal; corrupted entries self-delete. Question images render through `QuestionImage` (`lib/widgets/question_image.dart`, backed by `cached_network_image`) and are prefetched to the on-device image cache when a paper loads, so exams work fully offline including diagrams.
+- **Data is remote-first with a device cache**: the app fetches `manifest.json` and paper JSONs from GitHub Pages at runtime (`ExamProvider.baseUrl` in `jee-mock-test-paper/lib/providers/exam_provider.dart`). Papers are NOT bundled as app assets. Every successful fetch is cached to a file on device via `JsonCache` (`lib/services/json_cache.dart`, uses `path_provider`): the manifest loads **cache-first** (instant home screen, background network refresh swaps in fresh data), paper JSONs load **network-first with cache fallback** (previously opened papers work offline). All cache failures are non-fatal; corrupted entries self-delete. Question images render through `QuestionImage` (`lib/widgets/question_image.dart`, backed by `cached_network_image`) and are prefetched to the on-device image cache when a paper loads, so exams work fully offline including diagrams (retention pinned to 365 days via `PaperImageCache`). Each manifest entry carries a `version` (int, default 1): bumping it in the backend evicts that paper's cached JSON and images on user devices at the next manifest refresh — **always bump `version` when correcting a published paper**.
 - **User state is local**: attempt history, bookmarks, and in-progress exam sessions persist in `shared_preferences`. No accounts, no server-side state.
 - Publishing a new paper = add folder + JSON + images to `backend-jee-mock-test/`, register it in `manifest.json`, push to the `main` branch of the **upstream** (`ni18-in`) repo → GitHub Pages redeploys automatically.
 
@@ -82,7 +82,7 @@ Currently hosts ~8 papers: JEE Mains 2024/2025 shifts, JEE Advanced 2023/2024/20
 
 1. Convert the source PDF/scan to app JSON. Use the **`pdf-to-json-converter` skill** at `jee-mock-test-paper/.agents/skills/pdf-to-json-converter/SKILL.md` — it documents the full QuestionPaper JSON schema (paper → sections → questions, question types `single_correct` / `multi_correct` / `numerical` / `matching`, per-question marks/negativeMarks, LaTeX conventions).
 2. Create `backend-jee-mock-test/<paper_folder>/` with the JSON and an `img/` folder for any diagrams; set `hasImage`/`imageName` on questions that reference images.
-3. Append an entry to `manifest.json`.
+3. Append an entry to `manifest.json` with `"version": 1` (bump it on any later correction to invalidate device caches).
 4. Validate the questions using the Python validation script inside `backend-jee-mock-test/`:
    ```bash
    python validate_papers.py
@@ -91,11 +91,11 @@ Currently hosts ~8 papers: JEE Mains 2024/2025 shifts, JEE Advanced 2023/2024/20
    ```bash
    python fix_papers.py
    ```
-5. Commit and push to `main` on the `ni18-in` (upstream) repo — GitHub Pages serves from there. The app picks it up on next launch with no app release needed.
+5. Commit and push to `main` on the `ni18-in` (upstream) repo — a GitHub Action (`.github/workflows/validate.yml`) runs `validate_papers.py` on every push; a red X means broken content is live, fix immediately — GitHub Pages serves from there. The app picks it up on next launch with no app release needed.
 
 ## Paper JSON Schema (summary)
 
-`manifest.json` → `{ "papers": [ { id, title, year, filename, description, comingSoon? } ] }`
+`manifest.json` → `{ "papers": [ { id, title, year, filename, description, version?, comingSoon? } ] }`
 
 Paper JSON (full schema in the pdf-to-json-converter skill): exam title/duration + `sections[]`, each section has subsections/questions; each `Question` has `id`, `type` (`single_correct` | `multi_correct` | `numerical` | `matching`), `questionText` (LaTeX allowed), `options[]` (`{id, text, isCorrect}`), matching lists for matching type, numerical answer for numerical type, `marks`/`negativeMarks`, `hasImage`/`imageName`, and solution/explanation text.
 

@@ -1,0 +1,20 @@
+name: Validate papers
+
+# Runs the paper/manifest validator on every push and PR. GitHub Pages still
+# deploys independently of this check, so treat a red X on main as "fix
+# immediately" — the broken content is already live.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate manifest and papers
+        run: python validate_papers.py
