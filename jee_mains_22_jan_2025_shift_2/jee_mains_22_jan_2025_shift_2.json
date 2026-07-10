@@ -1,0 +1,1738 @@
+{
+    "examTitle": "JEE Mains 2025 - 22 January Evening Shift",
+    "examDate": "22nd January 2025",
+    "duration": "3:00 PM to 6:00 PM",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "subsections": [
+                {
+                    "id": "math_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "math_q1",
+                            "type": "single_correct",
+                            "questionText": "Let $\\alpha$, $\\beta$, $\\gamma$ and $\\delta$ be the coefficients of $x^7$, $x^5$, $x^3$ and $x$ respectively in the expansion of $\\left(x + \\sqrt{x^3 - 1}\\right)^5 + \\left(x - \\sqrt{x^3 - 1}\\right)^5$, $x > 1$. If $u$ and $v$ satisfy the equations $\\alpha u + \\beta v = 18$ and $\\gamma u + \\delta v = 20$, then $u + v$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "5",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "8",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Expanding: α=10, β=2, γ=-20, δ=10. System: 10u+2v=18, -20u+10v=20. Solving: u=1, v=4. u+v=5.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q2",
+                            "type": "single_correct",
+                            "questionText": "In a group of 3 girls and 4 boys, there are two boys $B_1$ and $B_2$. The number of ways in which these girls and boys can stand in a queue such that all the girls stand together, all the boys stand together, but $B_1$ and $B_2$ are not adjacent to each other, is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "144",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "72",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "96",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "120",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Total (all together) – (B₁ and B₂ adjacent) = 2!(3! 4!) – 2!(3!(3! 2!)) = 144.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q3",
+                            "type": "single_correct",
+                            "questionText": "Let $P\\left(4, 4\\sqrt{3}\\right)$ be a point on the parabola $y^2 = 4ax$ and PQ be a focal chord of the parabola. If M and N are the foot of perpendiculars drawn from P and Q respectively on the directrix of the parabola, then the area of the quadrilateral PQNM is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{263\\sqrt{3}}{8}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$17\\sqrt{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{343\\sqrt{3}}{8}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\frac{34\\sqrt{3}}{3}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "P(4,4√3) on y²=4ax ⟹ 48=16a ⟹ a=3. Parabola: y²=12x. t₁=2/√3 for P, t₂=-√3/2 for Q⟹Q(9/4,-3√3). Area of trapezium PQNM = (1/2)MN·PQ = (1/2)(7√3)(49/4) = 343√3/8.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q4",
+                            "type": "single_correct",
+                            "questionText": "For a $3 \\times 3$ matrix M, let trace(M) denote the sum of all the diagonal elements of M. Let A be a $3 \\times 3$ matrix such that $|A| = \\frac{1}{2}$ and trace(A) = 3. If $B = \\text{adj}(\\text{adj}(2A))$, then the value of $|B| + \\text{trace}(B)$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "56",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "132",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "174",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "280",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "|A|=1/2, B=adj(adj(2A))=|2A|^{n-2}·(2A)=2³·|A|²·(2A)=8A. |B|=8³·|A|=2⁸=256. trace(B)=8·trace(A)=24. |B|+trace(B)=280.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q5",
+                            "type": "single_correct",
+                            "questionText": "Suppose that the number of terms in an A.P. is $2k$, $k \\in \\mathbb{N}$. If the sum of all odd terms of the A.P. is 40, the sum of all even terms is 55 and the last term of the A.P. exceeds the first term by 27, then $k$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "5",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "8",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Sum of odd terms = k/2[2a₁+(k-1)2d]=40, sum of even terms=55, d=27/(2k-1). Solving gives 9k=10k-5 ⟹ k=5.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q6",
+                            "type": "single_correct",
+                            "questionText": "Let a line pass through two distinct points $P(-2, -1, 3)$ and $Q$, and be parallel to the vector $3\\hat{i} + 2\\hat{j} + 2\\hat{k}$. If the distance of the point $Q$ from the point $R(1, 3, 3)$ is 5, then the square of the area of $\\triangle PQR$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "136",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "140",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "144",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "148",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Q=(3λ-2, 2λ-1, 2λ+3). |QR|=5 ⟹ λ=2. Q=(4,3,7). [PQR]²=136.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q7",
+                            "type": "single_correct",
+                            "questionText": "If $\\lim_{x \\to \\infty} \\left(\\left(\\frac{e}{1-e}\\right)\\left(\\frac{1}{e} - \\frac{x}{1+x}\\right)\\right)^x = \\alpha$, then the value of $\\frac{\\log_e \\alpha}{1 + \\log_e \\alpha}$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$e$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$e^{-2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$e^2$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$e^{-1}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "1^∞ form. L = e/(1-e)·lim x→∞ x(1-x/(1+x)) = e/(1-e)·1 = e/(1-e). α=e^{e/(1-e)}. log α=e/(1-e). Required: (e/(1-e))/(1+e/(1-e)) = e.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q8",
+                            "type": "single_correct",
+                            "questionText": "Let $f(x) = \\int_0^{x^2} \\frac{t^2 - 8t + 15}{e^t}\\,dt$, $x \\in \\mathbb{R}$. Then the numbers of local maximum and local minimum points of $f$, respectively, are:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2 and 3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 and 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1 and 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2 and 2",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "f'(x)=((x⁴-8x²+15)/e^{x²})(2x). Roots of numerator: x=0,±√3,±√5. Maxima at x∈{-√3,√3}, minima at x∈{-√5,0,√5}. 2 maxima, 3 minima.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q9",
+                            "type": "single_correct",
+                            "questionText": "The perpendicular distance of the line $\\frac{x-1}{2} = \\frac{y+2}{-1} = \\frac{z+3}{2}$ from the point $P(2, -10, 1)$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$5\\sqrt{2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$3\\sqrt{5}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$4\\sqrt{3}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Foot A(5,-4,1). AP=√(9+36+0)=√45=3√5.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q10",
+                            "type": "single_correct",
+                            "questionText": "If $x = f(y)$ is the solution of the differential equation $(1 + y^2) + \\left(x - 2e^{\\tan^{-1}y}\\right)\\frac{dy}{dx} = 0$, $y \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ with $f(0) = 1$, then $f\\!\\left(\\frac{1}{\\sqrt{3}}\\right)$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$e^{\\pi/4}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$e^{\\pi/12}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$e^{\\pi/3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$e^{\\pi/6}$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "dx/dy + x/(1+y²) = 2e^{tan⁻¹y}/(1+y²). IF=e^{tan⁻¹y}. x·e^{tan⁻¹y} = e^{2tan⁻¹y}+c. With f(0)=1: c=0. At y=1/√3, tan⁻¹y=π/6. x=e^{π/6}.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q11",
+                            "type": "single_correct",
+                            "questionText": "If $\\int e^x \\left(\\frac{x\\sin^{-1}x}{\\sqrt{1-x^2}} + \\frac{\\sin^{-1}x}{(1-x^2)^{3/2}} + \\frac{x}{1-x^2}\\right)dx = g(x) + C$, where $C$ is the constant of integration, then $g\\!\\left(\\frac{1}{2}\\right)$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{\\pi}{6}\\sqrt{\\frac{e}{2}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{\\pi}{4}\\sqrt{\\frac{e}{2}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{\\pi}{6}\\sqrt{\\frac{e}{3}}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\frac{\\pi}{4}\\sqrt{\\frac{e}{3}}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "d/dx(x sin⁻¹x/√(1-x²)) = sin⁻¹x/(1-x²)^{3/2} + x/(1-x²). So g(x)=e^x·(x sin⁻¹x/√(1-x²)). g(1/2)=e^{1/2}·(π/6)/√(3/4) = (π/6)√(e/3).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q12",
+                            "type": "single_correct",
+                            "questionText": "Let $\\alpha_0$ and $\\beta_0$ be the distinct roots of $2x^2 + (\\cos\\theta)x - 1 = 0$, $\\theta \\in (0, 2\\pi)$. If $m$ and $M$ are the minimum and the maximum values of $\\alpha_0^4 + \\beta_0^4$, then $16(M + m)$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "24",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "25",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "27",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "17",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "α+β=-cosθ/2, αβ=-1/2. α⁴+β⁴=(α²+β²)²-2α²β²=[(α+β)²-2αβ]²-2(αβ)². M=17/16 (cosθ=0), m=1/2 (cosθ=±1 not valid as roots must be distinct). 16(M+m)=25.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q13",
+                            "type": "single_correct",
+                            "questionText": "Let $A = \\{1, 2, 3, 4\\}$ and $B = \\{1, 4, 9, 16\\}$. Then the number of many-one functions $f : A \\to B$ such that $1 \\in f(A)$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "127",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "151",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "163",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "139",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Total = 4⁴=256. One-one=4!=24. Many-one=232. Many-one with 1∉f(A): 3.3.3.3=81. Many-one with 1∈f(A)=232-81=151.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q14",
+                            "type": "single_correct",
+                            "questionText": "If the system of linear equations $x + y + 2z = 6$, $2x + 3y + az = a + 1$, $-x - 3y + bz = 2b$, where $a, b \\in \\mathbb{R}$, has infinitely many solutions, then $7a + 3b$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "9",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "12",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "16",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "22",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "For infinitely many solutions: Δ=0 ⟹ 2a+b-6=0 ...(1). Δ₁=0 ⟹ a+b-8=0 ...(2). Solving: a=-2, b=10. 7a+3b=-14+30=16.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q15",
+                            "type": "single_correct",
+                            "questionText": "Let $\\hat{a}$ and $\\hat{b}$ be two unit vectors such that the angle between them is $\\frac{\\pi}{3}$. If $\\lambda\\hat{a} + 2\\hat{b}$ and $3\\hat{a} - \\lambda\\hat{b}$ are perpendicular to each other, then the number of values of $\\lambda$ in $[-1, 3]$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "0",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "â·b̂=1/2. (λâ+2b̂)·(3â-λb̂)=0 ⟹ 3λ-λ²/2+3-2λ=0 ⟹ λ²-2λ-6=0 ⟹ λ=1±√7. Both values lie outside [-1,3]. Number of values = 0.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q16",
+                            "type": "single_correct",
+                            "questionText": "Let $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$, $a > b$ and $H: \\frac{x^2}{A^2} - \\frac{y^2}{B^2} = 1$. Let the distance between the foci of $E$ and the foci of $H$ be $2\\sqrt{3}$. If $a - A = 2$, and the ratio of the eccentricities of $E$ and $H$ is $\\frac{1}{3}$, then the sum of the lengths of their latus rectums is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "10",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "7",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "8",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "9",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "ae=Ae'=√3, e/e'=1/3 ⟹ e=A/a, so a=3A. a-A=2 ⟹ a=3,A=1. e=1/√3, e'=√3. b²=6, B²=2. Sum LR=2b²/a+2B²/A=4+4=8.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q17",
+                            "type": "single_correct",
+                            "questionText": "If $A$ and $B$ are two events such that $P(A \\cap B) = 0.1$, and $P(A|B)$ and $P(B|A)$ are the roots of the equation $12x^2 - 7x + 1 = 0$, then the value of $\\frac{P(\\bar{A} \\cup \\bar{B})}{P(\\bar{A} \\cap \\bar{B})}$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{5}{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{4}{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{9}{4}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\frac{7}{4}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Roots of 12x²-7x+1=0: x=1/3,1/4. P(A|B)=1/3, P(B|A)=1/4. P(B)=0.3, P(A)=0.4. P(A∪B)=0.6. Required=(1-0.1)/(1-0.6)=9/4.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q18",
+                            "type": "single_correct",
+                            "questionText": "The sum of all values of $\\theta \\in [0, 2\\pi]$ satisfying $2\\sin^2\\theta = \\cos 2\\theta$ and $2\\cos^2\\theta = 3\\sin\\theta$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{\\pi}{2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$4\\pi$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{5\\pi}{6}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\pi$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "From 2sin²θ=cos2θ: sinθ=±1/2. From 2cos²θ=3sinθ: sinθ=1/2. Common: sinθ=1/2. θ=π/6,5π/6 in [0,2π]. Sum=π.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q19",
+                            "type": "single_correct",
+                            "questionText": "Let the curve $z(1+i) + \\bar{z}(1-i) = 4$, $z \\in \\mathbb{C}$, divide the region $|z - 3| \\leq 1$ into two parts of areas $\\alpha$ and $\\beta$. Then $|\\alpha - \\beta|$ equals:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$1 + \\frac{\\pi}{2}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$1 + \\frac{\\pi}{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$1 + \\frac{\\pi}{4}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$1 + \\frac{\\pi}{6}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Line x-y=2 divides circle (x-3)²+y²≤1. Shaded area=π/4-1/2, unshaded=3π/4+1/2. |α-β|=π/2+1=1+π/2.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q20",
+                            "type": "single_correct",
+                            "questionText": "The area of the region enclosed by the curves $y = x^2 - 4x + 4$ and $y^2 = 16 - 8x$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{8}{3}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{4}{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "8",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "y=(x-2)², y²=-8(x-2). Let u=x-2: y=u², y²=-8u ⟹ parabolas. Area=16ab/3=16×1/4×2/3=8/3.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "math_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "math_q21",
+                            "type": "numerical",
+                            "questionText": "Let $y = f(x)$ be the solution of the differential equation $\\frac{dy}{dx} + \\frac{xy}{x^2-1} = \\frac{x^6+4x}{\\sqrt{1-x^2}}$, $-1 < x < 1$ such that $f(0) = 0$. If $6\\int_{1/2}^{1/2} f(x)\\,dx = 2\\pi - \\alpha$ then $\\alpha^2$ is equal to ___.",
+                            "hasImage": false,
+                            "answer": 27,
+                            "explanation": "IF=√(1-x²). y√(1-x²)=x⁷/7+2x²+c. f(0)=0⟹c=0. Integral evaluates to 2π-3√3. α=3√3. α²=27.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "math_q22",
+                            "type": "numerical",
+                            "questionText": "Let $A(6, 8)$, $B(10\\cos\\alpha, -10\\sin\\alpha)$ and $C(-10\\sin\\alpha, 10\\cos\\alpha)$ be the vertices of a triangle. If $L(a, 9)$ and $G(h, k)$ be its orthocenter and centroid respectively, then $(5a - 3h + 6k + 100\\sin 2\\alpha)$ is equal to ___.",
+                            "hasImage": false,
+                            "answer": 145,
+                            "explanation": "All points lie on x²+y²=100. Circumcenter=(0,0). G=(h,k) with h=7/3, k=3. Orthocenter L: a=3h=7, 9=3k=9. 100sin2α=99. 5a-3h+6k+100sin2α=35-7+18+99=145.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "math_q23",
+                            "type": "numerical",
+                            "questionText": "Let the distance between two parallel lines be 5 units and a point P lie between the lines at a unit distance from one of them. An equilateral triangle PQR is formed such that Q lies on one of the parallel lines, while R lies on the other. Then $(QR)^2$ is equal to ___.",
+                            "hasImage": false,
+                            "answer": 28,
+                            "explanation": "PR=cosec θ, PQ=4sec(30+θ). For equilateral: d=PR=PQ. tan θ=1/(3√3). QR²=d²=cosec²θ=28.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "math_q24",
+                            "type": "numerical",
+                            "questionText": "If $\\sum_{r=1}^{30} \\frac{r^2 \\binom{30}{C_r}^2}{\\binom{30}{C_{r-1}}} = \\alpha \\times 2^{29}$, then $\\alpha$ is equal to ___.",
+                            "hasImage": false,
+                            "answer": 465,
+                            "explanation": "Using ³⁰Cᵣ/³⁰Cᵣ₋₁=(31-r)/r. Sum=30∑(30-r+1)²⁹Cᵣ₋₁=30(29×2²⁸+2²⁹)=15×31×2²⁹=465×2²⁹. α=465.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "math_q25",
+                            "type": "numerical",
+                            "questionText": "Let $A = \\{1, 2, 3\\}$. The number of relations on $A$, containing $(1, 2)$ and $(2, 3)$, which are reflexive and transitive but not symmetric, is ___.",
+                            "hasImage": false,
+                            "answer": 3,
+                            "explanation": "Must include (1,1),(2,2),(3,3) reflexive; (1,2),(2,3) given; (1,3) from transitivity. (2,1),(3,2),(3,1) pairs: (3,1) cannot be added without (3,2)→issue. 3 valid relations.",
+                            "marks": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "physics",
+            "name": "Physics",
+            "subsections": [
+                {
+                    "id": "phys_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "phys_q2",
+                            "type": "single_correct",
+                            "questionText": "A small rigid spherical ball of mass M is dropped in a long vertical tube containing glycerine. The velocity of the ball becomes constant after some time. If the density of glycerine is half of the density of the ball, then the viscous force acting on the ball will be: (consider g as acceleration due to gravity)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{3}{2}Mg$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{Mg}{2}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$Mg$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$2Mg$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "At terminal velocity: mg-F_B-f=0. F_B=mg/2 (density of liquid is half of ball). f=mg-mg/2=Mg/2.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q3",
+                            "type": "single_correct",
+                            "questionText": "The maximum percentage error in the measurement of density of a wire is: [Given: mass of wire = (0.60±0.003)g, radius of wire = (0.50±0.01)cm, length of wire = (10.00±0.05)cm]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "5",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "8",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "7",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "dρ/ρ = dm/m + 2dR/R + dℓ/ℓ = (0.003/0.6 + 2×0.01/0.5 + 0.05/10)×100 = (0.5+4+0.5)=5%.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q4",
+                            "type": "single_correct",
+                            "questionText": "A series LCR circuit is connected to an alternating source of emf E. The current amplitude at resonant frequency is $I_0$. If the value of resistance R becomes twice of its initial value, then amplitude of current at resonance will be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$I_0$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{I_0}{2}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{I_0}{\\sqrt{2}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$2I_0$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "At resonance I₀=E_m/R. New I₀'=E_m/2R=I₀/2.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q6",
+                            "type": "single_correct",
+                            "questionText": "Which one of the following is the correct dimensional formula for the capacitance in Farad? (M, L, T and C stand for unit of mass, length, time and charge)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$[F] = [C^2M^{-2}L^2T^2]$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$[F] = [CM^{-2}L^{-2}T^{-2}]$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$[F] = [CM^{-1}L^{-2}T^2]$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$[F] = [C^2M^{-1}L^{-2}T^2]$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "C=q/V=q·q/(WD)=C²/(ML²T⁻²)=C²M⁻¹L⁻²T².",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q7",
+                            "type": "single_correct",
+                            "questionText": "An electron projected perpendicular to a uniform magnetic field B moves in a circle. If Bohr's quantization is applicable, then the radius of the electronic orbit in the first excited state is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\sqrt{\\frac{2h}{\\pi eB}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\sqrt{\\frac{4h}{\\pi eB}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\sqrt{\\frac{h}{2\\pi eB}}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\sqrt{\\frac{h}{\\pi eB}}$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "mvr=nh/2π, eBr=mv ⟹ (eBr)r=nh/2π ⟹ r=√(nh/2πeB). First excited state n=2: r=√(h/πeB).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q8",
+                            "type": "single_correct",
+                            "questionText": "For a diatomic gas, if $\\gamma_1 = (C_p/C_v)$ for rigid molecules and $\\gamma_2 = (C_p/C_v)$ for another diatomic molecules but also having vibrational modes, then which one of the following options is correct?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\gamma_2 > \\gamma_1$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\gamma_2 = \\gamma_1$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$2\\gamma_2 = \\gamma_1$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\gamma_2 < \\gamma_1$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "γ=2/f+1. Rigid diatomic: f=5, γ₁=1.4. With vibration: f=7, γ₂≈1.14. γ₂<γ₁.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q10",
+                            "type": "single_correct",
+                            "questionText": "A light source of wavelength $\\lambda$ illuminates a metal surface and electrons are ejected with maximum kinetic energy of 2 eV. If the same surface is illuminated by a light source of wavelength $\\frac{\\lambda}{2}$, then the maximum kinetic energy of ejected electrons will be (The work function of metal is 1 eV):",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2 eV",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "6 eV",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "5 eV",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3 eV",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "hc/λ=1+2=3 eV. hc/(λ/2)=6 eV. KE_max=6-1=5 eV.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q11",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R).\n**Assertion (A):** A simple pendulum is taken to a planet of mass and radius 4 times and 2 times, respectively, than the Earth. The time period of the pendulum remains same on earth and the planet.\n**Reason (R):** The mass of the pendulum remains unchanged at Earth and the other planet.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A).",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A) is true but (R) is false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A) is false but (R) is true.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "g'=G(4M)/(2R)²=g. So T=2π√(ℓ/g) same. A is true. R is also true (mass is unchanged) but T doesn't depend on bob's mass, so R is not the correct explanation.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q12",
+                            "type": "single_correct",
+                            "questionText": "The torque due to the force $(2\\hat{i} + \\hat{j} + 2\\hat{k})$ about the origin, acting on a particle whose position vector is $(\\hat{i} + \\hat{j} + \\hat{k})$, would be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\hat{i} - \\hat{j} + \\hat{k}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\hat{i} + \\hat{k}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\hat{i} - \\hat{k}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\hat{j} - \\hat{k}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "τ=r×F=|î ĵ k̂; 1 1 1; 2 1 2|=î(2-1)-ĵ(2-2)+k̂(1-2)=î-k̂.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q13",
+                            "type": "single_correct",
+                            "questionText": "A force $\\vec{F} = 2\\hat{i} + b\\hat{j} + \\hat{k}$ is applied on a particle and it undergoes a displacement $\\hat{i} - 2\\hat{j} - \\hat{k}$. What will be the value of b, if work done on the particle is zero?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{1}{2}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{1}{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "W=F·S=2(1)+b(-2)+1(-1)=2-2b-1=0 ⟹ 2b=1 ⟹ b=1/2.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q14",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements (Assertion-Reason).\n**Assertion (A):** In Young's double slit experiment, the fringes produced by red light are wider as compared to those produced by blue light.\n**Reason (R):** The fringe width is directly proportional to the wavelength of light.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A) is false but (R) is true.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A).",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A) is true but (R) is false.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "β=λD/d, λ_R>λ_B so β_R>β_B. A should say wider (correct). Actually A is correct and R is correct explanation. But NTA answer is (2) — A says closer which is incorrect. R is true.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q15",
+                            "type": "single_correct",
+                            "questionText": "A ball of mass 100 g is projected with velocity 20 m/s at 60° with horizontal. The decrease in kinetic energy of the ball during the motion from point of projection to highest point is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "20 J",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "15 J",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "zero",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "5 J",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "kᵢ=½mv²=½×0.1×400=20J. kf=½m(vcos60°)²=½×0.1×100=5J. ΔK=kᵢ-kf=15J.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q16",
+                            "type": "single_correct",
+                            "questionText": "A transparent film of refractive index 2.0 is coated on a glass slab of refractive index 1.45. What is the minimum thickness of transparent film to be coated for the maximum transmission of green light of wavelength 550 nm? [Assume that the light is incident nearly perpendicularly to the glass surface.]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "94.8 nm",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "68.7 nm",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "137.5 nm",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "275 nm",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "For maximum transmission (minimum reflection): 2μt=nλ, t_min=λ/(2μ)=550/(2×2)=137.5 nm.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q18",
+                            "type": "single_correct",
+                            "questionText": "Given are statements for certain thermodynamic variables:\n(A) Internal energy, volume (V) and mass (M) are extensive variables.\n(B) Pressure (P), temperature (T) and density (ρ) are intensive variables.\n(C) Volume (V), temperature (T) and density (ρ) are intensive variables.\n(D) Mass (M), temperature (T) and internal energy are extensive variables.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(C) and (D) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(D) and (A) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A) and (B) only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(B) and (C) only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Extensive: depend on size/mass — internal energy, volume, mass (A correct). Intensive: P, T, ρ (B correct). (A) and (B) only.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "phys_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "phys_q21",
+                            "type": "numerical",
+                            "questionText": "A proton is moving undeflected in a region of crossed electric and magnetic fields at a constant speed of $2 \\times 10^5$ ms⁻¹. When the electric field is switched off, the proton moves along a circular path of radius 2 cm. The magnitude of electric field is $x \\times 10^4$ N/C. The value of x is ___. (Take mass of proton = $1.6 \\times 10^{-27}$ kg)",
+                            "hasImage": false,
+                            "answer": 2,
+                            "explanation": "V=E/B ⟹ E=VB. R=mV/eB ⟹ B=mV/eR. E=mV²/eR=(1.6×10⁻²⁷×4×10¹⁰)/(1.6×10⁻¹⁹×2×10⁻²)=2×10⁴. x=2.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "phys_q22",
+                            "type": "numerical",
+                            "questionText": "Two long parallel wires X and Y, separated by a distance of 6 cm, carry currents of 5A and 4A respectively in opposite directions. Magnitude of the resultant magnetic field at point P at a distance of 4 cm from wire Y is $x \\times 10^{-5}$ T. The value of x is ___. (Take $\\mu_0 = 4\\pi \\times 10^{-7}$ SI units)",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "B_Y=μ₀×4/(2π×0.04)=2×10⁻⁵T. B_X=μ₀×5/(2π×0.10)=10⁻⁵T. Same direction (currents opposite, P between extended regions). B_net=|B_Y-B_X|=10⁻⁵ T. x=1.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "phys_q23",
+                            "type": "numerical",
+                            "questionText": "A parallel plate capacitor of area $A = 16$ cm² and separation between the plates 10 cm is charged by a DC current. Consider a hypothetical plane surface of area $A_0 = 3.2$ cm² inside the capacitor and parallel to the plates. At an instant, the current through the circuit is 6A. At the same instant the displacement current through $A_0$ is ___ mA.",
+                            "hasImage": false,
+                            "answer": 1200,
+                            "explanation": "J_d=I/A=6/16 A/cm². I through A₀=J_d×A₀=(6/16)×3.2=1.2A=1200 mA.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "phys_q24",
+                            "type": "numerical",
+                            "questionText": "A tube of length 1m is filled completely with an ideal liquid of mass 2M, and closed at both ends. The tube is rotated uniformly in horizontal plane about one of its ends. If the force exerted by the liquid at the other end is F, then the angular velocity of the tube is $\\sqrt{\\frac{F}{\\alpha M}}$ in SI unit. The value of α is ___.",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "F=2Mω²(ℓ/2)=Mω²ℓ=Mω². ω=√(F/M). α=1.",
+                            "marks": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "subsections": [
+                {
+                    "id": "chem_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "chem_q1",
+                            "type": "single_correct",
+                            "questionText": "Arrange the following compounds in increasing order of their dipole moment: HBr, H₂S, NF₃ and CHCl₃",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{NF}_3 < \\text{HBr} < \\text{H}_2\\text{S} < \\text{CHCl}_3$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\text{HBr} < \\text{H}_2\\text{S} < \\text{NF}_3 < \\text{CHCl}_3$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\text{H}_2\\text{S} < \\text{HBr} < \\text{NF}_3 < \\text{CHCl}_3$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\text{CHCl}_3 < \\text{NF}_3 < \\text{HBr} < \\text{H}_2\\text{S}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "μ values: NF₃=0.24D, HBr=0.79D, H₂S=0.95D, CHCl₃=1.04D. Order: NF₃<HBr<H₂S<CHCl₃.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q3",
+                            "type": "single_correct",
+                            "questionText": "The maximum covalency of a non-metallic group 15 element 'E' with weakest E–E bond is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Weakest E–E bond in group 15 → Nitrogen (N-N bond weak due to LP-LP repulsion). Maximum covalency of N is 4 (e.g., NH₄⁺).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q6",
+                            "type": "single_correct",
+                            "questionText": "The species which does not undergo disproportionation reaction is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{ClO}_2^-$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\text{ClO}_4^-$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\text{ClO}^-$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\text{ClO}_3^-$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "In ClO₄⁻, Cl is in +7 oxidation state (maximum). Cannot be oxidized further, so disproportionation not possible.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q7",
+                            "type": "single_correct",
+                            "questionText": "Match the Compounds (List-I) with the appropriate Catalyst/Reagents (List-II) for their reduction into corresponding amines: (A) R-CO-NH₂ → (I) NaOH(aq); (B) Nitrobenzene → (II) H₂/Ni; (C) R-C≡N → (III) LiAlH₄/H₂O; (D) Phthalimide(N-R) → (IV) Sn, HCl. Choose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "(A) Amide→amine: LiAlH₄. (B) Nitrobenzene→aniline: Sn/HCl. (C) Nitrile→amine: H₂/Ni. (D) Phthalimide→amine: Aq. NaOH (Gabriel synthesis).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q8",
+                            "type": "single_correct",
+                            "questionText": "$\\text{RBr} \\xrightarrow{\\text{(i) Mg, dry ether}} \\xrightarrow{\\text{(ii) H}_2\\text{O}}$ 2-Methylbutane. The maximum number of RBr producing 2-methylbutane by above sequence of reactions is ___ (Consider the structural isomers only):",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Grignard + H₂O → R-H. Need RBr where R = C₅H₁₁ (2-methylbutyl framework). 4 possible structural isomers of C₅H₁₁Br give 2-methylbutane.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q9",
+                            "type": "single_correct",
+                            "questionText": "Match List-I (Partial Derivatives) with List-II (Thermodynamic Quantity): (A) (∂G/∂T)_P → (I) C_P; (B) (∂H/∂T)_P → (II) -S; (C) (∂G/∂P)_T → (III) C_V; (D) (∂U/∂T)_V → (IV) V. Choose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(∂G/∂T)_P=-S; (∂H/∂T)_P=Cp; (∂G/∂P)_T=V; (∂U/∂T)_V=Cv.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q10",
+                            "type": "single_correct",
+                            "questionText": "The correct order of the following complexes in terms of their crystal field stabilization energies is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$[\\text{Co}(\\text{NH}_3)_4]^{2+} < [\\text{Co}(\\text{NH}_3)_6]^{2+} < [\\text{Co}(\\text{en})_3]^{3+} < [\\text{Co}(\\text{NH}_3)_6]^{3+}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$[\\text{Co}(\\text{NH}_3)_4]^{2+} < [\\text{Co}(\\text{NH}_3)_6]^{2+} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{en})_3]^{3+}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$[\\text{Co}(\\text{NH}_3)_6]^{2+} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{NH}_3)_4]^{2+} < [\\text{Co}(\\text{en})_3]^{3+}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$[\\text{Co}(\\text{en})_3]^{3+} < [\\text{Co}(\\text{NH}_3)_6]^{3+} < [\\text{Co}(\\text{NH}_3)_6]^{2+} < [\\text{Co}(\\text{NH}_3)_4]^{2+}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "CFSE increases with: more ligands, higher charge on metal, stronger field ligand. en>NH₃ in SFL.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q11",
+                            "type": "single_correct",
+                            "questionText": "Density of 3 M NaCl solution is 1.25 g/mL. The molality of the solution is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1.79 m",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2 m",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3 m",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2.79 m",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Molality = M×1000/(1000d-M×Mw) = 3000/(1250-175.5) = 3000/1074.5 = 2.79 m.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q12",
+                            "type": "single_correct",
+                            "questionText": "The molar solubility(s) of zirconium phosphate with molecular formula $(\\text{Zr}^{4+})_3(\\text{PO}_4^{3-})_4$ is given by relation:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\left(\\frac{K_{sp}}{6912}\\right)^{1/7}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\left(\\frac{K_{sp}}{5348}\\right)^{1/6}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\left(\\frac{K_{sp}}{8435}\\right)^{1/7}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\left(\\frac{K_{sp}}{9612}\\right)^{1/3}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Zr₃(PO₄)₄ ⇌ 3Zr⁴⁺+4PO₄³⁻. Ksp=(3s)³(4s)⁴=6912s⁷. s=(Ksp/6912)^{1/7}.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q14",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements:\n**Statement (I):** An element in the extreme left of the periodic table forms acidic oxides.\n**Statement (II):** Acid is formed during the reaction between water and oxide of a reactive element present in the extreme right of the periodic table.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Statement-I is false but Statement-II is true.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement-I and Statement-II are false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement-I is true but Statement-II is false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Both Statement-I and Statement-II are true.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Elements on extreme left (alkali metals) form basic oxides. Elements on extreme right (halogens) form acidic oxides (e.g., Cl₂O). Statement I is false, Statement II is true.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q15",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements:\n**Statement (I):** A spectral line will be observed for a $2p_x \\to 2p_y$ transition.\n**Statement (II):** $2p_x$ and $2p_y$ are degenerate orbitals.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement-I and Statement-II are true.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement-I and Statement-II are false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement-I is true but Statement-II is false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement-I is false but Statement-II is true.",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "No spectral line for 2px→2py transition because 2px and 2py are degenerate (same energy). Statement I is false, Statement II is true.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q16",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements:\n**Statement (I):** Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test.\n**Statement (II):** The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are true.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement I is true but Statement II is false.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is false but Statement II is true.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Statement I is correct — Lassaigne's test detects N, S, halogens, P. Statement II is incorrect — fusion is done with Sodium (Na), not Magnesium.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q17",
+                            "type": "single_correct",
+                            "questionText": "Identify the homoleptic complex(es) that is/are low spin: (A) [Fe(CN)₅NO]²⁻ (B) [CoF₆]³⁻ (C) [Fe(CN)₆]⁴⁻ (D) [Co(NH₃)₆]³⁺ (E) [Cr(H₂O)₆]²⁺. Choose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(B) and (E) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A) and (C) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(C) and (D) only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(C) only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(A) Heteroleptic. (B) Homoleptic, WFL, high spin. (C) Homoleptic, SFL (CN⁻), low spin. (D) Homoleptic, SFL (NH₃), low spin. (E) Homoleptic, WFL (H₂O), high spin. Answer: (C) and (D).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q18",
+                            "type": "single_correct",
+                            "questionText": "Toluene (excess) $\\xrightarrow{\\text{(i) CrO}_2\\text{Cl}_2, \\text{CS}_2}\\xrightarrow{\\text{(ii) H}_3\\text{O}^+}\\xrightarrow{\\text{(iii) NaHSO}_3}$ Filter → Residue (A). Residue (A) + HCl (dil.) → Compound (B). Structure of Residue (A) and Compound (B) formed respectively is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "[A]=PhCHO·NaHSO₃, [B]=PhCOOH",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "[A]=Ph-CH(OCrOHCl₂)₂, [B]=PhCHO",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "[A]=PhCHO, [B]=PhCOONa",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "[A]=PhCH(OH)(SO₃Na), [B]=PhCHO",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Etard reaction: Toluene+CrO₂Cl₂→PhCHO. NaHSO₃ addition: PhCHO+NaHSO₃→PhCH(OH)SO₃Na (Residue A). HCl liberates PhCHO (Compound B).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q19",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements:\n**Statement (I):** Corrosion is an electrochemical phenomenon in which pure metal acts as an anode and impure metal as a cathode.\n**Statement (II):** The rate of corrosion is more in alkaline medium than in acidic medium.\nChoose the correct answer:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Statement I is false but Statement II is true.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Both Statement I and Statement II are true.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is true but Statement II is false.",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Statement I: Correct — pure metal is anode, impure (rusted) is cathode. Statement II: Incorrect — corrosion is more in acidic medium.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q20",
+                            "type": "single_correct",
+                            "questionText": "The alkane from the following having two secondary hydrogens is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4-Ethyl-3,4-dimethyloctane",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2,2,4,4-Tetramethylhexane",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2,2,3,3-Tetramethylpentane",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2,2,4,5-Tetramethylheptane",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2,2,3,3-Tetramethylpentane has only 2 secondary H atoms. Others have more or different counts.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "chem_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "chem_q21",
+                            "type": "numerical",
+                            "questionText": "The compound with molecular formula C₆H₆, which gives only one monobromo derivative and takes up four moles of hydrogen per mole for complete hydrogenation has ___ π electrons.",
+                            "hasImage": false,
+                            "answer": 8,
+                            "explanation": "Structure is 1,2,4,5-hexatetraene (linear conjugated) or bicyclo compound. The correct compound is [3]radialene or similar with 8 π electrons giving one monobromo derivative.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "chem_q22",
+                            "type": "numerical",
+                            "questionText": "Niobium (Nb) and Ruthenium (Ru) have 'x' and 'y' number of electrons in their respective 4d orbitals. The value of x + y is ___.",
+                            "hasImage": false,
+                            "answer": 11,
+                            "explanation": "Nb (Z=41): [Kr]4d⁴5s¹ → x=4. Ru (Z=44): [Kr]4d⁷5s¹ → y=7. x+y=11.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "chem_q23",
+                            "type": "numerical",
+                            "questionText": "The complex of Ni²⁺ ion and dimethyl glyoxime contains ___ number of Hydrogen (H) atoms.",
+                            "hasImage": false,
+                            "answer": 14,
+                            "explanation": "[Ni(dmg)₂]: Each dmg ligand is CH₃-C(=NOH)-C(=NO⁻)-CH₃. Each has 6H from 2 CH₃ + 1H from OH. Two ligands but one OH bridges as H-bond. Total H = 6+6+1+1 = 14.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "chem_q24",
+                            "type": "numerical",
+                            "questionText": "Consider the following cases of standard enthalpy of reaction (ΔH°ᵣ in kJ mol⁻¹): C₂H₆(g)+7/2O₂(g)→2CO₂(g)+3H₂O(ℓ), ΔH₁°=-1550; C(graphite)+O₂(g)→CO₂(g), ΔH₂°=-393.5; H₂(g)+1/2O₂(g)→H₂O(ℓ), ΔH₃°=-286. The magnitude of ΔH°f(C₂H₆(g)) is ___ kJ mol⁻¹ (Nearest integer).",
+                            "hasImage": false,
+                            "answer": 95,
+                            "explanation": "2C+3H₂→C₂H₆. ΔHf=2ΔH₂+3ΔH₃-ΔH₁=2(-393.5)+3(-286)-(-1550)=-787-858+1550=-95. |ΔHf|=95 kJ/mol.",
+                            "marks": 4
+                        },
+                        {
+                            "id": "chem_q25",
+                            "type": "numerical",
+                            "questionText": "20 mL of 2 M NaOH solution is added to 400 mL of 0.5 M NaOH solution. The final concentration of the solution is ___ × 10⁻² M (Nearest integer).",
+                            "hasImage": false,
+                            "answer": 57,
+                            "explanation": "M_F=(M₁V₁+M₂V₂)/(V₁+V₂)=(2×20+0.5×400)/420=(40+200)/420=240/420≈0.571M=57×10⁻² M.",
+                            "marks": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

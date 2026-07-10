@@ -1,0 +1,1812 @@
+{
+  "examTitle": "IIT JEE 2007 (Paper-2) — Solutions",
+  "examDate": "April 2007",
+  "duration": "3 Hours",
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "id": "physics",
+      "name": "Physics",
+      "subsections": [
+        {
+          "id": "phy_sec1",
+          "name": "Section I: Straight Objective Type",
+          "questions": [
+            {
+              "id": "phy_q1",
+              "type": "single_correct",
+              "questionText": "In the experiment to determine the speed of sound using a resonance column,",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "prongs of the tuning fork are kept in a vertical plane",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "prongs of the tuning fork are kept in a horizontal plane",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "in one of the two resonances observed, the length of the resonating air column is close to the wavelength of sound in air",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "in one of the two resonances observed, the length of the resonating air column is close to half of the wavelength of sound in air",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "For a resonance column experiment, the tuning fork prongs must vibrate vertically to create longitudinal sound waves that propagate down the air column.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q2",
+              "type": "single_correct",
+              "questionText": "A student performs an experiment to determine the Young's modulus of a wire, exactly 2m long, by Searle's method. In a particular reading, the student measures the extension in the length of the wire to be 0.8 mm with an uncertainty of $\\pm 0.05$ mm at a load of exactly 1.0 kg. The student also measures the diameter of the wire to be 0.4 mm with an uncertainty of $\\pm 0.01$ mm. Take $g = 9.8$ m/s$^2$ (exact). The Young's modulus obtained from the reading is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$(2.0 \\pm 0.3) \\times 10^{11}$ N/m$^2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$(2.0 \\pm 0.2) \\times 10^{11}$ N/m$^2$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "$(2.0 \\pm 0.1) \\times 10^{11}$ N/m$^2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$(2.0 \\pm 0.05) \\times 10^{11}$ N/m$^2$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$Y = \\frac{4FL}{\\pi d^2 l}$. The fractional error is $\\frac{\\Delta Y}{Y} = 2\\frac{\\Delta d}{d} + \\frac{\\Delta l}{l} = 2\\left(\\frac{0.01}{0.4}\\right) + \\frac{0.05}{0.8} = \\frac{9}{40}$. So $\\Delta Y = \\frac{9}{40} \\times 2 \\times 10^{11} = 0.2 \\times 10^{11}$ N/m$^2$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q3",
+              "type": "single_correct",
+              "questionText": "A particle moves in the X-Y plane under the influence of a force such that its linear momentum is $\\vec{p}(t) = A[\\hat{i}\\cos(kt) - \\hat{j}\\sin(kt)]$, where $A$ and $k$ are constants. The angle between the force and the momentum is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$0^\\circ$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$30^\\circ$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$45^\\circ$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$90^\\circ$",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "$\\vec{F} = \\frac{d\\vec{p}}{dt} = Ak[-\\hat{i}\\sin(kt) - \\hat{j}\\cos(kt)]$. Computing $\\vec{p} \\cdot \\vec{F} = A^2 k[-\\cos(kt)\\sin(kt) + \\sin(kt)\\cos(kt)] = 0$. Since the dot product is zero, the angle is $90^\\circ$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q7",
+              "type": "single_correct",
+              "questionText": "Positive and negative point charges of equal magnitude are kept at $\\left(0, 0, \\frac{a}{2}\\right)$ and $\\left(0, 0, -\\frac{a}{2}\\right)$, respectively. The work done by the electric field when another positive point charge is moved from $(-a, 0, 0)$ to $(0, a, 0)$ is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "positive",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "negative",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "zero",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "depends on the path connecting the initial and final positions",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Both the initial point $(-a, 0, 0)$ and the final point $(0, a, 0)$ are equidistant from both charges. Since the potential at both points due to the dipole is the same, the work done by the electric field is zero.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q9",
+              "type": "single_correct",
+              "questionText": "Electrons with de-Broglie wavelength $\\lambda$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\lambda_0 = \\frac{2mc\\lambda^2}{h}$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$\\lambda_0 = \\frac{2h}{mc}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\lambda_0 = \\frac{2m^2 c^2 \\lambda^3}{h^2}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\lambda_0 = \\lambda$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "From $\\lambda = \\frac{h}{\\sqrt{2mk}}$, we get $k = \\frac{h^2}{2m\\lambda^2}$. The cut-off wavelength is $\\lambda_0 = \\frac{hc}{k} = \\frac{2mc\\lambda^2}{h}$.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "phy_sec2",
+          "name": "Section II: Assertion-Reason Type",
+          "questions": [
+            {
+              "id": "phy_q10",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: If there is no external torque on a body about its center of mass, then the velocity of the center of mass remains constant.\nbecause\nSTATEMENT-2: The linear momentum of an isolated system remains constant.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Velocity of center of mass is constant when no external force acts on the body. Zero external torque does not imply zero external force. Statement-1 is false, Statement-2 is true.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q11",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: A cloth covers a table. Some dishes are kept on it. The cloth can be pulled out without dislodging the dishes from the table.\nbecause\nSTATEMENT-2: For every action there is an equal and opposite reaction.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true (due to inertia) and Statement-2 is true (Newton's third law), but Statement-2 is not the correct explanation. The phenomenon is explained by inertia, not Newton's third law.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "phy_q13",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: The total translational kinetic energy of all the molecules of a given mass of an ideal gas is 1.5 times the product of its pressure and its volume.\nbecause\nSTATEMENT-2: The molecules of a gas collide with each other and the velocities of the molecules change due to the collision.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Total translational KE $= \\frac{3}{2}nRT = \\frac{3}{2}PV$. Both statements are true, but Statement-2 (molecular collisions) does not explain why KE equals $\\frac{3}{2}PV$.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "phy_sec4",
+          "name": "Section IV: Matrix-Match Type",
+          "questions": [
+            {
+              "id": "phy_q20",
+              "type": "matching",
+              "questionText": "Column I describes some situations in which a small object moves. Column II describes some characteristics of these motions. Match the situations in Column I with the characteristics in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "The object moves on the x-axis under a conservative force such that $v = c_1\\sqrt{c_2 - x^2}$, where $c_1$ and $c_2$ are positive constants."
+                },
+                {
+                  "id": "B",
+                  "text": "The object moves on the x-axis such that $v = -kx$, where $k$ is a positive constant."
+                },
+                {
+                  "id": "C",
+                  "text": "The object is attached to one end of a mass-less spring (other end on elevator ceiling). Elevator accelerates upward with constant acceleration $a$. Motion observed from the elevator."
+                },
+                {
+                  "id": "D",
+                  "text": "The object is projected vertically upwards from Earth's surface with speed $2\\sqrt{GM_e/R_e}$."
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "The object executes a simple harmonic motion."
+                },
+                {
+                  "id": "q",
+                  "text": "The object does not change its direction."
+                },
+                {
+                  "id": "r",
+                  "text": "The kinetic energy of the object keeps on decreasing."
+                },
+                {
+                  "id": "s",
+                  "text": "The object can change its direction only once."
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,q; B-q,r; C-p; D-r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "A-p; B-q,r; C-p,s; D-q",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-p; B-q,r; C-p; D-q,r",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "A-p,s; B-r; C-p; D-q,r",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "(A) $v = c_1\\sqrt{c_2 - x^2}$ implies SHM (p). (B) $v = -kx$: if $x > 0$, $v < 0$ and object moves toward origin and decelerates — does not change direction (q), KE decreases (r). (C) In the elevator frame, the spring-mass system oscillates about a new equilibrium — SHM (p). (D) Speed $= 2\\sqrt{GM_e/R_e} > v_e = \\sqrt{2GM_e/R_e}$, so the object escapes — doesn't change direction (q), KE keeps decreasing (r).",
+              "marks": 6,
+              "negativeMarks": 0
+            },
+            {
+              "id": "phy_q22",
+              "type": "matching",
+              "questionText": "Column I gives some devices and Column II gives some processes on which the functioning of these devices depend. Match the devices in Column I with the processes in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "Bimetallic strip"
+                },
+                {
+                  "id": "B",
+                  "text": "Steam engine"
+                },
+                {
+                  "id": "C",
+                  "text": "Incandescent lamp"
+                },
+                {
+                  "id": "D",
+                  "text": "Electric fuse"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "Radiation from a hot body"
+                },
+                {
+                  "id": "q",
+                  "text": "Energy conversion"
+                },
+                {
+                  "id": "r",
+                  "text": "Melting"
+                },
+                {
+                  "id": "s",
+                  "text": "Thermal expansion of solids"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-s; B-q; C-p,q; D-q,r",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-s; B-p,q; C-q; D-r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-q,s; B-q; C-p; D-q,r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-s; B-q; C-p; D-r",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Bimetallic strip works on thermal expansion (s). Steam engine converts heat to work — energy conversion (q). Incandescent lamp radiates (p) and converts electrical to light energy (q). Electric fuse converts electrical energy to heat (q) and melts (r) to break the circuit.",
+              "marks": 6,
+              "negativeMarks": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "subsections": [
+        {
+          "id": "chem_sec1",
+          "name": "Section I: Straight Objective Type",
+          "questions": [
+            {
+              "id": "chem_q1",
+              "type": "single_correct",
+              "questionText": "Among the following metal carbonyls, the C-O bond order is lowest in",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$[\\text{Mn}(\\text{CO})_6]^+$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$[\\text{Fe}(\\text{CO})_5]$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$[\\text{Cr}(\\text{CO})_6]$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$[\\text{V}(\\text{CO})_6]^-$",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "An anionic carbonyl complex can delocalise more electron density to the antibonding $\\pi^*$ orbital of CO, weakening the C-O bond and lowering its bond order. $[\\text{V}(\\text{CO})_6]^-$ carries a negative charge, so it has the greatest back-bonding and hence the lowest C-O bond order.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q3",
+              "type": "single_correct",
+              "questionText": "Consider a titration of potassium dichromate solution with acidified Mohr's salt solution using diphenylamine as indicator. The number of moles of Mohr's salt required per mole of dichromate is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "3",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "4",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "5",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "6",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "$6\\text{Fe}^{2+} + \\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ \\to 6\\text{Fe}^{3+} + 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O}$. Mohr's salt ($\\text{FeSO}_4 \\cdot (\\text{NH}_4)_2\\text{SO}_4 \\cdot 6\\text{H}_2\\text{O}$) and dichromate react in a 6:1 molar ratio.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q5",
+              "type": "single_correct",
+              "questionText": "A solution of a metal ion when treated with KI gives a red precipitate which dissolves in excess KI to give a colourless solution. Moreover, the solution of metal ion on treatment with a solution of cobalt(II) thiocyanate gives rise to a deep blue crystalline precipitate. The metal ion is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\text{Pb}^{2+}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{Hg}^{2+}$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "$\\text{Cu}^{2+}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{Co}^{2+}$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$\\text{Hg}^{2+} + 2\\text{KI} \\to \\text{HgI}_2\\downarrow (\\text{red}) + 2\\text{K}^+$. Excess KI dissolves it: $\\text{HgI}_2 + 2\\text{KI} \\to \\text{K}_2[\\text{HgI}_4]$ (colourless). Also $\\text{Hg}^{2+} + \\text{Co}^{2+} + 4\\text{SCN}^- \\to \\text{CoHg}(\\text{SCN})_4\\downarrow$ (deep blue crystalline).",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q6",
+              "type": "single_correct",
+              "questionText": "For the process $\\text{H}_2\\text{O}(l)$ (1 bar, 373 K) $\\to$ $\\text{H}_2\\text{O}(g)$ (1 bar, 373 K), the correct set of thermodynamic parameters is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\Delta G = 0$, $\\Delta S = +\\text{ve}$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$\\Delta G = 0$, $\\Delta S = -\\text{ve}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\Delta G = +\\text{ve}$, $\\Delta S = 0$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\Delta G = -\\text{ve}$, $\\Delta S = +\\text{ve}$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "At 373 K (boiling point at 1 bar), the liquid-gas phase transition is at equilibrium, so $\\Delta G = 0$. Since liquid converts to gas, entropy increases ($\\Delta S > 0$).",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q8",
+              "type": "single_correct",
+              "questionText": "Consider a reaction $aG + bH \\to$ Products. When concentration of both the reactants G and H is doubled, the rate increases by eight times. However, when concentration of G is doubled keeping the concentration of H fixed, the rate is doubled. The overall order of the reaction is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "0",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "2",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "3",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Rate $= k[\\text{G}]^x[\\text{H}]^y$. Doubling G alone doubles rate, so $x = 1$. Doubling both gives $2^x \\cdot 2^y = 8$, so $2 \\cdot 2^y = 8 \\Rightarrow y = 2$. Overall order $= x + y = 3$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q9",
+              "type": "single_correct",
+              "questionText": "A positron is emitted from ${}^{23}_{11}\\text{Na}$. The ratio of the atomic mass and atomic number of the resulting nuclide is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "22/10",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "22/11",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "23/10",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "23/12",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "${}^{23}_{11}\\text{Na} \\to {}^{23}_{10}\\text{X} + {}^{0}_{1}\\beta^+$. Mass number stays 23, atomic number decreases to 10. Ratio = 23/10.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "chem_sec2",
+          "name": "Section II: Assertion-Reason Type",
+          "questions": [
+            {
+              "id": "chem_q10",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: Glucose gives a reddish-brown precipitate with Fehling's solution.\nbecause\nSTATEMENT-2: Reaction of glucose with Fehling's solution gives CuO and gluconic acid.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true (glucose reduces $\\text{Cu}^{2+}$ to $\\text{Cu}_2\\text{O}$, a reddish-brown precipitate). Statement-2 is false — the product is $\\text{Cu}_2\\text{O}$, not CuO.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q11",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: Band gap in germanium is small.\nbecause\nSTATEMENT-2: The energy spread of each germanium atomic energy level is infinitesimally small.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true (Ge is a semiconductor with a small band gap). Statement-2 is also true (in an isolated atom, energy levels are discrete). However, Statement-2 is not the correct explanation for Statement-1.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q12",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: Alkali metals dissolve in liquid ammonia to give blue solutions.\nbecause\nSTATEMENT-2: Alkali metals in liquid ammonia give solvated species of the type $[\\text{M}(\\text{NH}_3)_n]^+$ (M = alkali metals).",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Both statements are true. The blue colour is due to solvated electrons $e^-(\\text{NH}_3)_n$, not the solvated cation. So Statement-2 is not the correct explanation.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q13",
+              "type": "single_correct",
+              "questionText": "STATEMENT-1: Molecules that are not superimposable on their mirror images are chiral.\nbecause\nSTATEMENT-2: All chiral molecules have chiral centres.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true (definition of chirality). Statement-2 is false — molecules can be chiral without a traditional chiral centre (e.g. allenes, biphenyls with restricted rotation).",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "chem_sec3",
+          "name": "Section III: Linked Comprehension Type (Redox Potentials)",
+          "questions": [
+            {
+              "id": "chem_q14",
+              "type": "single_correct",
+              "questionText": "Redox reactions play a pivotal role in chemistry and biology. Given below are half-cell reactions (acidic medium) with their $E^\\circ$ values (V vs NHE):\n$\\text{I}_2 + 2e^- \\to 2\\text{I}^-$, $E^\\circ = 0.54$; $\\text{Cl}_2 + 2e^- \\to 2\\text{Cl}^-$, $E^\\circ = 1.36$; $\\text{Mn}^{3+} + e^- \\to \\text{Mn}^{2+}$, $E^\\circ = 1.50$; $\\text{Fe}^{3+} + e^- \\to \\text{Fe}^{2+}$, $E^\\circ = 0.77$; $\\text{O}_2 + 4\\text{H}^+ + 4e^- \\to 2\\text{H}_2\\text{O}$, $E^\\circ = 1.23$.\n\nAmong the following, identify the correct statement.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Chloride ion is oxidised by $\\text{O}_2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{Fe}^{2+}$ is oxidised by iodine",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Iodide ion is oxidised by chlorine",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{Mn}^{2+}$ is oxidised by chlorine",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$2\\text{I}^- + \\text{Cl}_2 \\to \\text{I}_2 + 2\\text{Cl}^-$. $E^\\circ = -0.54 + 1.36 = 0.82$ V (positive), so the reaction is spontaneous.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q15",
+              "type": "single_correct",
+              "questionText": "Redox reactions play a pivotal role in chemistry and biology. Given below are half-cell reactions (acidic medium) with their $E^\\circ$ values (V vs NHE):\n$\\text{I}_2 + 2e^- \\to 2\\text{I}^-$, $E^\\circ = 0.54$; $\\text{Cl}_2 + 2e^- \\to 2\\text{Cl}^-$, $E^\\circ = 1.36$; $\\text{Mn}^{3+} + e^- \\to \\text{Mn}^{2+}$, $E^\\circ = 1.50$; $\\text{Fe}^{3+} + e^- \\to \\text{Fe}^{2+}$, $E^\\circ = 0.77$; $\\text{O}_2 + 4\\text{H}^+ + 4e^- \\to 2\\text{H}_2\\text{O}$, $E^\\circ = 1.23$.\n\nWhile $\\text{Fe}^{3+}$ is stable, $\\text{Mn}^{3+}$ is not stable in acid solution because",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\text{O}_2$ oxidises $\\text{Mn}^{2+}$ to $\\text{Mn}^{3+}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{O}_2$ oxidises both $\\text{Mn}^{2+}$ to $\\text{Mn}^{3+}$ and $\\text{Fe}^{2+}$ to $\\text{Fe}^{3+}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\text{Fe}^{3+}$ oxidises $\\text{H}_2\\text{O}$ to $\\text{O}_2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{Mn}^{3+}$ oxidises $\\text{H}_2\\text{O}$ to $\\text{O}_2$",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "$4\\text{Mn}^{3+} + 2\\text{H}_2\\text{O} \\to 4\\text{Mn}^{2+} + \\text{O}_2 + 4\\text{H}^+$. $E^\\circ = 1.50 + (-1.23) = 0.27$ V > 0, so the reaction is feasible. $\\text{Mn}^{3+}$ can oxidise water, making it unstable in acid solution.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "chem_q16",
+              "type": "single_correct",
+              "questionText": "Sodium fusion extract, obtained from aniline, on treatment with iron(II) sulphate and $\\text{H}_2\\text{SO}_4$ in presence of air gives a Prussian blue precipitate. The blue colour is due to the formation of",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{Fe}_3[\\text{Fe}(\\text{CN})_6]_2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_2$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{Fe}_3[\\text{Fe}(\\text{CN})_6]_3$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Prussian blue is $\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$ — ferric ferrocyanide.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "chem_sec4",
+          "name": "Section IV: Matrix-Match Type",
+          "questions": [
+            {
+              "id": "chem_q20",
+              "type": "matching",
+              "questionText": "Match the compounds/ions in Column I with their properties/reactions in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "$\\text{C}_6\\text{H}_5\\text{CHO}$"
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{CH}_3\\text{C} \\equiv \\text{CH}$"
+                },
+                {
+                  "id": "C",
+                  "text": "$\\text{CN}^-$"
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{I}^-$"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "gives precipitate with 2,4-dinitrophenylhydrazine"
+                },
+                {
+                  "id": "q",
+                  "text": "gives precipitate with $\\text{AgNO}_3$"
+                },
+                {
+                  "id": "r",
+                  "text": "is a nucleophile"
+                },
+                {
+                  "id": "s",
+                  "text": "is involved in cyanohydrin formation"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,s; B-q; C-r,s; D-r",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-p; B-q,r; C-s; D-r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-p,s; B-r; C-q,s; D-r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-p; B-q; C-r; D-r,s",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$\\text{C}_6\\text{H}_5\\text{CHO}$: aldehyde gives 2,4-DNP test (p), undergoes cyanohydrin formation (s). $\\text{CH}_3\\text{C}\\equiv\\text{CH}$: terminal alkyne gives precipitate with $\\text{AgNO}_3$ (q). $\\text{CN}^-$: nucleophile (r), attacks carbonyl in cyanohydrin formation (s). $\\text{I}^-$: nucleophile (r).",
+              "marks": 6,
+              "negativeMarks": 0
+            },
+            {
+              "id": "chem_q21",
+              "type": "matching",
+              "questionText": "Match the crystal system/unit cells mentioned in Column I with their characteristic features mentioned in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "Simple cubic and face-centred cubic"
+                },
+                {
+                  "id": "B",
+                  "text": "Cubic and rhombohedral"
+                },
+                {
+                  "id": "C",
+                  "text": "Cubic and tetragonal"
+                },
+                {
+                  "id": "D",
+                  "text": "Hexagonal and monoclinic"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "have these cell parameters: $a = b = c$ and $\\alpha = \\beta = \\gamma$"
+                },
+                {
+                  "id": "q",
+                  "text": "are two crystal systems"
+                },
+                {
+                  "id": "r",
+                  "text": "have only two crystallographic angles of $90^\\circ$"
+                },
+                {
+                  "id": "s",
+                  "text": "belong to same crystal system"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,s; B-p,q; C-q; D-q,r",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-s; B-p; C-q,r; D-q",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-p; B-q; C-q; D-r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-s; B-p,q; C-q,r; D-q",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Simple cubic and FCC both belong to the cubic crystal system (s) with $a = b = c$, $\\alpha = \\beta = \\gamma = 90^\\circ$ (p). Cubic and rhombohedral both have $a = b = c$ and $\\alpha = \\beta = \\gamma$ (p) and are two distinct crystal systems (q). Cubic and tetragonal are two crystal systems (q). Hexagonal ($\\alpha = \\beta = 90^\\circ$, $\\gamma = 120^\\circ$) and monoclinic ($\\alpha = \\gamma = 90^\\circ$) each have exactly two angles of $90^\\circ$ (r), and they are two crystal systems (q).",
+              "marks": 6,
+              "negativeMarks": 0
+            },
+            {
+              "id": "chem_q22",
+              "type": "matching",
+              "questionText": "Match the reactions in Column I with the nature of the reactions/type of the products in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "$\\text{O}_2^- \\to \\text{O}_2 + \\text{O}_2^{2-}$"
+                },
+                {
+                  "id": "B",
+                  "text": "$\\text{CrO}_4^{2-} + \\text{H}^+ \\to$"
+                },
+                {
+                  "id": "C",
+                  "text": "$\\text{MnO}_4^- + \\text{NO}_2^- + \\text{H}^+ \\to$"
+                },
+                {
+                  "id": "D",
+                  "text": "$\\text{NO}_3^- + \\text{H}_2\\text{SO}_4 + \\text{Fe}^{2+} \\to$"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "redox reaction"
+                },
+                {
+                  "id": "q",
+                  "text": "one of the products has trigonal planar structure"
+                },
+                {
+                  "id": "r",
+                  "text": "dimeric bridged tetrahedral metal ion"
+                },
+                {
+                  "id": "s",
+                  "text": "disproportionation"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,s; B-r; C-p,q; D-p",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-p; B-q,r; C-p; D-p,q",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-s; B-r; C-p,q; D-p,s",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-p,s; B-q; C-p; D-p,r",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "(A) $\\text{O}_2^-$ disproportionates (s) — a redox reaction (p). (B) $\\text{CrO}_4^{2-}$ in acid forms $\\text{Cr}_2\\text{O}_7^{2-}$, a dimeric bridged tetrahedral structure (r). (C) $\\text{MnO}_4^-$ oxidises $\\text{NO}_2^-$ to $\\text{NO}_3^-$ — redox (p); $\\text{NO}_3^-$ is trigonal planar (q). (D) Brown ring test — redox (p).",
+              "marks": 6,
+              "negativeMarks": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maths",
+      "name": "Mathematics",
+      "subsections": [
+        {
+          "id": "math_sec1",
+          "name": "Section I: Straight Objective Type",
+          "questions": [
+            {
+              "id": "math_q1",
+              "type": "single_correct",
+              "questionText": "$\\frac{d^2 x}{dy^2}$ equals",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\left(\\frac{d^2 y}{dx^2}\\right)^{-1}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$-\\left(\\frac{d^2 y}{dx^2}\\right)^{-1} \\left(\\frac{dy}{dx}\\right)^{-3}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\left(\\frac{d^2 y}{dx^2}\\right)\\left(\\frac{dy}{dx}\\right)^{-2}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$-\\left(\\frac{d^2 y}{dx^2}\\right)\\left(\\frac{dy}{dx}\\right)^{-3}$",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "$\\frac{dx}{dy} = \\left(\\frac{dy}{dx}\\right)^{-1}$. Differentiating: $\\frac{d^2 x}{dy^2} = \\frac{d}{dy}\\left(\\frac{dy}{dx}\\right)^{-1} = \\frac{-1}{\\left(\\frac{dy}{dx}\\right)^2} \\cdot \\frac{d^2 y}{dx^2} \\cdot \\frac{dx}{dy} = -\\left(\\frac{dy}{dx}\\right)^{-3} \\frac{d^2 y}{dx^2}$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q2",
+              "type": "single_correct",
+              "questionText": "If $|z| = 1$ and $z \\neq \\pm 1$, then all the values of $\\frac{z}{1 - z^2}$ lie on",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "a line not passing through the origin",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$|z| = \\sqrt{2}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "the x-axis",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "the y-axis",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Let $z = e^{i\\theta}$. Then $\\frac{z}{1 - z^2} = \\frac{e^{i\\theta}}{1 - e^{2i\\theta}} = \\frac{1}{e^{-i\\theta} - e^{i\\theta}} = \\frac{1}{-2i\\sin\\theta} = \\frac{i}{2\\sin\\theta}$. This is purely imaginary, so it lies on the y-axis.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q3",
+              "type": "single_correct",
+              "questionText": "Let $\\vec{a}$, $\\vec{b}$, $\\vec{c}$ be unit vectors such that $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$. Which one of the following is correct?",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c} = \\vec{c} \\times \\vec{a} = \\vec{0}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c} = \\vec{c} \\times \\vec{a} \\neq \\vec{0}$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "$\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c} = \\vec{a} \\times \\vec{c} \\neq \\vec{0}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\vec{a} \\times \\vec{b}$, $\\vec{b} \\times \\vec{c}$, $\\vec{c} \\times \\vec{a}$ are mutually perpendicular",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "From $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, taking cross product with $\\vec{a}$: $\\vec{a} \\times \\vec{b} + \\vec{a} \\times \\vec{c} = \\vec{0}$, so $\\vec{a} \\times \\vec{b} = \\vec{c} \\times \\vec{a}$. Similarly $\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c}$. They are non-zero since the unit vectors form a triangle.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q5",
+              "type": "single_correct",
+              "questionText": "Let $f(x) = \\frac{x}{(1 + x^n)^{1/n}}$ for $n \\geq 2$ and $g(x) = \\underbrace{(f \\circ f \\circ \\cdots \\circ f)}_{f \\text{ occurs } n \\text{ times}}(x)$. Then $\\int x^{n-2} g(x)\\,dx$ equals",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\frac{1}{n(n-1)}(1 + nx^n)^{1 - 1/n} + K$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$\\frac{1}{n-1}(1 + nx^n)^{1 - 1/n} + K$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\frac{1}{n(n+1)}(1 + nx^n)^{1 + 1/n} + K$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\frac{1}{n+1}(1 + nx^n)^{1 + 1/n} + K$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$f \\circ f(x) = \\frac{x}{(1 + 2x^n)^{1/n}}$. By induction, $g(x) = \\frac{x}{(1 + nx^n)^{1/n}}$. Then $\\int x^{n-2} g(x)\\,dx = \\int \\frac{x^{n-1}}{(1 + nx^n)^{1/n}}\\,dx$. Substituting $u = 1 + nx^n$, $du = n^2 x^{n-1}\\,dx$, gives $\\frac{1}{n^2} \\int u^{-1/n}\\,du = \\frac{1}{n^2} \\cdot \\frac{u^{1 - 1/n}}{1 - 1/n} = \\frac{1}{n(n-1)}(1 + nx^n)^{1 - 1/n} + K$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q6",
+              "type": "single_correct",
+              "questionText": "Let $E^c$ denote the complement of an event $E$. Let $E$, $F$, $G$ be pairwise independent events with $P(G) > 0$ and $P(E \\cap F \\cap G) = 0$. Then $P(E^c \\cap F^c \\mid G)$ equals",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$P(E^c) + P(F^c)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$P(E^c) - P(F^c)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$P(E^c) - P(F)$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "$P(E) - P(F^c)$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$P(E^c \\cap F^c \\mid G) = \\frac{P(G) - P(E \\cap G) - P(F \\cap G)}{P(G)}$ (since $P(E \\cap F \\cap G) = 0$). Using pairwise independence: $= \\frac{P(G) - P(E)P(G) - P(F)P(G)}{P(G)} = 1 - P(E) - P(F) = P(E^c) - P(F)$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q7",
+              "type": "single_correct",
+              "questionText": "Letters of the word COCHIN are permuted and all the permutations are arranged in an alphabetical order as in an English dictionary. The number of words that appear before the word COCHIN is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "360",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "192",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "96",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "48",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Letters sorted: C, C, H, I, N, O. Words starting with CC: $4! = 24$. Starting with CH: $4! = 24$. Starting with CI: $4! = 24$. Starting with CN: $4! = 24$. Next is CO..., and COCHIN itself comes first among CO-words. Total before COCHIN: $4 \\times 24 = 96$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q8",
+              "type": "single_correct",
+              "questionText": "The differential equation $\\frac{dy}{dx} = \\frac{\\sqrt{1 - y^2}}{y}$ determines a family of circles with",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "variable radii and a fixed centre at $(0, 1)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "variable radii and a fixed centre at $(0, -1)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "fixed radius 1 and variable centres along the x-axis",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "fixed radius 1 and variable centres along the y-axis",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Separating variables: $\\int \\frac{y}{\\sqrt{1 - y^2}}\\,dy = \\int dx$, giving $-\\sqrt{1 - y^2} = x + c$, i.e. $(x + c)^2 + y^2 = 1$. This is a circle of fixed radius 1 centred at $(-c, 0)$.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "math_sec2",
+          "name": "Section II: Assertion-Reason Type",
+          "questions": [
+            {
+              "id": "math_q10",
+              "type": "single_correct",
+              "questionText": "Lines $L_1: y - x = 0$ and $L_2: 2x + y = 0$ intersect the line $L_3: y + 2 = 0$ at $P$ and $Q$, respectively. The bisector of the acute angle between $L_1$ and $L_2$ intersects $L_3$ at $R$.\n\nStatement-1: The ratio $PR:RQ$ equals $2\\sqrt{2}:\\sqrt{5}$.\nbecause\nStatement-2: In any triangle, bisector of an angle divides the triangle into two similar triangles.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true by the angle bisector theorem: $\\frac{PR}{RQ} = \\frac{OP}{OQ}$ where $O$ is the intersection of $L_1$ and $L_2$. $P = (-2, -2)$, $Q = (-1, -2)$, $OP = 2\\sqrt{2}$, $OQ = \\sqrt{5}$. Statement-2 is false — the angle bisector divides the opposite side in the ratio of adjacent sides, but does not create similar triangles in general.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q11",
+              "type": "single_correct",
+              "questionText": "Statement-1: The curve $y = -\\frac{x^2}{2} + x + 1$ is symmetric with respect to the line $x = 1$.\nbecause\nStatement-2: A parabola is symmetric about its axis.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$y = -\\frac{x^2}{2} + x + 1 = -\\frac{1}{2}(x - 1)^2 + \\frac{3}{2}$. This is a parabola with axis $x = 1$. Statement-1 is true, Statement-2 is true, and Statement-2 correctly explains Statement-1.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q12",
+              "type": "single_correct",
+              "questionText": "Let $f(x) = 2 + \\cos x$ for all real $x$.\n\nStatement-1: For each real $t$, there exists a point $c$ in $[t, t + \\pi]$ such that $f'(c) = 0$.\nbecause\nStatement-2: $f(t) = f(t + 2\\pi)$ for each real $t$.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Statement-1 is true: $f'(x) = -\\sin x$, which has a zero in every interval of length $\\pi$. Statement-2 is true: $\\cos x$ has period $2\\pi$. But Statement-2 (period $2\\pi$) does not directly explain why there's a critical point in every interval of length $\\pi$ — that follows from the $\\pi$-periodicity of $|\\sin x|$ and Rolle's theorem.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q13",
+              "type": "single_correct",
+              "questionText": "Consider the planes $3x - 6y - 2z = 15$ and $2x + y - 2z = 5$.\n\nStatement-1: The parametric equations of the line of intersection of the given planes are $x = 3 + 14t$, $y = 1 + 2t$, $z = 15t$.\nbecause\nStatement-2: The vector $14\\hat{i} + 2\\hat{j} + 15\\hat{k}$ is parallel to the line of intersection of given planes.",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Statement-1 is True, Statement-2 is False",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Statement-1 is False, Statement-2 is True",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "The direction of the line of intersection is $(3, -6, -2) \\times (2, 1, -2) = (14, 2, 15)$. Solving simultaneously gives the point $(3, -1, 0)$ on the line. So the correct parametric form is $\\frac{x-3}{14} = \\frac{y+1}{2} = \\frac{z}{15}$, i.e. $y = -1 + 2t$, not $y = 1 + 2t$. Statement-1 is false, Statement-2 is true.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "math_sec3a",
+          "name": "Section III: Comprehension (Continuous functions and roots)",
+          "questions": [
+            {
+              "id": "math_q14",
+              "type": "single_correct",
+              "questionText": "If a continuous function $f$ defined on $\\mathbb{R}$ assumes positive and negative values, then $f(x) = 0$ has a root in $\\mathbb{R}$. Consider $f(x) = ke^x - x$ for all real $x$ where $k$ is a real constant. The line $y = x$ meets $y = ke^x$ for $k \\leq 0$ at",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "no point",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "one point",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "two points",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "more than two points",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "For $k \\leq 0$, $ke^x \\leq 0$ for all $x$, while $y = x$ is negative for $x < 0$ and positive for $x > 0$. The curves meet at exactly one point (at $x = 0$ when $k = 0$; for $k < 0$, $ke^x$ is strictly negative and decreasing, crossing $y = x$ exactly once for $x < 0$).",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q15",
+              "type": "single_correct",
+              "questionText": "If a continuous function $f$ defined on $\\mathbb{R}$ assumes positive and negative values, then $f(x) = 0$ has a root in $\\mathbb{R}$. Consider $f(x) = ke^x - x$ for all real $x$ where $k$ is a real constant. The positive value of $k$ for which $ke^x - x = 0$ has only one root is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\frac{1}{e}$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$e$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$\\log_e 2$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "For $k > 0$ and exactly one root, $y = x$ must be tangent to $y = ke^x$. At the point of tangency: $ke^x = x$ and $\\frac{d}{dx}(ke^x) = 1$, so $ke^x = 1$. From these: $x = 1$ and $k = 1/e$.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q16",
+              "type": "single_correct",
+              "questionText": "If a continuous function $f$ defined on $\\mathbb{R}$ assumes positive and negative values, then $f(x) = 0$ has a root in $\\mathbb{R}$. Consider $f(x) = ke^x - x$ for all real $x$ where $k$ is a real constant. For $k > 0$, the set of all values of $k$ for which $ke^x - x = 0$ has two distinct roots is",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$\\left(0, \\frac{1}{e}\\right)$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$\\left(\\frac{1}{e}, 1\\right)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$\\left(\\frac{1}{e}, \\infty\\right)$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$(0, 1)$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$ke^x = x$ has two roots when $y = x$ is a secant to $y = ke^x$, which happens for $0 < k < 1/e$ (below the tangent value).",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "math_sec3b",
+          "name": "Section III: Comprehension (AM-GM-HM sequences)",
+          "questions": [
+            {
+              "id": "math_q17",
+              "type": "single_correct",
+              "questionText": "Let $A_1, G_1, H_1$ denote the arithmetic, geometric and harmonic means, respectively, of two distinct positive numbers. For $n \\geq 2$, let $A_{n-1}$ and $H_{n-1}$ have arithmetic, geometric and harmonic means as $A_n, G_n, H_n$ respectively.\n\nWhich one of the following statements is correct?",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$G_1 > G_2 > G_3 > \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$G_1 < G_2 < G_3 < \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$G_1 = G_2 = G_3 = \\cdots$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "$G_1 < G_3 < G_5 < \\cdots$ and $G_2 > G_4 > G_6 > \\cdots$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$G_n = \\sqrt{A_{n-1} H_{n-1}}$. Since $A_1 H_1 = G_1^2$ (AM $\\times$ HM = GM$^2$ for the original numbers), $G_2 = \\sqrt{A_1 H_1} = G_1$. By induction, all $G_n$ are equal.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q18",
+              "type": "single_correct",
+              "questionText": "Let $A_1, G_1, H_1$ denote the arithmetic, geometric and harmonic means, respectively, of two distinct positive numbers. For $n \\geq 2$, let $A_{n-1}$ and $H_{n-1}$ have arithmetic, geometric and harmonic means as $A_n, G_n, H_n$ respectively.\n\nWhich one of the following statements is correct?",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$A_1 > A_2 > A_3 > \\cdots$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "$A_1 < A_2 < A_3 < \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$A_1 > A_3 > A_5 > \\cdots$ and $A_2 < A_4 < A_6 < \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$A_1 < A_3 < A_5 < \\cdots$ and $A_2 > A_4 > A_6 > \\cdots$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$A_2 = \\frac{A_1 + H_1}{2}$. Since $A_1 > H_1$ (AM > HM for distinct positive numbers), $A_1 - A_2 = \\frac{A_1 - H_1}{2} > 0$. The same argument applies at each step, giving a strictly decreasing sequence.",
+              "marks": 3,
+              "negativeMarks": -1
+            },
+            {
+              "id": "math_q19",
+              "type": "single_correct",
+              "questionText": "Let $A_1, G_1, H_1$ denote the arithmetic, geometric and harmonic means, respectively, of two distinct positive numbers. For $n \\geq 2$, let $A_{n-1}$ and $H_{n-1}$ have arithmetic, geometric and harmonic means as $A_n, G_n, H_n$ respectively.\n\nWhich one of the following statements is correct?",
+              "hasImage": false,
+              "options": [
+                {
+                  "id": "A",
+                  "text": "$H_1 > H_2 > H_3 > \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$H_1 < H_2 < H_3 < \\cdots$",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "$H_1 > H_3 > H_5 > \\cdots$ and $H_2 < H_4 < H_6 < \\cdots$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$H_1 < H_3 < H_5 < \\cdots$ and $H_2 > H_4 > H_6 > \\cdots$",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Since $G_n$ is constant and $A_n$ is decreasing, $H_n = G_n^2 / A_n$ is increasing.",
+              "marks": 3,
+              "negativeMarks": -1
+            }
+          ]
+        },
+        {
+          "id": "math_sec4",
+          "name": "Section IV: Matrix-Match Type",
+          "questions": [
+            {
+              "id": "math_q20",
+              "type": "matching",
+              "questionText": "Match the statements in Column I with the properties in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "Two intersecting circles"
+                },
+                {
+                  "id": "B",
+                  "text": "Two mutually external circles"
+                },
+                {
+                  "id": "C",
+                  "text": "Two circles, one strictly inside the other"
+                },
+                {
+                  "id": "D",
+                  "text": "Two branches of a hyperbola"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "have a common tangent"
+                },
+                {
+                  "id": "q",
+                  "text": "have a common normal"
+                },
+                {
+                  "id": "r",
+                  "text": "do not have a common tangent"
+                },
+                {
+                  "id": "s",
+                  "text": "do not have a common normal"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,q; B-p,q; C-q,r; D-q,r",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-p,q; B-p,q; C-r; D-p,q",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-p; B-p,q; C-q,r; D-q",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-q; B-p,q; C-r,s; D-p,q",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "(A) Intersecting circles have common tangents (p) and the line through centres is a common normal (q). (B) External circles have common tangents (p) and a common normal (q). (C) One circle inside the other has no common tangent (r) but has a common normal — the line through centres (q). (D) Hyperbola branches have no common tangent (r) but the transverse axis is a common normal (q).",
+              "marks": 6,
+              "negativeMarks": 0
+            },
+            {
+              "id": "math_q21",
+              "type": "matching",
+              "questionText": "Let $(x, y)$ be such that $\\sin^{-1}(ax) + \\cos^{-1}(y) + \\cos^{-1}(bxy) = \\frac{\\pi}{2}$. Match the statements in Column I with statements in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "If $a = 1$ and $b = 0$, then $(x, y)$"
+                },
+                {
+                  "id": "B",
+                  "text": "If $a = 1$ and $b = 1$, then $(x, y)$"
+                },
+                {
+                  "id": "C",
+                  "text": "If $a = 1$ and $b = 2$, then $(x, y)$"
+                },
+                {
+                  "id": "D",
+                  "text": "If $a = 2$ and $b = 2$, then $(x, y)$"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "lies on the circle $x^2 + y^2 = 1$"
+                },
+                {
+                  "id": "q",
+                  "text": "lies on $(x^2 - 1)(y^2 - 1) = 0$"
+                },
+                {
+                  "id": "r",
+                  "text": "lies on $y = x$"
+                },
+                {
+                  "id": "s",
+                  "text": "lies on $(4x^2 - 1)(y^2 - 1) = 0$"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p; B-q; C-p; D-s",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-r; B-p; C-q; D-s",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-p; B-q; C-r; D-p",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-q; B-p; C-p; D-s",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "(A) $\\sin^{-1} x + \\cos^{-1} y = 0 \\Rightarrow x^2 + y^2 = 1$ (p). (B) Solving gives $(x^2 - 1)(y^2 - 1) = 0$ (q). (C) Solving gives $x^2 + y^2 = 1$ (p). (D) Solving gives $(4x^2 - 1)(y^2 - 1) = 0$ (s).",
+              "marks": 6,
+              "negativeMarks": 0
+            },
+            {
+              "id": "math_q22",
+              "type": "matching",
+              "questionText": "Let $f(x) = \\frac{x^2 - 6x + 5}{x^2 - 5x + 6}$. Match the expressions/statements in Column I with expressions/statements in Column II.",
+              "hasImage": false,
+              "listI": [
+                {
+                  "id": "A",
+                  "text": "If $-1 < x < 1$, then $f(x)$ satisfies"
+                },
+                {
+                  "id": "B",
+                  "text": "If $1 < x < 2$, then $f(x)$ satisfies"
+                },
+                {
+                  "id": "C",
+                  "text": "If $3 < x < 5$, then $f(x)$ satisfies"
+                },
+                {
+                  "id": "D",
+                  "text": "If $x > 5$, then $f(x)$ satisfies"
+                }
+              ],
+              "listII": [
+                {
+                  "id": "p",
+                  "text": "$0 < f(x) < 1$"
+                },
+                {
+                  "id": "q",
+                  "text": "$f(x) < 0$"
+                },
+                {
+                  "id": "r",
+                  "text": "$f(x) > 0$"
+                },
+                {
+                  "id": "s",
+                  "text": "$f(x) < 1$"
+                }
+              ],
+              "options": [
+                {
+                  "id": "A",
+                  "text": "A-p,r; B-q,s; C-q,s; D-p,r,s",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "A-p; B-q; C-r; D-p,s",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "A-r,s; B-q,s; C-q; D-p,r",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "A-p,r; B-q; C-q,s; D-r",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "$f(x) = \\frac{(x-1)(x-5)}{(x-2)(x-3)}$. For $-1 < x < 1$: both factors in numerator are negative (product positive), denominator positive $\\Rightarrow f > 0$ (r), and checking values shows $0 < f < 1$ (p). For $1 < x < 2$: numerator negative, denominator positive $\\Rightarrow f < 0$ (q), hence $f < 1$ (s). For $3 < x < 5$: numerator has mixed signs giving negative product, denominator positive $\\Rightarrow f < 0$ (q), hence $f < 1$ (s). For $x > 5$: both positive, and the function approaches 1 from below, so $0 < f < 1$ (p), $f > 0$ (r), $f < 1$ (s).",
+              "marks": 6,
+              "negativeMarks": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

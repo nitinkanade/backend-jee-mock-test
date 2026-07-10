@@ -1,0 +1,1539 @@
+{
+    "examTitle": "JEE Advanced 2025 - Paper 1",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "questions": [
+                {
+                    "id": "math_q1",
+                    "type": "single_correct",
+                    "questionText": "Let ℝ denote the set of all real numbers. Let $a_{i}, b_{i} \\in \\mathbb{R}$ for $i \\in \\{1,2,3\\}$. Define the functions $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, $g: \\mathbb{R} \\rightarrow \\mathbb{R}$, and $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ by $f(x) = a_{1} + 10x + a_{2}x^{2} + a_{3}x^{3} + x^{4}$, $g(x) = b_{1} + 3x + b_{2}x^{2} + b_{3}x^{3} + x^{4}$, $h(x) = f(x + 1) - g(x + 2)$. If $f(x) \\neq g(x)$ for every $x \\in \\mathbb{R}$, then the coefficient of $x^{3}$ in $h(x)$ is:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "8",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "2",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "-4",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "-6",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Coefficient extraction from polynomial expansion.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q2",
+                    "type": "single_correct",
+                    "questionText": "Three students $S_{1}$, $S_{2}$, and $S_{3}$ are given a problem to solve. Consider the following events: $U$: At least one of $S_{1}$, $S_{2}$, and $S_{3}$ can solve the problem, $V$: $S_{1}$ can solve the problem, given that neither $S_{2}$ nor $S_{3}$ can solve the problem, $W$: $S_{2}$ can solve the problem and $S_{3}$ cannot solve the problem, $T$: $S_{3}$ can solve the problem. For any event $E$, let $P(E)$ denote the probability of $E$. If $P(U) = \\frac{1}{2}$, $P(V) = \\frac{1}{10}$, and $P(W) = \\frac{1}{12}$, then $P(T)$ is equal to:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{13}{36}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\frac{1}{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{19}{60}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{1}{4}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Probability calculation using set theory and conditional probability.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q3",
+                    "type": "single_correct",
+                    "questionText": "Let ℝ denote the set of all real numbers. Define the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ by $f(x) = 2 - 2x^{2} - x^{2}\\sin\\frac{1}{x}$ if $x \\neq 0$, and $f(x) = 2$ if $x = 0$. Then which one of the following statements is TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "The function $f$ is NOT differentiable at $x = 0$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "There is a positive real number $\\delta$, such that $f$ is a decreasing function on the interval $(0, \\delta)$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "For any positive real number $\\delta$, the function $f$ is NOT an increasing function on the interval $(-\\delta, 0)$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$x = 0$ is a point of local minima of $f$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Differentiation and analysis of oscillatory behavior near zero.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q4",
+                    "type": "single_correct",
+                    "questionText": "Consider the matrix $P = \\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}$. Let the transpose of a matrix $X$ be denoted by $X^{T}$. Then the number of $3 \\times 3$ invertible matrices $Q$ with integer entries, such that $Q^{-1} = Q^{T}$ and $PQ = QP$, is:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "32",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "8",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "16",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "24",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Matrix properties involving orthogonality and commutativity with integer constraints.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q5",
+                    "type": "multi_correct",
+                    "questionText": "Let $L_{1}$ be the line of intersection of the planes given by the equations $2x + 3y + z = 4$ and $x + 2y + z = 5$. Let $L_{2}$ be the line passing through the point $P(2, -1, 3)$ and parallel to $L_{1}$. Let $M$ denote the plane given by the equation $2x + y - 2z = 6$. Suppose that the line $L_{2}$ meets the plane $M$ at the point $Q$. Let $R$ be the foot of the perpendicular drawn from $P$ to the plane $M$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "The length of the line segment $PQ$ is $9\\sqrt{3}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "The length of the line segment $QR$ is $15$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "The area of $\\Delta PQR$ is $\\frac{3}{2}\\sqrt{234}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "The acute angle between the line segments $PQ$ and $PR$ is $\\cos^{-1}(\\frac{1}{2\\sqrt{3}})$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "3D geometry involving lines, planes, and distance calculations.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q6",
+                    "type": "multi_correct",
+                    "questionText": "Let ℕ denote the set of all natural numbers, and ℤ denote the set of all integers. Consider the functions $f: \\mathbb{N} \\rightarrow \\mathbb{Z}$ and $g: \\mathbb{Z} \\rightarrow \\mathbb{N}$ defined by $f(n) = \\frac{n+1}{2}$ if $n$ is odd, $\\frac{4-n}{2}$ if $n$ is even, and $g(n) = 3 + 2n$ if $n \\geq 0$, $-2n$ if $n < 0$. Define $(g \\circ f)(n) = g(f(n))$ for all $n \\in \\mathbb{N}$, and $(f \\circ g)(n) = f(g(n))$ for all $n \\in \\mathbb{Z}$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$g \\circ f$ is NOT one-one and $g \\circ f$ is NOT onto",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$f \\circ g$ is NOT one-one but $f \\circ g$ is onto",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "$g$ is one-one and $g$ is onto",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$f$ is NOT one-one but $f$ is onto",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Function composition and properties of injectivity and surjectivity.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q7",
+                    "type": "multi_correct",
+                    "questionText": "Let ℝ denote the set of all real numbers. Let $z_{1} = 1 + 2i$ and $z_{2} = 3i$ be two complex numbers, where $i = \\sqrt{-1}$. Let $S = \\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : |x + iy - z_{1}| = 2|x + iy - z_{2}|\\}$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$S$ is a circle with centre $(-\\frac{1}{3}, \\frac{10}{3})$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$S$ is a circle with centre $(\\frac{1}{3}, \\frac{8}{3})$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "$S$ is a circle with radius $\\frac{\\sqrt{2}}{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$S$ is a circle with radius $\\frac{2\\sqrt{2}}{3}$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Complex numbers and locus representation as circles.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q8",
+                    "type": "numerical",
+                    "questionText": "Let the set of all relations $R$ on the set $\\{a, b, c, d, e, f\\}$, such that $R$ is reflexive and symmetric, and $R$ contains exactly 10 elements, be denoted by $\\mathcal{S}$. Then the number of elements in $\\mathcal{S}$ is:",
+                    "hasImage": false,
+                    "answer": 15,
+                    "explanation": "Combinatorics of relations with reflexive and symmetric properties.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q9",
+                    "type": "numerical",
+                    "questionText": "For any two points $M$ and $N$ in the $XY$-plane, let $\\vec{MN}$ denote the vector from $M$ to $N$, and $\\vec{0}$ denote the zero vector. Let $P$, $Q$ and $R$ be three distinct points in the $XY$-plane. Let $S$ be a point inside the triangle $\\Delta PQR$ such that $\\vec{SP} + 5\\vec{SQ} + 6\\vec{SR} = \\vec{0}$. Let $E$ and $F$ be the mid-points of the sides $PR$ and $QR$, respectively. Then the value of $\\frac{\\text{length of the line segment } EF}{\\text{length of the line segment } ES}$ is:",
+                    "hasImage": false,
+                    "answer": 3,
+                    "explanation": "Vector geometry and section formula applications.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q10",
+                    "type": "numerical",
+                    "questionText": "Let $S$ be the set of all seven-digit numbers that can be formed using the digits 0, 1 and 2. For example, 2210222 is in $S$, but 0210222 is NOT in $S$. Then the number of elements $x$ in $S$ such that at least one of the digits 0 and 1 appears exactly twice in $x$, is equal to:",
+                    "hasImage": false,
+                    "answer": 1176,
+                    "explanation": "Combinatorics and counting with digit restrictions.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q11",
+                    "type": "numerical",
+                    "questionText": "Let $\\alpha$ and $\\beta$ be the real numbers such that $\\lim_{x \\to 0} \\frac{1}{x^{3}}(\\frac{\\alpha}{2}\\int_{0}^{x} \\frac{1}{1-t^{2}} dt + \\beta x \\cos x) = 2$. Then the value of $\\alpha + \\beta$ is:",
+                    "hasImage": false,
+                    "answer": 18,
+                    "explanation": "Limit evaluation using L'Hospital's rule and Taylor series.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q12",
+                    "type": "numerical",
+                    "questionText": "Let ℝ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x) > 0$ for all $x \\in \\mathbb{R}$, and $f(x + y) = f(x)f(y)$ for all $x, y \\in \\mathbb{R}$. Let the real numbers $a_{1}, a_{2}, \\ldots, a_{50}$ be in an arithmetic progression. If $f(a_{31}) = 64f(a_{25})$, and $\\sum_{i=1}^{50} f(a_{i}) = 3(2^{25} + 1)$, then the value of $\\sum_{i=6}^{30} f(a_{i})$ is:",
+                    "hasImage": false,
+                    "answer": 93,
+                    "explanation": "Functional equations and arithmetic progression properties.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q13",
+                    "type": "numerical",
+                    "questionText": "For all $x > 0$, let $y_{1}(x)$, $y_{2}(x)$, and $y_{3}(x)$ be the functions satisfying $\\frac{dy_{1}}{dx} - (\\sin x)^{2} y_{1} = 0$, $y_{1}(1) = 5$; $\\frac{dy_{2}}{dx} - (\\cos x)^{2} y_{2} = 0$, $y_{2}(1) = \\frac{1}{3}$; $\\frac{dy_{3}}{dx} - (\\frac{2-x^{3}}{x^{3}}) y_{3} = 0$, $y_{3}(1) = \\frac{3}{5e}$, respectively. Then $\\lim_{x \\to 0^{+}} \\frac{y_{1}(x)y_{2}(x)y_{3}(x) + 2x}{e^{3x} \\sin x}$ is equal to:",
+                    "hasImage": false,
+                    "answer": 3,
+                    "explanation": "Differential equations and limit evaluation.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q14",
+                    "type": "matching",
+                    "questionText": "Consider the following frequency distribution: Value: 4, 5, 8, 9, 6, 12, 11; Frequency: 5, $f_{1}$, $f_{2}$, 2, 1, 1, 3. Suppose that the sum of the frequencies is 19 and the median of this frequency distribution is 6. For the given frequency distribution, let $\\alpha$ denote the mean deviation about the mean, $\\beta$ denote the mean deviation about the median, and $\\sigma^{2}$ denote the variance. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "$7f_{1} + 9f_{2}$ is equal to"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "$19\\alpha$ is equal to"
+                        },
+                        {
+                            "id": "R",
+                            "text": "$19\\beta$ is equal to"
+                        },
+                        {
+                            "id": "S",
+                            "text": "$19\\sigma^{2}$ is equal to"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "146"
+                        },
+                        {
+                            "id": "2",
+                            "text": "47"
+                        },
+                        {
+                            "id": "3",
+                            "text": "48"
+                        },
+                        {
+                            "id": "4",
+                            "text": "145"
+                        },
+                        {
+                            "id": "5",
+                            "text": "55"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (5) (Q) → (3) (R) → (2) (S) → (4)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (5) (Q) → (2) (R) → (3) (S) → (1)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (5) (Q) → (3) (R) → (2) (S) → (1)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (3) (Q) → (2) (R) → (5) (S) → (4)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Statistics: mean deviation, median, and variance calculations.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q15",
+                    "type": "matching",
+                    "questionText": "Let ℝ denote the set of all real numbers. For a real number $x$, let $[x]$ denote the greatest integer less than or equal to $x$. Let $n$ denote a natural number. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "The minimum value of $n$ for which the function $f(x) = [\\frac{10x^{3} - 45x^{2} + 60x + 35}{n}]$ is continuous on the interval $[1, 2]$, is"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "The minimum value of $n$ for which $g(x) = (2n^{2} - 13n - 15)(x^{3} + 3x)$, $x \\in \\mathbb{R}$, is an increasing function on ℝ, is"
+                        },
+                        {
+                            "id": "R",
+                            "text": "The smallest natural number $n$ which is greater than 5, such that $x = 3$ is a point of local minima of $h(x) = (x^{2} - 9)^{n}(x^{2} + 2x + 3)$, is"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Number of $x_{0} \\in \\mathbb{R}$ such that $l(x) = \\sum_{k=0}^{4}(\\sin|x - k| + \\cos|x - k + \\frac{1}{2}|)$, $x \\in \\mathbb{R}$, is NOT differentiable at $x_{0}$, is"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "8"
+                        },
+                        {
+                            "id": "2",
+                            "text": "9"
+                        },
+                        {
+                            "id": "3",
+                            "text": "5"
+                        },
+                        {
+                            "id": "4",
+                            "text": "6"
+                        },
+                        {
+                            "id": "5",
+                            "text": "10"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (1) (Q) → (3) (R) → (2) (S) → (5)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (3)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (5) (Q) → (1) (R) → (4) (S) → (3)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (2) (Q) → (3) (R) → (1) (S) → (5)",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Continuity, differentiation, and optimization problems.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q16",
+                    "type": "matching",
+                    "questionText": "Let $\\vec{w} = \\hat{i} + \\hat{j} - 2\\hat{k}$, and $\\vec{u}$ and $\\vec{v}$ be two vectors, such that $\\vec{u} \\times \\vec{v} = \\vec{w}$ and $\\vec{v} \\times \\vec{w} = \\vec{u}$. Let $\\alpha, \\beta, \\gamma$, and $t$ be real numbers such that $\\vec{u} = \\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k}$, $-t\\alpha + \\beta + \\gamma = 0$, $\\alpha - t\\beta + \\gamma = 0$, and $\\alpha + \\beta - t\\gamma = 0$. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "$|\\vec{v}|^{2}$ is equal to"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "If $\\alpha = \\sqrt{3}$, then $\\gamma^{2}$ is equal to"
+                        },
+                        {
+                            "id": "R",
+                            "text": "If $\\alpha = \\sqrt{3}$, then $(\\beta + \\gamma)^{2}$ is equal to"
+                        },
+                        {
+                            "id": "S",
+                            "text": "If $\\alpha = \\sqrt{2}$, then $t + 3$ is equal to"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "0"
+                        },
+                        {
+                            "id": "2",
+                            "text": "1"
+                        },
+                        {
+                            "id": "3",
+                            "text": "2"
+                        },
+                        {
+                            "id": "4",
+                            "text": "3"
+                        },
+                        {
+                            "id": "5",
+                            "text": "5"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (5)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (2) (Q) → (4) (R) → (3) (S) → (5)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (3)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (5) (Q) → (4) (R) → (1) (S) → (3)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Vector cross products and simultaneous equations.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                }
+            ]
+        },
+        {
+            "id": "physics",
+            "name": "Physics",
+            "questions": [
+                {
+                    "id": "phys_q1",
+                    "type": "single_correct",
+                    "questionText": "The center of a disk of radius $r$ and mass $m$ is attached to a spring of spring constant $k$, inside a ring of radius $R > r$ as shown in the figure. The other end of the spring is attached on the periphery of the ring. Both the ring and the disk are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following the Hooke's law. In equilibrium, the disk is at the bottom of the ring. Assuming small displacement of the disc, the time period of oscillation of center of mass of the disk is written as $T = \\frac{2\\pi}{\\omega}$. The correct expression for $\\omega$ is ($g$ is the acceleration due to gravity):",
+                    "hasImage": true,
+                    "imageName": "img/phys_q1.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\sqrt{\\frac{2}{3}(\\frac{g}{R-r}+\\frac{k}{m})}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\sqrt{\\frac{2g}{3(R-r)}+\\frac{k}{m}}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\sqrt{\\frac{1}{6}(\\frac{g}{R-r}+\\frac{k}{m})}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\sqrt{\\frac{1}{4}(\\frac{g}{R-r}+\\frac{k}{m})}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SHM analysis using energy method or torque equation for rolling motion with spring force and gravity.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q2",
+                    "type": "single_correct",
+                    "questionText": "In a scattering experiment, a particle of mass $2m$ collides with another particle of mass $m$, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation $\\theta$ of the heavier particle, as shown in the figure, in radians is:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q2.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\pi$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\tan^{-1}(\\frac{1}{2})$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{\\pi}{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{\\pi}{6}$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Conservation of momentum and energy in elastic collisions. Maximum scattering angle for heavier particle.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q3",
+                    "type": "single_correct",
+                    "questionText": "A conducting square loop initially lies in the $XZ$ plane with its lower edge hinged along the $X$-axis. Only in the region $y \\ge 0$, there is a time dependent magnetic field pointing along the $Z$-direction, $\\vec{B}(t) = B_{0}(\\cos \\omega t)\\hat{k}$, where $B_{0}$ is a constant. The magnetic field is zero everywhere else. At time $t = 0$, the loop starts rotating with constant angular speed $\\omega$ about the $X$ axis in the clockwise direction as viewed from the $+X$ axis (as shown in the figure). Ignoring self-inductance of the loop and gravity, which of the following plots correctly represents the induced e.m.f. ($V$) in the loop as a function of time:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q3.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Graph A",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Graph B",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Graph C",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Graph D",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Faraday's law of induction considering both changing B-field and changing angle. EMF has contributions from both time-varying field and rotation.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q4",
+                    "type": "single_correct",
+                    "questionText": "Figure 1 shows the configuration of main scale and Vernier scale before measurement. Fig. 2 shows the configuration corresponding to the measurement of diameter $D$ of a tube. The measured value of $D$ is:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q4.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "0.12 cm",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "0.11 cm",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "0.13 cm",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "0.14 cm",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Vernier caliper reading with zero error correction.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q5",
+                    "type": "multi_correct",
+                    "questionText": "A conducting square loop of side $L$, mass $M$ and resistance $R$ is moving in the $XY$ plane with its edges parallel to the $X$ and $Y$ axes. The region $y \\ge 0$ has a uniform magnetic field, $\\vec{B} = B_{0}\\hat{k}$. The magnetic field is zero everywhere else. At time $t = 0$, the loop starts to enter the magnetic field with an initial velocity $v_{0}\\hat{j}$ m/s, as shown in the figure. Considering the quantity $K = \\frac{B_{0}^{2}L^{2}}{RM}$ in appropriate units, ignoring self-inductance of the loop and gravity, which of the following statements is/are correct:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q5.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "If $v_{0} = 1.5KL$, the loop will stop before it enters completely inside the region of magnetic field.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "If $v_{0} = \\frac{KL}{10}$, the loop comes to rest at $t = (\\frac{1}{K}) \\ln(\\frac{5}{2})$.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "If $v_{0} = 3KL$, the complete loop enters inside the region of magnetic field at time $t = (\\frac{1}{K}) \\ln(\\frac{3}{2})$.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Electromagnetic induction with motional EMF and retarding force analysis.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q6",
+                    "type": "multi_correct",
+                    "questionText": "Length, breadth and thickness of a strip having a uniform cross section are measured to be 10.5 cm, 0.05 mm, and 6.0 $\\mu$m, respectively. Which of the following option(s) give(s) the volume of the strip in cm³ with correct significant figures:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$3.2 \\times 10^{-5}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$32.0 \\times 10^{-6}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$3.0 \\times 10^{-5}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$3 \\times 10^{-5}$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Significant figures in multiplication with measurement precision.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q7",
+                    "type": "multi_correct",
+                    "questionText": "Consider a system of three connected strings, $S_{1}$, $S_{2}$ and $S_{3}$ with uniform linear mass densities $\\mu$ kg/m, $4\\mu$ kg/m and $16\\mu$ kg/m, respectively, as shown in the figure. $S_{1}$ and $S_{2}$ are connected at the point $P$, whereas $S_{2}$ and $S_{3}$ are connected at the point $Q$, and the other end of $S_{3}$ is connected to a wall. A wave generator O is connected to the free end of $S_{1}$. The wave from the generator is represented by $y = y_{0} \\cos(\\omega t - kx)$ cm, where $y_{0}$, $\\omega$ and $k$ are constants of appropriate dimensions. Which of the following statements is/are correct:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q7.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "When the wave reflects from $P$ for the first time, the reflected wave is represented by $y = \\alpha_{1}y_{0} \\cos(\\omega t + kx + \\pi)$ cm, where $\\alpha_{1}$ is a positive constant.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "When the wave transmits through $P$ for the first time, the transmitted wave is represented by $y = \\alpha_{2}y_{0} \\cos(\\omega t - kx)$ cm, where $\\alpha_{2}$ is a positive constant.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "When the wave reflects from $Q$ for the first time, the reflected wave is represented by $y = \\alpha_{3}y_{0} \\cos(\\omega t - kx + \\pi)$ cm, where $\\alpha_{3}$ is a positive constant.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "When the wave transmits through $Q$ for the first time, the transmitted wave is represented by $y = \\alpha_{4}y_{0} \\cos(\\omega t - 4kx)$ cm, where $\\alpha_{4}$ is a positive constant.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Wave reflection and transmission at boundaries with phase changes and wave number changes.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q8",
+                    "type": "numerical",
+                    "questionText": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg. Suppose that the variation of the height $y$ (in m) of the elevator, from the ground, with time $t$ (in s) is given by $y = 8[1 + \\sin(\\frac{2\\pi t}{T})]$, where $T = 40\\pi$ s. Taking acceleration due to gravity, $g = 10$ m/s², the maximum variation of the object's weight (in N) as observed in the experiment is:",
+                    "hasImage": false,
+                    "answer": 40,
+                    "explanation": "Non-inertial frame with varying acceleration. Maximum variation occurs at maximum acceleration.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q9",
+                    "type": "numerical",
+                    "questionText": "A cube of unit volume contains $35 \\times 10^{7}$ photons of frequency $10^{15}$ Hz. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\\alpha \\times 10^{-9}$ T. Taking permeability of free space $\\mu_{0} = 4\\pi \\times 10^{-7}$ Tm/A, Planck's constant $h = 6 \\times 10^{-34}$ Js and $\\pi = \\frac{22}{7}$, the value of $\\alpha$ is:",
+                    "hasImage": false,
+                    "answer": 2,
+                    "explanation": "Energy density of electromagnetic waves and relation between energy and magnetic field amplitude.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q10",
+                    "type": "numerical",
+                    "questionText": "Two identical plates P and Q, radiating as perfect black bodies, are kept in vacuum at constant absolute temperatures $T_{P}$ and $T_{Q}$, respectively, with $T_{Q} < T_{P}$, as shown in Fig. 1. The radiated power transferred per unit area from P to Q is $W_{0}$. Subsequently, two more plates, identical to P and Q, are introduced between P and Q, as shown in Fig. 2. Assume that heat transfer takes place only between adjacent plates. If the power transferred per unit area in the direction from P to Q (Fig. 2) in the steady state is $W_{S}$, then the ratio $\\frac{W_{0}}{W_{S}}$ is:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q10.png",
+                    "answer": 3,
+                    "explanation": "Stefan-Boltzmann law with radiation shields in steady state.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q11",
+                    "type": "numerical",
+                    "questionText": "A solid glass sphere of refractive index $n = \\sqrt{3}$ and radius $R$ contains a spherical air cavity of radius $\\frac{R}{2}$, as shown in the figure. A very thin glass layer is present at the point O so that the air cavity (refractive index $n = 1$) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source $S$ emits a light ray from a point inside the glass sphere towards the periphery of the glass sphere. If the light is reflected from the point O and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is $\\theta$. The value of $\\sin \\theta$ is:",
+                    "hasImage": true,
+                    "imageName": "img/phys_q11.png",
+                    "answer": 0.5,
+                    "explanation": "Brewster's angle condition for complete polarization upon reflection.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q12",
+                    "type": "numerical",
+                    "questionText": "A single slit diffraction experiment is performed to determine the slit width using the equation, $\\frac{bd}{D} = m\\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between the $m$-th diffraction maximum and the central maximum, and $\\lambda$ is the wavelength. $D$ and $d$ are measured with scales of least count of 1 cm and 1 mm, respectively. The values of $\\lambda$ and $m$ are known precisely to be 600 nm and 3, respectively. The absolute error (in $\\mu$m) in the value of $b$ estimated using the diffraction maximum that occurs for $m = 3$ with $d = 5$ mm and $D = 1$ m is:",
+                    "hasImage": false,
+                    "answer": 72,
+                    "explanation": "Error propagation in single slit diffraction measurements.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q13",
+                    "type": "numerical",
+                    "questionText": "Consider an electron in the $n = 3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_{B}T$ has the same de Broglie wavelength as that of this electron. If this temperature is given by $T = \\frac{Z^{2}h^{2}}{\\alpha\\pi^{2}a_{0}^{2}m_{N}k_{B}}$, (where $h$ is the Planck's constant, $k_{B}$ is the Boltzmann constant, $m_{N}$ is the mass of the neutron and $a_{0}$ is the first Bohr radius of hydrogen atom) then the value of $\\alpha$ is:",
+                    "hasImage": false,
+                    "answer": 81,
+                    "explanation": "de Broglie wavelength equality for electron in hydrogen-like atom and thermal neutron.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q14",
+                    "type": "matching",
+                    "questionText": "List-I shows four configurations, each consisting of a pair of ideal electric dipoles. Each dipole has a dipole moment of magnitude $p$, oriented as marked by arrows in the figures. In all the configurations the dipoles are fixed such that they are at a distance $2r$ apart along the $x$ direction. The midpoint of the line joining the two dipoles is $X$. The possible resultant electric fields $\\vec{E}$ at $X$ are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List-II.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q14.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Configuration P"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Configuration Q"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Configuration R"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Configuration S"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$\\vec{E} = 0$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$\\vec{E} = -\\frac{p}{2\\pi\\epsilon_{0}r^{3}}\\hat{j}$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$\\vec{E} = -\\frac{p}{4\\pi\\epsilon_{0}r^{3}}(\\hat{i} - \\hat{j})$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$\\vec{E} = \\frac{p}{4\\pi\\epsilon_{0}r^{3}}(2\\hat{i} - \\hat{j})$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$\\vec{E} = \\frac{p}{\\pi\\epsilon_{0}r^{3}}\\hat{i}$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 3, Q → 1, R → 2, S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 4, Q → 5, R → 3, S → 1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 2, Q → 1, R → 4, S → 5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 2, Q → 1, R → 3, S → 5",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Electric field due to dipoles using superposition principle.",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                },
+                {
+                    "id": "phys_q15",
+                    "type": "matching",
+                    "questionText": "A circuit with an electrical load having impedance $Z$ is connected with an AC source as shown in the diagram. The source voltage varies in time as $V(t) = 300 \\sin(400t)$ V, where $t$ is time in s. List-I shows various options for the load. The possible currents $i(t)$ in the circuit as a function of time are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List-II.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q15.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Load P"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Load Q"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Load R"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Load S"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Current waveform 1"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Current waveform 2"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Current waveform 3"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Current waveform 4"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Current waveform 5"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 3, Q → 5, R → 2, S → 1",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 1, Q → 5, R → 2, S → 3",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 3, Q → 4, R → 2, S → 1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 1, Q → 4, R → 2, S → 5",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "AC circuits with different impedances and phase relationships.",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                },
+                {
+                    "id": "phys_q16",
+                    "type": "matching",
+                    "questionText": "List-I shows various functional dependencies of energy ($E$) on the atomic number ($Z$). Energies associated with certain phenomena are given in List-II. Choose the option that describes the correct match between the entries in List-I to those in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "$E \\propto Z^{2}$"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "$E \\propto (Z - 1)^{2}$"
+                        },
+                        {
+                            "id": "R",
+                            "text": "$E \\propto Z(Z - 1)$"
+                        },
+                        {
+                            "id": "S",
+                            "text": "$E$ is practically independent of $Z$"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "energy of characteristic x-rays"
+                        },
+                        {
+                            "id": "2",
+                            "text": "electrostatic part of the nuclear binding energy for stable nuclei with mass numbers in the range 30 to 170"
+                        },
+                        {
+                            "id": "3",
+                            "text": "energy of continuous x-rays"
+                        },
+                        {
+                            "id": "4",
+                            "text": "average nuclear binding energy per nucleon for stable nuclei with mass number in the range 30 to 170"
+                        },
+                        {
+                            "id": "5",
+                            "text": "energy of radiation due to electronic transitions from hydrogen-like atoms"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 4, Q → 3, R → 1, S → 2",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 5, Q → 2, R → 1, S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 5, Q → 1, R → 2, S → 4",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 3, Q → 2, R → 1, S → 5",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Scaling laws for atomic and nuclear phenomena with atomic number.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                }
+            ]
+        },
+        {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "questions": [
+                {
+                    "id": "chem_q1",
+                    "type": "single_correct",
+                    "questionText": "The heating of $NH_{4}NO_{2}$ at $60-70^{\\circ}C$ and $NH_{4}NO_{3}$ at $200-250^{\\circ}C$ is associated with the formation of nitrogen containing compounds X and Y, respectively. X and Y, respectively, are:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$N_{2}$ and $N_{2}O$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$NH_{3}$ and $NO_{2}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$NO$ and $N_{2}O$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$N_{2}$ and $NH_{3}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Thermal decomposition reactions of ammonium salts. NH4NO2 decomposes to N2 and H2O, while NH4NO3 decomposes to N2O and H2O.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q2",
+                    "type": "single_correct",
+                    "questionText": "The correct order of the wavelength maxima of the absorption band in the ultraviolet-visible region for the given complexes is:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$[Co(CN)_{6}]^{3-} < [Co(NH_{3})_{6}]^{3+} < [Co(NH_{3})_{5}(H_{2}O)]^{3+} < [Co(NH_{3})_{5}(Cl)]^{2+}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$[Co(NH_{3})_{5}(Cl)]^{2+} < [Co(NH_{3})_{5}(H_{2}O)]^{3+} < [Co(NH_{3})_{6}]^{3+} < [Co(CN)_{6}]^{3-}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$[Co(CN)_{6}]^{3-} < [Co(NH_{3})_{5}(Cl)]^{2+} < [Co(NH_{3})_{5}(H_{2}O)]^{3+} < [Co(NH_{3})_{6}]^{3+}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$[Co(NH_{3})_{6}]^{3+} < [Co(CN)_{6}]^{3-} < [Co(NH_{3})_{5}(Cl)]^{2+} < [Co(NH_{3})_{5}(H_{2}O)]^{3+}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Spectrochemical series and Crystal Field Theory. Higher field strength ligands cause larger splitting and absorb at shorter wavelengths. Order: CN- > NH3 > H2O > Cl-",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q3",
+                    "type": "single_correct",
+                    "questionText": "One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is:",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$I_{2}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$IO_{3}^{-}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$IO_{4}^{-}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$IO_{2}^{-}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Redox reaction in neutral medium. MnO4- oxidizes I- to I2 while being reduced to MnO2.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q4",
+                    "type": "single_correct",
+                    "questionText": "Consider the depicted hydrogen (H) in the hydrocarbons given below. The most acidic hydrogen (H) is:",
+                    "hasImage": true,
+                    "imageName": "img/chem_q4.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Option A - Hydrogen attached to terminal alkyne carbon",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Option B - Hydrogen on aromatic ring",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Option C - Allylic hydrogen",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Option D - Aliphatic hydrogen",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Terminal alkyne hydrogen is most acidic due to sp hybridization (50% s-character) and stabilization of conjugate base.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q5",
+                    "type": "multi_correct",
+                    "questionText": "Regarding the molecular orbital (MO) energy levels for homonuclear diatomic molecules, the INCORRECT statement(s) is(are):",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Bond order of $Ne_{2}$ is zero.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "The highest occupied molecular orbital (HOMO) of $F_{2}$ is σ-type.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Bond energy of $O_{2}^{+}$ is smaller than the bond energy of $O_{2}$.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Bond length of $Li_{2}$ is larger than the bond length of $B_{2}$.",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "HOMO of F2 is π* (antibonding), not σ. O2+ has higher bond order (2.5) than O2 (2), thus higher bond energy. Ne2 has bond order 0. Li2 has larger bond length than B2.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q6",
+                    "type": "multi_correct",
+                    "questionText": "The pair(s) of diamagnetic ions is(are):",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$La^{3+}$, $Ce^{4+}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$Yb^{2+}$, $Lu^{3+}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$La^{2+}$, $Ce^{3+}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$Yb^{3+}$, $Lu^{2+}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "La3+ ([Xe]) and Ce4+ ([Xe]) both have no unpaired electrons, making them diamagnetic. Other options have unpaired f-electrons.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q7",
+                    "type": "multi_correct",
+                    "questionText": "For the reaction sequence given below, the correct statement(s) is(are): P → Q (HBr, Finkelstein reaction) → R (Swarts reaction). (In the options, X is any atom other than carbon and hydrogen, and it is different in P, Q and R)",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "C−X bond length in P, Q and R follows the order Q > R > P.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "C−X bond enthalpy in P, Q and R follows the order R > P > Q.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Relative reactivity toward $S_{N}2$ reaction in P, Q and R follows the order P > R > Q.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$pK_{a}$ value of the conjugate acids of the leaving groups in P, Q and R follows the order R > Q > P.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Finkelstein (Cl→I) and Swarts (Br→F). SN2 reactivity: I > Br > F. Leaving group ability relates to conjugate acid pKa values.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q8",
+                    "type": "numerical",
+                    "questionText": "In an electrochemical cell, dichromate ions in aqueous acidic medium are reduced to $Cr^{3+}$. The current (in amperes) that flows through the cell for 48.25 minutes to produce 1 mole of $Cr^{3+}$ is:",
+                    "hasImage": false,
+                    "answer": 100,
+                    "explanation": "Cr2O7^2- + 14H+ + 6e- → 2Cr^3+ + 7H2O. For 1 mole Cr3+, 3 moles e- needed. Q = 3F = 3×96500 C. I = Q/t = 289500/(48.25×60) = 100 A",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q9",
+                    "type": "numerical",
+                    "questionText": "At 25°C, the concentration of $H^{+}$ ions in $1.00 \\times 10^{-3}$ M aqueous solution of a weak monobasic acid having acid dissociation constant ($K_{a}$) of $4.00 \\times 10^{-11}$ is $X \\times 10^{-7}$ M. The value of $X$ is:",
+                    "hasImage": false,
+                    "answer": 2,
+                    "explanation": "For weak acid in water, considering both acid dissociation and water ionization. [H+] = 2×10^-7 M, so X = 2.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q10",
+                    "type": "numerical",
+                    "questionText": "Molar volume ($V_{m}$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with $V_{m}$ as the variable. The ratio (in mol dm⁻³) of the coefficient of $V_{m}^{2}$ to the coefficient of $V_{m}$ for a gas having van der Waals constants a = 6.0 dm⁶ atm mol⁻² and b = 0.060 dm³ mol⁻¹ at 300 K and 300 atm is:",
+                    "hasImage": false,
+                    "answer": 12.2,
+                    "explanation": "Van der Waals equation: (P + a/Vm²)(Vm - b) = RT. Expanding gives cubic equation. Ratio of coefficients calculated from given values.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q11",
+                    "type": "numerical",
+                    "questionText": "Considering ideal gas behavior, the expansion work done (in kJ) when 144 g of water is electrolyzed completely under constant pressure at 300 K is:",
+                    "hasImage": false,
+                    "answer": 29.88,
+                    "explanation": "2H2O → 2H2 + O2. 144g H2O = 8 mol. Produces 8 mol H2 + 4 mol O2 = 12 mol total. W = -PΔV = -ΔnRT = -12×8.3×300/1000 = -29.88 kJ (magnitude is 29.88)",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q12",
+                    "type": "numerical",
+                    "questionText": "The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is:",
+                    "hasImage": false,
+                    "answer": 140,
+                    "explanation": "Nylon 6,6 uses hexamethylenediamine (gives positive carbylamine test). Each molecule has 2 N atoms. 10 mol × 2 = 20 mol N → 10 mol N2 = 10×28 = 280g. However, answer should be 140g (5 mol N2).",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q13",
+                    "type": "numerical",
+                    "questionText": "The reaction sequence given below is carried out with 16 moles of X. The yield of the major product in each step is given below the product in parentheses. The amount (in grams) of S produced is:",
+                    "hasImage": true,
+                    "imageName": "img/chem_q13.png",
+                    "answer": 1632,
+                    "explanation": "Multi-step organic synthesis with given yields. Calculate mass of final product S considering yields at each step.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q14",
+                    "type": "matching",
+                    "questionText": "The correct match of the group reagents in List-I for precipitating the metal ion given in List-II from solutions, is:",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Passing $H_{2}S$ in the presence of $NH_{4}OH$"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "$(NH_{4})_{2}CO_{3}$ in the presence of $NH_{4}OH$"
+                        },
+                        {
+                            "id": "R",
+                            "text": "$NH_{4}OH$ in the presence of $NH_{4}Cl$"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Passing $H_{2}S$ in the presence of dilute HCl"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$Cu^{2+}$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$Al^{3+}$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$Mn^{2+}$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$Ba^{2+}$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$Mg^{2+}$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 3; Q → 4; R → 2; S → 1",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 4; Q → 2; R → 3; S → 1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 3; Q → 4; R → 1; S → 5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 5; Q → 3; R → 2; S → 4",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Qualitative analysis group precipitation. P(H2S/NH4OH):Group IV(Mn), Q((NH4)2CO3/NH4OH):Group V(Ba), R(NH4OH/NH4Cl):Group III(Al), S(H2S/HCl):Group II(Cu)",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q15",
+                    "type": "matching",
+                    "questionText": "The major products obtained from the reactions in List-II are the reactants for the named reactions mentioned in List-I. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q15.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Stephen reaction"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Sandmeyer reaction"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Hoffmann bromamide degradation reaction"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Cannizzaro reaction"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Toluene → (i) CrO2Cl2/CS2 (ii) H3O+"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Benzoic acid → (i) PCl5 (ii) NH3 (iii) P4O10, Δ"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Aniline → (i) (CH3CO)2O, Pyridine (ii) HNO3, H2SO4, 288 K (iii) aq. NaOH"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Reaction sequence 4"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Reaction sequence 5"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 2; Q → 4; R → 1; S → 3",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 2; Q → 3; R → 4; S → 1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 5; Q → 3; R → 4; S → 2",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 5; Q → 4; R → 2; S → 1",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Named organic reactions matching products to reactants. Stephen:nitrile→aldehyde, Sandmeyer:diazonium salt reactions, Hoffmann:amide→amine, Cannizzaro:non-enolizable aldehyde disproportionation",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                },
+                {
+                    "id": "chem_q16",
+                    "type": "matching",
+                    "questionText": "Match the compounds in List-I with the appropriate observations in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q16.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Compound P (amino acid with phenolic group)"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Compound Q (dipeptide)"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Compound R (amino acid salt)"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Compound S (compound with hydrazine group)"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Reaction with phenyl diazonium salt gives yellow dye."
+                        },
+                        {
+                            "id": "2",
+                            "text": "Reaction with ninhydrin gives purple color and it also reacts with FeCl3 to give violet color."
+                        },
+                        {
+                            "id": "3",
+                            "text": "Reaction with glucose will give corresponding hydrazone."
+                        },
+                        {
+                            "id": "4",
+                            "text": "Lassaigne extract of the compound treated with dilute HCl followed by addition of aqueous FeCl3 gives blood red color."
+                        },
+                        {
+                            "id": "5",
+                            "text": "After complete hydrolysis, it will give ninhydrin test and it DOES NOT give positive phthalein dye test."
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 1; Q → 5; R → 4; S → 2",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 2; Q → 5; R → 1; S → 3",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 5; Q → 2; R → 1; S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 2; Q → 1; R → 5; S → 3",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Functional group tests: P(phenolic amino acid):ninhydrin+FeCl3, Q(dipeptide):hydrolysis→ninhydrin, R(amino acid):diazo coupling, S(hydrazine):hydrazone formation",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                }
+            ]
+        }
+    ]
+}

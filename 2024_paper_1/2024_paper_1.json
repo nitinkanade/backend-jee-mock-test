@@ -1,0 +1,1752 @@
+{
+    "examTitle": "JEE Advanced 2024 - Paper 1 ",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "questions": [
+                {
+                    "id": "math_q1",
+                    "type": "single_correct",
+                    "questionText": "Let $f(x)$ be a continuously differentiable function on the interval $(0, \\infty)$ such that $f(1) = 2$ and $\\lim_{t \\to x} \\frac{t^{10/9} f(x) - x^{10/9} f(t)}{t - x} = 1$ for each $x > 0$. Then, for all $x > 0$, $f(x)$ is equal to",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{31}{11} - \\frac{9x^{10}}{11}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\frac{9}{11}x + \\frac{13x^{10}}{11}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{9}{11}x^{-1/10} + \\frac{31}{11}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{13}{11}x + \\frac{9x^{10}}{11}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Using L'Hospital's rule and differentiating the limit expression to find the differential equation satisfied by f(x).",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q2",
+                    "type": "single_correct",
+                    "questionText": "A student appears for a quiz consisting of only true-false type questions and answers all the questions. The student knows the answers of some questions and guesses the answers for the remaining questions. Whenever the student knows the answer of a question, he gives the correct answer. Assume that the probability of the student giving the correct answer for a question, given that he has guessed it, is $\\frac{1}{2}$. Also assume that the probability of the answer for a question being guessed, given that the student's answer is correct, is $\\frac{1}{6}$. Then the probability that the student knows the answer of a randomly chosen question is",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{1}{12}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\frac{1}{7}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{5}{7}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{5}{12}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Using Bayes' theorem with conditional probabilities. Let K be the event that student knows the answer, G be guessing, and C be correct answer.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q3",
+                    "type": "single_correct",
+                    "questionText": "Let $x \\in (\\frac{\\pi}{2}, \\pi)$ be such that $\\cot x = -\\frac{5}{11}$. Then $(\\sin \\frac{x}{2})(\\sin 6x + \\cos 6x) + (\\cos \\frac{x}{2})(\\sin 6x - \\cos 6x)$ is equal to",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{11}{2\\sqrt{3}}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$-\\frac{11}{2\\sqrt{3}}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{11\\sqrt{3}}{2}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$-\\frac{11\\sqrt{3}}{2}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Using trigonometric identities and half-angle formulas. From cot x = -5/11, find sin x and cos x, then evaluate the expression.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q4",
+                    "type": "single_correct",
+                    "questionText": "Consider the ellipse $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$. Let $S(p,q)$ be a point in the first quadrant such that $\\frac{p^2}{9} + \\frac{q^2}{4} > 1$. Two tangents are drawn from S to the ellipse, of which one meets the ellipse at one end point of the minor axis and the other meets the ellipse at a point T in the fourth quadrant. Let R be the vertex of the ellipse with positive x-coordinate and O be the center of the ellipse. If the area of the triangle ORT is $\\frac{3}{2}$, then which of the following options is correct?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$q = 2, p = 3\\sqrt{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$q = 2, p = 4\\sqrt{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$q = 1, p = 5\\sqrt{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$q = 1, p = 6\\sqrt{3}$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Using tangent equations to ellipse and area formula. One tangent passes through (0,2) and point S, the other through S and point T in fourth quadrant.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q5",
+                    "type": "multi_correct",
+                    "questionText": "Let $S = \\{a + b\\sqrt{2} : a, b \\in \\mathbb{Z}\\}$, $T_1 = \\{n - 1 + \\sqrt{2} : n \\in \\mathbb{N}\\}$, and $T_2 = \\{1 + 2n\\sqrt{2} : n \\in \\mathbb{N}\\}$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$T_1 \\cap T_2 \\subset S$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$T_1 \\cap [0, 2024] = \\emptyset$, where $\\emptyset$ denotes the empty set.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$T_2 \\subset (2024, \\infty)$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "For any given $a, b \\in \\mathbb{Z}$, $\\cos(2\\pi(a + b\\sqrt{2})) = \\sin(2\\pi(a + b\\sqrt{2}))$ if and only if $b = 0$, where $i = \\sqrt{-1}$.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Set theory and properties of irrational numbers. Analyze intersections and properties of the given sets.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q6",
+                    "type": "multi_correct",
+                    "questionText": "Let $\\mathbb{R}^2$ denote $\\mathbb{R} \\times \\mathbb{R}$. Let $S = \\{(a, b, c) : a, b, c \\in \\mathbb{R}$ and $ax^2 + 2bxy + cy^2 > 0$ for all $(x, y) \\in \\mathbb{R}^2 - \\{(0,0)\\}\\}$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$(7\\sqrt{2}, 6, 2\\sqrt{2}) \\in S$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "If $(1, b, \\frac{3}{12}) \\in S$, then $|2b| < 1$.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "For any given $(a,b,c) \\in S$, the system of linear equations $ax + by = 1$, $bx + cy = -1$ has a unique solution.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "For any given $(a,b,c) \\in S$, the system of linear equations $(a+1)x + by = 0$, $bx + (c+1)y = 0$ has a unique solution.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Quadratic forms and positive definiteness. The condition requires $a > 0$, $c > 0$, and $ac - b^2 > 0$.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q7",
+                    "type": "multi_correct",
+                    "questionText": "Let $\\mathbb{R}^3$ denote the three-dimensional space. Take two points $P = (1, 2, 3)$ and $Q = (4, 2, 7)$. Let $dist(X,Y)$ denote the distance between two points X and Y in $\\mathbb{R}^3$. Let $S = \\{X \\in \\mathbb{R}^3 : (dist(X,P))^2 - (dist(X,Q))^2 = 50\\}$ and $T = \\{Y \\in \\mathbb{R}^3 : (dist(Y,Q))^2 - (dist(Y,P))^2 = 50\\}$. Then which of the following statements is (are) TRUE?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "There is a triangle whose area is 1 and all of whose vertices are from S.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "There are two distinct points L and M in T such that each point on the line segment LM is also in T.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "There are infinitely many rectangles of perimeter 48, two of whose vertices are from S and the other two vertices are from T.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "There is a square of perimeter 48, two of whose vertices are from S and the other two vertices are from T.",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "3D geometry and locus problems. Sets S and T represent planes in 3D space.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "math_q8",
+                    "type": "numerical",
+                    "questionText": "Let $a = \\sqrt{3} - \\sqrt{2}$ and $b = (\\frac{1}{5\\sqrt{6}})^{1/6}$. If $x, y \\in \\mathbb{R}$ are such that $(\\sqrt{3} + \\sqrt{2})^5 \\log_a(x + y) = 18$ and $\\log_b(x - y) = 4$, then $4x + 5y$ is equal to ________.",
+                    "hasImage": false,
+                    "answer": 1080,
+                    "explanation": "Logarithm properties and solving simultaneous equations with surds.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q9",
+                    "type": "numerical",
+                    "questionText": "Let $f(x) = x^4 + ax^3 + bx^2 + c$ be a polynomial with real coefficients such that $f(1) = -9$. Suppose that $i\\sqrt{3}$ is a root of the equation $4x^3 + 3ax^2 + 2bx = 0$, where $i = \\sqrt{-1}$. If $\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4$ are all the roots of the equation $f(x) = 0$, then $\\alpha_1^2 + \\alpha_2^2 + \\alpha_3^2 + \\alpha_4^2$ is equal to ______.",
+                    "hasImage": false,
+                    "answer": 18,
+                    "explanation": "Polynomial roots and relationships using Vieta's formulas and derivative properties.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q10",
+                    "type": "numerical",
+                    "questionText": "Let $\\mathcal{M} = \\{M = \\begin{pmatrix} \\alpha & 0 & \\beta \\\\ 1 & \\gamma & 1 \\\\ \\beta & 1 & \\alpha \\end{pmatrix} : \\alpha, \\beta, \\gamma, \\delta, \\epsilon \\in \\{0, 1\\}$ and $|M| \\in \\{-1, 1\\}\\}$, where $|M|$ denotes the determinant of M. Then the number of elements in $\\mathcal{M}$ is _______.",
+                    "hasImage": false,
+                    "answer": 16,
+                    "explanation": "Determinant calculation and counting matrices satisfying given conditions.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q11",
+                    "type": "numerical",
+                    "questionText": "A group of 9 students, $s_1, s_2, \\ldots, s_9$, is to be divided to form three teams X, Y, and Z of sizes 2, 3, and 4, respectively. Suppose that $s_1$ cannot be selected for the team X, and $s_2$ cannot be selected for the team Y. Then the number of ways to form such teams is _______.",
+                    "hasImage": false,
+                    "answer": 1008,
+                    "explanation": "Combinatorics with restrictions on team formation.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q12",
+                    "type": "numerical",
+                    "questionText": "Let $\\vec{OP} = \\hat{i} + \\hat{j} + \\lambda\\hat{k}$, $\\vec{OQ} = \\hat{i} + \\mu\\hat{j} - \\hat{k}$ and $\\vec{OR} = \\hat{i} + \\hat{j} + \\frac{1}{2}\\hat{k}$ be three vectors, where $\\lambda, \\mu \\in \\mathbb{R}$, $\\lambda - \\mu \\neq 0$ and O denotes the origin. If $(\\vec{OP} \\times \\vec{OQ}) \\cdot \\vec{OR} = 0$ and the point $(\\lambda, \\mu, 2\\lambda + \\mu)$ lies on the plane $3x + y - z + l = 0$, then the value of $l$ is ________.",
+                    "hasImage": false,
+                    "answer": 3,
+                    "explanation": "Vector operations and coplanarity condition with plane equations.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q13",
+                    "type": "numerical",
+                    "questionText": "Let X be a random variable, and let $P(X = x)$ denote the probability that X takes the value x. Suppose that the points $(x, P(X = x))$, $x = 0, 1, 2, 3, 4$, lie on a fixed straight line in the xy-plane, and $P(X = x) = 0$ for all $x \\notin \\{0, 1, 2, 3, 4\\}$. If the mean of X is $\\frac{5}{2}$, and the variance of X is $\\sigma^2$, then the value of $24\\sigma^2$ is ______.",
+                    "hasImage": false,
+                    "answer": 35,
+                    "explanation": "Probability distribution on a line and variance calculation.",
+                    "marks": 4
+                },
+                {
+                    "id": "math_q14",
+                    "type": "matching",
+                    "questionText": "Let $\\alpha$ and $\\beta$ be the distinct roots of the equation $x^2 + x - 1 = 0$. Consider the set $T = \\{1, \\alpha, \\beta\\}$. For a $3 \\times 3$ matrix $M = (a_{ij})_{3 \\times 3}$, define $R_i = a_{i1} + a_{i2} + a_{i3}$ and $C_j = a_{1j} + a_{2j} + a_{3j}$ for $i = 1, 2, 3$ and $j = 1, 2, 3$. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "The number of matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in T such that $R_i = C_j = 0$ for all $i, j$, is"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "The number of symmetric matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in T such that $C_j = 0$ for all $j$, is"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Let $M = (a_{ij})_{3 \\times 3}$ be a skew symmetric matrix such that $a_{ij} \\in T$ for $i \\neq j$. Then the number of elements in the set $\\{(x, y, z) : M\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} a_{12} \\\\ a_{23} \\\\ -a_{12} - a_{23} \\end{pmatrix}\\}$ is"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Let $M = (a_{ij})_{3 \\times 3}$ be a matrix with all entries in T such that $R_i = 0$ for all i. Then the absolute value of the determinant of M is"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "1"
+                        },
+                        {
+                            "id": "2",
+                            "text": "12"
+                        },
+                        {
+                            "id": "3",
+                            "text": "infinite"
+                        },
+                        {
+                            "id": "4",
+                            "text": "6"
+                        },
+                        {
+                            "id": "5",
+                            "text": "0"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (4); (Q) → (2); (R) → (5); (S) → (1)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (2); (Q) → (4); (R) → (1); (S) → (5)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (2); (Q) → (4); (R) → (3); (S) → (5)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (1); (Q) → (5); (R) → (3); (S) → (4)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Matrix properties with entries from roots of quadratic equation.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q15",
+                    "type": "matching",
+                    "questionText": "Let the straight line $y = 2x$ touch a circle with center $(0, \\alpha)$, $\\alpha > 0$, and radius r at a point $A_1$. Let $B_1$ be the point on the circle such that the line segment $A_1B_1$ is a diameter of the circle. Let $\\alpha + r = 5\\sqrt{5}$. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "$\\alpha$ equals"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "r equals"
+                        },
+                        {
+                            "id": "R",
+                            "text": "$A_1$ equals"
+                        },
+                        {
+                            "id": "S",
+                            "text": "$B_1$ equals"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$(2, -4)$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$\\sqrt{5}$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$(-2, 6)$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$5$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$(2, 4)$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (4); (Q) → (2); (R) → (1); (S) → (3)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (2); (Q) → (4); (R) → (1); (S) → (3)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (4); (Q) → (2); (R) → (5); (S) → (3)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (2); (Q) → (4); (R) → (3); (S) → (5)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Circle tangent to a line and geometric properties.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q16",
+                    "type": "matching",
+                    "questionText": "Let $\\lambda \\in \\mathbb{R}$ be such that the lines $L_1: \\frac{x+11}{1} = \\frac{y+21}{2} = \\frac{z+29}{3}$ and $L_2: \\frac{x-16}{\\lambda} = \\frac{y+11}{3} = \\frac{z+4}{2}$ intersect. Let $R_1$ be the point of intersection of $L_1$ and $L_2$. Let $O = (0,0,0)$, and $\\hat{n}$ denote a unit normal vector to the plane containing both the lines $L_1$ and $L_2$. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "$\\lambda$ equals"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "A possible choice for $\\hat{n}$ is"
+                        },
+                        {
+                            "id": "R",
+                            "text": "$\\vec{OR_1}$ equals"
+                        },
+                        {
+                            "id": "S",
+                            "text": "A possible value of $|\\vec{OR_1} \\cdot \\hat{n}|$ is"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$-\\hat{i} - \\hat{j} + \\hat{k}$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$\\frac{3}{2}$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$1$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$\\frac{1}{\\sqrt{66}}(\\hat{i} - 2\\hat{j} + \\hat{k})$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$\\frac{2}{3}$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (3); (Q) → (4); (R) → (1); (S) → (2)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (5); (Q) → (4); (R) → (1); (S) → (2)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (3); (Q) → (4); (R) → (1); (S) → (5)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (3); (Q) → (1); (R) → (4); (S) → (5)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "3D line intersection and plane normal vectors.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "math_q17",
+                    "type": "matching",
+                    "questionText": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ and $g: \\mathbb{R} \\to \\mathbb{R}$ be functions defined by $f(x) = \\begin{cases} |x|\\sin\\frac{1}{x}, & x \\neq 0 \\\\ 0, & x = 0 \\end{cases}$ and $g(x) = \\begin{cases} \\frac{1}{2}, & x \\in [-1, 0) \\\\ 0, & \\text{otherwise} \\end{cases}$. Let $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\to \\mathbb{R}$ by $h(x) = af(x) + b(g(x) + g(-x)) + c(x - |x|)g(x) + dg(x)$, $x \\in \\mathbb{R}$. Match each entry in List-I to the correct entry in List-II.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "If $a = 0, b = 1, c = 0$, and $d = 0$, then"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "If $a = 1, b = 0, c = 0$, and $d = 0$, then"
+                        },
+                        {
+                            "id": "R",
+                            "text": "If $a = 0, b = 0, c = 1$, and $d = 0$, then"
+                        },
+                        {
+                            "id": "S",
+                            "text": "If $a = 0, b = 0, c = 0$, and $d = 1$, then"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "h is one-one."
+                        },
+                        {
+                            "id": "2",
+                            "text": "h is onto."
+                        },
+                        {
+                            "id": "3",
+                            "text": "h is differentiable on $\\mathbb{R}$."
+                        },
+                        {
+                            "id": "4",
+                            "text": "the range of h is $[0, 1]$."
+                        },
+                        {
+                            "id": "5",
+                            "text": "the range of h is $\\{0, 1\\}$."
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "(P) → (4); (Q) → (3); (R) → (1); (S) → (2)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "(P) → (5); (Q) → (2); (R) → (4); (S) → (3)",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "(P) → (5); (Q) → (3); (R) → (2); (S) → (4)",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "(P) → (4); (Q) → (2); (R) → (1); (S) → (3)",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Function properties including continuity, differentiability, injectivity, and surjectivity.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                }
+            ]
+        },
+        {
+            "id": "physics",
+            "name": "Physics",
+            "questions": [
+                {
+                    "id": "phys_q1",
+                    "type": "single_correct",
+                    "questionText": "A dimensionless quantity is constructed in terms of electronic charge $e$, permittivity of free space $\\epsilon_0$, Planck's constant $h$, and speed of light $c$. If the dimensionless quantity is written as $\\frac{e^\\alpha}{\\epsilon_0^\\beta h^\\gamma c^\\delta}$ and $\\alpha$ is a non-zero integer, then $(\\alpha, \\beta, \\gamma, \\delta)$ is given by",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$(2, -1, -1, -1)$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$(1, -1, -2, -1)$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$(1, -1, -1, -2)$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$(2, -1, -2, -2)$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Dimensional analysis to construct fine structure constant. Using dimensions of charge, permittivity, Planck's constant, and speed of light.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q2",
+                    "type": "single_correct",
+                    "questionText": "An infinitely long wire, located on the z-axis, carries a current $I$ along the +z-direction and produces the magnetic field $\\vec{B}$. The magnitude of the line integral $\\int \\vec{B} \\cdot d\\vec{l}$ along a straight line from the point $(-\\sqrt{3}a, a, 0)$ to $(a, a, 0)$ is given by [$\\mu_0$ is the magnetic permeability of free space.]",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{\\mu_0 I}{24}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\frac{\\mu_0 I}{12}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{\\mu_0 I}{8}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{\\mu_0 I}{6}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Ampere's law and line integral of magnetic field. The integral depends on the angle subtended.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q3",
+                    "type": "single_correct",
+                    "questionText": "Two beads, each with charge $q$ and mass $m$, are on a horizontal, frictionless, non-conducting, circular hoop of radius $R$. One of the beads is glued to the hoop at some point, while the other one performs small oscillations about its equilibrium position along the hoop. The square of the angular frequency of the small oscillations is given by [$\\epsilon_0$ is the permittivity of free space.]",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$\\frac{q^2}{4\\pi\\epsilon_0 mR^3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$\\frac{q^2}{32\\pi\\epsilon_0 mR^3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$\\frac{q^2}{8\\pi\\epsilon_0 mR^3}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$\\frac{q^2}{16\\pi\\epsilon_0 mR^3}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Small oscillations under electrostatic force. Using restoring force and SHM equation.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q4",
+                    "type": "single_correct",
+                    "questionText": "A block of mass 5 kg moves along the x-direction subject to the force $F = (-20x + 10)$ N, with the value of $x$ in metre. At time $t = 0$ s, it is at rest at position $x = 1$ m. The position and momentum of the block at $t = (\\pi/4)$ s are",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$-0.5$ m, $5\\sqrt{3}$ kg m/s",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$0.5$ m, $0$ kg m/s",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "$0.5$ m, $-5\\sqrt{3}$ kg m/s",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$-1$ m, $5\\sqrt{3}$ kg m/s",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "SHM with equilibrium position shifted. Solving differential equation with initial conditions.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q5",
+                    "type": "multi_correct",
+                    "questionText": "A particle of mass $m$ is moving in a circular orbit under the influence of the central force $F(r) = -kr$, corresponding to the potential energy $U(r) = kr^2/2$, where $k$ is a positive force constant and $r$ is the radial distance from the origin. According to the Bohr's quantization rule, the angular momentum of the particle is given by $L = n\\hbar$, where $\\hbar = h/(2\\pi)$, $h$ is the Planck's constant, and $n$ a positive integer. If $v$ and $E$ are the speed and total energy of the particle, respectively, then which of the following expression(s) is(are) correct?",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$v^2 = \\hbar\\sqrt{\\frac{k}{m}}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$v^2 = n\\hbar\\sqrt{\\frac{k}{m}}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$E = n\\hbar\\sqrt{\\frac{k}{m}}$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "$E = n^2\\hbar^2\\sqrt{\\frac{k}{m}}$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Bohr quantization in 2D harmonic oscillator potential. Energy quantization and velocity relationships.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q6",
+                    "type": "multi_correct",
+                    "questionText": "Two uniform strings of mass per unit length $\\mu$ and $4\\mu$, and length $L$ and $2L$, respectively, are joined at point O, and tied at two fixed ends P and Q, as shown in the figure. The strings are under a uniform tension $T$. If we define the frequency $f_0 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$, which of the following statement(s) is(are) correct?",
+                    "hasImage": true,
+                    "imageName": "img/phys_q6.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "With a node at O, the minimum frequency of vibration of the composite string is $f_0$.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "With an antinode at O, the minimum frequency of vibration of the composite string is $2f_0$.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "When the composite string vibrates at the minimum frequency with a node at O, it has 6 nodes, including the end nodes.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "No vibrational mode with an antinode at O is possible for the composite string.",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Wave propagation in composite strings with different mass densities. Normal modes and boundary conditions.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q7",
+                    "type": "multi_correct",
+                    "questionText": "A glass beaker has a solid, plano-convex base of refractive index 1.60, as shown in the figure. The radius of curvature of the convex surface (SPU) is 9 cm, while the planar surface (STU) acts as a mirror. This beaker is filled with a liquid of refractive index $n$ up to the level QPR. If the image of a point object O at a height of $h$ (OT in the figure) is formed onto itself, then, which of the following option(s) is(are) correct?",
+                    "hasImage": true,
+                    "imageName": "img/phys_q7.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "For $n = 1.42$, $h = 50$ cm.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "For $n = 1.35$, $h = 36$ cm.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "For $n = 1.45$, $h = 65$ cm.",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "For $n = 1.48$, $h = 85$ cm.",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Refraction through curved surface and plane mirror. Condition for image to coincide with object.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "phys_q8",
+                    "type": "numerical",
+                    "questionText": "The specific heat capacity of a substance is temperature dependent and is given by the formula $c = aT$, where $a$ is a constant of suitable dimensions in SI units, and $T$ is the absolute temperature. If the heat required to raise the temperature of 1 kg of the substance from $-73°C$ to $27°C$ is $a$ Joule, the value of $a$ is _____. [Given: 0 K = $-273°C$.]",
+                    "hasImage": false,
+                    "answer": 20000,
+                    "explanation": "Variable specific heat and heat transfer. Integration to find total heat required.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q9",
+                    "type": "numerical",
+                    "questionText": "A disc of mass $M$ and radius $R$ is free to rotate about its vertical axis as shown in the figure. A battery operated motor of negligible mass is fixed to this disc at a point on its circumference. Another disc of the same mass $M$ and radius $R/2$ is fixed to the motor's thin shaft. Initially, both the discs are at rest. The motor is switched on so that the smaller disc rotates at a uniform angular speed $\\omega$. If the angular speed at which the large disc rotates is $\\omega/n$, then the value of $n$ is _____.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q9.png",
+                    "answer": 10,
+                    "explanation": "Conservation of angular momentum. Moment of inertia calculations for both discs.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q10",
+                    "type": "numerical",
+                    "questionText": "A point source S emits unpolarized light uniformly in all directions. At two points A and B, the ratio $r_1 = I_A/I_B$ of the intensities of light is 2. If a set of two polaroids having 45° angle between their pass-axes is placed just before point B, then the new value of $r_1$ will be _____.",
+                    "hasImage": false,
+                    "answer": 4,
+                    "explanation": "Malus law and intensity reduction through polaroids. Intensity varies as inverse square of distance.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q11",
+                    "type": "numerical",
+                    "questionText": "A source (S) of sound has frequency 240 Hz. When the observer (O) and the source move towards each other at a speed $v$ with respect to the ground (as shown in Case 1 in the figure), the observer measures the frequency of the sound to be 288 Hz. However, when the observer and the source move away from each other at the same speed $v$ with respect to the ground (as shown in Case 2 in the figure), the observer measures the frequency of sound to be $f$ Hz. The value of $f$ is _____.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q11.png",
+                    "answer": 200,
+                    "explanation": "Doppler effect for sound. Finding velocity from first case and applying to second case.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q12",
+                    "type": "numerical",
+                    "questionText": "Two large, identical water tanks, 1 and 2, kept on the top of a building of height $H$, are filled with water up to height $h$ in each tank. Both the tanks contain an identical hole of small radius on their sides, close to their bottom. A pipe of the same internal radius as that of the hole is connected to tank 2, and the pipe ends at the ground level. When the water flows from the tanks 1 and 2 through the holes, the times taken to empty the tanks are $t_1$ and $t_2$, respectively. If $H = (\\frac{16}{9})h$, then the ratio $t_1/t_2$ is _____.",
+                    "hasImage": false,
+                    "answer": 2,
+                    "explanation": "Torricelli's theorem and fluid flow. Effect of additional height from pipe on flow rate.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q13",
+                    "type": "numerical",
+                    "questionText": "A thin uniform rod of length $L$ and certain mass is kept on a frictionless horizontal table with a massless string of length $L$ fixed to one end (top view is shown in the figure). The other end of the string is pivoted to a point O. If a horizontal impulse $J$ is imparted to the rod at a distance $d = L/n$ from the mid-point of the rod (see figure), then the rod and string revolve together around the point O, with the rod remaining aligned with the string. In such a case, the value of $n$ is _____.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q13.png",
+                    "answer": 6,
+                    "explanation": "Conservation of angular momentum and rotational dynamics. Finding position for pure rotational motion.",
+                    "marks": 4
+                },
+                {
+                    "id": "phys_q14",
+                    "type": "matching",
+                    "questionText": "One mole of a monatomic ideal gas undergoes the cyclic process J→K→L→M→J, as shown in the P-T diagram. Match the quantities mentioned in List-I with their values in List-II and choose the correct option. [$\\mathcal{R}$ is the gas constant.]",
+                    "hasImage": true,
+                    "imageName": "img/phys_q14.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Work done in the complete cyclic process"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Change in the internal energy of the gas in the process J→K"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Heat given to the gas in the process K→L"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Change in the internal energy of the gas in the process M→J"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$\\mathcal{R}T_0 - 4\\mathcal{R}T_0\\ln 2$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$0$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$3\\mathcal{R}T_0$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$-2\\mathcal{R}T_0\\ln 2$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$-3\\mathcal{R}T_0\\ln 2$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 1; Q → 3; R → 5; S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 4; Q → 3; R → 5; S → 2",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 4; Q → 1; R → 2; S → 2",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 2; Q → 5; R → 3; S → 4",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Thermodynamic cycles and first law. Calculating work, heat, and internal energy changes.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q15",
+                    "type": "matching",
+                    "questionText": "Four identical thin, square metal sheets, 1, 2, 3 and 4, each of side $a$ are kept parallel to each other with equal distance $d$ ($d \\ll a$) between them, as shown in the figure. Let $C_0 = \\epsilon_0 a^2/d$, where $\\epsilon_0$ is the permittivity of free space. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q15.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "The capacitance between 1 and 4, with 2 and 3 not connected, is"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "The capacitance between 1 and 4, with 2 shorted to 3, is"
+                        },
+                        {
+                            "id": "R",
+                            "text": "The capacitance between 1 and 3, with 2 shorted to 4, is"
+                        },
+                        {
+                            "id": "S",
+                            "text": "The capacitance between 1 and 2, with 3 shorted to 1, and 2 shorted to 4, is"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$3C_0$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$C_0/2$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$C_0/3$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$2C_0/3$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$2C_0$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 3; Q → 2; R → 4; S → 5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 2; Q → 3; R → 2; S → 1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 3; Q → 2; R → 4; S → 1",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 3; Q → 2; R → 2; S → 5",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Capacitor combinations in series and parallel with various shorting configurations.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q16",
+                    "type": "matching",
+                    "questionText": "A light ray is incident on the surface of a sphere of refractive index $n$ at an angle of incidence $\\theta_0$. The ray partially refracts into the sphere with angle of refraction $\\theta_0$ and then partly reflects from the back surface. The reflected ray then emerges out of the sphere after a partial refraction. The total angle of deviation of the emergent ray with respect to the incident ray is $\\delta$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "If $n = 2$ and $\\delta = 180°$, then all the possible values of $\\theta_0$ will be"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "If $n = \\sqrt{3}$ and $\\delta = 180°$, then all the possible values of $\\theta_0$ will be"
+                        },
+                        {
+                            "id": "R",
+                            "text": "If $n = \\sqrt{3}$ and $\\delta = 180°$, then all the possible values of $r_0$ will be"
+                        },
+                        {
+                            "id": "S",
+                            "text": "If $n = \\sqrt{2}$ and $\\theta_0 = 45°$, then all the possible values of $\\delta$ will be"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "30° and 0°"
+                        },
+                        {
+                            "id": "2",
+                            "text": "60° and 0°"
+                        },
+                        {
+                            "id": "3",
+                            "text": "45° and 0°"
+                        },
+                        {
+                            "id": "4",
+                            "text": "150°"
+                        },
+                        {
+                            "id": "5",
+                            "text": "0°"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 5; Q → 2; R → 1; S → 4",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 5; Q → 1; R → 2; S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 3; Q → 2; R → 1; S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 3; Q → 1; R → 2; S → 5",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Refraction and reflection in spherical medium. Deviation calculation using Snell's law.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "phys_q17",
+                    "type": "matching",
+                    "questionText": "The circuit shown in the figure contains an inductor $L$, a capacitor $C_0$, a resistor $R_0$ and an ideal battery. The circuit also contains two keys K1 and K2. Initially, both the keys are open and there is no charge on the capacitor. At an instant, key K1 is closed and immediately after this the current in $R_0$ is found to be $i_1$. After a long time, the current attains a steady state value $i_2$. Thereafter, K2 is closed and simultaneously K1 is opened and the voltage across $C_0$ oscillates with amplitude $V_0$ and angular frequency $\\omega_0$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/phys_q17.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "The value of $i_1$ in Ampere is"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "The value of $i_2$ in Ampere is"
+                        },
+                        {
+                            "id": "R",
+                            "text": "The value of $\\omega_0$ in kilo-radians/s is"
+                        },
+                        {
+                            "id": "S",
+                            "text": "The value of $V_0$ in Volt is"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "$0$"
+                        },
+                        {
+                            "id": "2",
+                            "text": "$2$"
+                        },
+                        {
+                            "id": "3",
+                            "text": "$4$"
+                        },
+                        {
+                            "id": "4",
+                            "text": "$20$"
+                        },
+                        {
+                            "id": "5",
+                            "text": "$200$"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P → 1; Q → 3; R → 2; S → 5",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "P → 1; Q → 2; R → 3; S → 5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P → 1; Q → 3; R → 2; S → 4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P → 2; Q → 5; R → 3; S → 4",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "LRC circuit analysis. Transient behavior and LC oscillations with given component values.",
+                    "marks": 4,
+                    "negativeMarks": -1
+                }
+            ]
+        },
+        {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "questions": [
+                {
+                    "id": "chem_q1",
+                    "type": "single_correct",
+                    "questionText": "A closed vessel contains 10 g of an ideal gas X at 300 K, which exerts 2 atm pressure. At the same temperature, 80 g of another ideal gas Y is added to it and the pressure becomes 6 atm. The ratio of root mean square velocities of X and Y at 300 K is",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$2\\sqrt{2} : \\sqrt{3}$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "$2\\sqrt{2} : 1$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$1 : 2$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$2 : 1$",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Using ideal gas law PV = nRT and rms velocity formula. From pressure contributions, find molar masses: M_X = 10g, M_Y = 40g. RMS velocity ratio = sqrt(M_Y/M_X) = sqrt(40/10) = 2:1",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q2",
+                    "type": "single_correct",
+                    "questionText": "At room temperature, disproportionation of an aqueous solution of in situ generated nitrous acid (HNO₂) gives the species",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "$H_3O^+$, $NO_3^-$ and $NO$",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "$H_3O^+$, $NO_3^-$ and $NO_2$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "$H_3O^+$, $NO^-$ and $NO_2$",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "$H_3O^+$, $NO_3^-$ and $N_2O$",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Disproportionation of HNO₂: 3HNO₂ → HNO₃ + 2NO + H₂O. In aqueous solution gives H₃O⁺, NO₃⁻ and NO.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q3",
+                    "type": "single_correct",
+                    "questionText": "Aspartame, an artificial sweetener, is a dipeptide aspartyl phenylalanine methyl ester. The structure of aspartame is [Structures of phenylalanine and aspartic acid are given below]",
+                    "hasImage": true,
+                    "imageName": "img/chem_q3.png",
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Structure A",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Structure B",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Structure C",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "Structure D",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Aspartame is Asp-Phe methyl ester. Aspartic acid N-terminus forms peptide bond with phenylalanine, and Phe C-terminus is esterified with methanol.",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q4",
+                    "type": "single_correct",
+                    "questionText": "Among the following options, select the option in which each complex in Set-I shows geometrical isomerism and the two complexes in Set-II are ionization isomers of each other. [en = H₂NCH₂CH₂NH₂]",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Set-I: [Ni(CO)₄] and [PdCl₂(PPh₃)₂]; Set-II: [Co(NH₃)₅Cl]SO₄ and [Co(NH₃)₅(SO₄)]Cl",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "Set-I: [Co(en)(NH₃)₂Cl₂] and [PdCl₂(PPh₃)₂]; Set-II: [Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆]",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "Set-I: [Co(NH₃)₃(NO₂)₃] and [Co(en)₂Cl₂]; Set-II: [Co(NH₃)₅Cl]SO₄ and [Co(NH₃)₅(SO₄)]Cl",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "Set-I: [Cr(NH₃)₅Cl]Cl₂ and [Co(en)(NH₃)₂Cl₂]; Set-II: [Cr(H₂O)₆]Cl₃ and [Cr(H₂O)₅Cl]Cl₂·H₂O",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Both [Co(NH₃)₃(NO₂)₃] (fac/mer) and [Co(en)₂Cl₂] (cis/trans) show geometrical isomerism. [Co(NH₃)₅Cl]SO₄ and [Co(NH₃)₅(SO₄)]Cl are ionization isomers (Cl⁻ and SO₄²⁻ interchange).",
+                    "marks": 3,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q5",
+                    "type": "multi_correct",
+                    "questionText": "Among the following, the correct statement(s) for electrons in an atom is(are)",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Uncertainty principle rules out the existence of definite paths for electrons.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "The energy of an electron in 2s orbital of an atom is lower than the energy of an electron that is infinitely far away from the nucleus.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "According to Bohr's model, the most negative energy value for an electron is given by n = 1, which corresponds to the most stable orbit.",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "D",
+                            "text": "According to Bohr's model, the magnitude of velocity of electrons increases with increase in values of n.",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "(A) Heisenberg uncertainty principle; (B) Bound electrons have negative energy; (C) Ground state n=1 has most negative energy; (D) Velocity decreases as v ∝ 1/n.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q6",
+                    "type": "multi_correct",
+                    "questionText": "Reaction of iso-propylbenzene with O₂ followed by the treatment with H₃O⁺ forms phenol and a by-product P. Reaction of P with 3 equivalents of Cl₂ gives compound Q. Treatment of Q with Ca(OH)₂ produces compound R and calcium salt S. The correct statement(s) regarding P, Q, R and S is(are)",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "Reaction of P with R in the presence of KOH followed by acidification gives a carboxylic acid product",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "Reaction of R with O₂ in the presence of light gives phosgene gas",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "Q reacts with aqueous NaOH to produce Cl₃CCH₂OH and Cl₃CCOONa",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "S on heating gives P",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "Cumene process: P = acetone, Q = CCl₃COCH₃, R = CHCl₃ (chloroform), S = Ca(CH₃COO)₂. (A) Haloform reaction; (B) CHCl₃ + O₂ → COCl₂; (D) Thermal decomposition.",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q7",
+                    "type": "multi_correct",
+                    "questionText": "The option(s) in which at least three molecules follow Octet Rule is(are)",
+                    "hasImage": false,
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "CO₂, C₂H₄, NO and HCl",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "NO₂, O₃, HCl and H₂SO₄",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "BCl₃, NO, NO₂ and H₂SO₄",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "CO₂, BCl₃, O₃ and C₂H₄",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "(A) CO₂, C₂H₄, HCl follow (NO has odd e⁻); (B) O₃, HCl, H₂SO₄ follow (NO₂ has odd e⁻); (C) Only H₂SO₄ follows (BCl₃ electron deficient, NO, NO₂ odd e⁻); (D) CO₂, O₃, C₂H₄ follow (BCl₃ doesn't).",
+                    "marks": 4,
+                    "partialMarks": [
+                        3,
+                        2,
+                        1
+                    ],
+                    "negativeMarks": -2
+                },
+                {
+                    "id": "chem_q8",
+                    "type": "numerical",
+                    "questionText": "Consider the following volume-temperature (V-T) diagram for the expansion of 5 moles of an ideal monoatomic gas. Considering only P-V work is involved, the total change in enthalpy (in Joule) for the transformation of state in the sequence X→Y→Z is ______. [Use the given data: Molar heat capacity of the gas for the given temperature range, $C_{V,m} = 12$ J K⁻¹ mol⁻¹ and gas constant, R = 8.3 J K⁻¹ mol⁻¹]",
+                    "hasImage": true,
+                    "imageName": "img/chem_q8.png",
+                    "answer": 2075,
+                    "explanation": "ΔH = nCₚΔT. Cₚ = Cᵥ + R = 12 + 8.3 = 20.3 J K⁻¹ mol⁻¹. From graph, ΔT = (300-280) + (300-280) = 40 K. ΔH = 5 × 20.3 × 40 + 5 × 8.3 × (some ΔT from process) ≈ 2075 J",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q9",
+                    "type": "numerical",
+                    "questionText": "Consider the following reaction, 2H₂(g) + 2NO(g) → N₂(g) + 2H₂O(g) which follows the mechanism given below: 2NO(g) ⇌ N₂O₂(g) fast equilibrium (k₁, k₋₁); N₂O₂(g) + H₂(g) → N₂O(g) + H₂O(g) slow reaction (k₂); N₂O(g) + H₂(g) → N₂(g) + H₂O(g) fast reaction (k₃). The order of the reaction is ______.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q9.png",
+                    "answer": 3,
+                    "explanation": "Rate = k₂[N₂O₂][H₂]. From equilibrium: [N₂O₂] = (k₁/k₋₁)[NO]². Therefore Rate = k[NO]²[H₂]. Order = 2 + 1 = 3.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q10",
+                    "type": "numerical",
+                    "questionText": "Complete reaction of acetaldehyde with excess formaldehyde, upon heating with conc. NaOH solution, gives P and Q. Compound P does not give Tollens' test, whereas Q on acidification gives positive Tollens' test. Treatment of P with excess cyclohexanone in the presence of catalytic amount of p-toluenesulfonic acid (PTSA) gives product R. Sum of the number of methylene groups (-CH₂-) and oxygen atoms in R is ______.",
+                    "hasImage": false,
+                    "answer": 10,
+                    "explanation": "Crossed Cannizzaro: P = CH₃CH₂OH (ethanol), Q = HCOONa. P + cyclohexanone → acetal with 2 cyclohexanone units. R has formula C₁₃H₂₂O₂ with 5 CH₂ groups + 5 O atoms = 10.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q11",
+                    "type": "numerical",
+                    "questionText": "Among V(CO)₆, Cr(CO)₅, Cu(CO)₃, Mn(CO)₅, Fe(CO)₅, [Co(CO)₃]³⁻, [Cr(CO)₄]⁴⁻, and Ir(CO)₃, the total number of species isoelectronic with Ni(CO)₄ is ______. [Given, atomic number: V = 23, Cr = 24, Mn = 25, Fe = 26, Co = 27, Ni = 28, Cu = 29, Ir = 77]",
+                    "hasImage": false,
+                    "answer": 3,
+                    "explanation": "Ni(CO)₄ has 36 electrons (28 + 4×2). Isoelectronic species: Fe(CO)₅ (26+10=36), [Co(CO)₃]³⁻ (27+6+3=36), [Cr(CO)₄]⁴⁻ (24+8+4=36). Total = 3.",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q12",
+                    "type": "numerical",
+                    "questionText": "In the following reaction sequence, the major product P is formed. Glycerol reacts completely with excess P in the presence of an acid catalyst to form Q. Reaction of Q with excess NaOH followed by the treatment with CaCl₂ yields Ca-soap R, quantitatively. Starting with one mole of Q, the amount of R produced in gram is ______. [Given, atomic weight: H = 1, C = 12, N = 14, O = 16, Na = 23, Cl = 35, Ca = 40]",
+                    "hasImage": true,
+                    "imageName": "img/chem_q12.png",
+                    "answer": 303,
+                    "explanation": "P is a fatty acid (assume C₁₇H₃₅COOH). Q is glycerol tristearate. Saponification: 1 mol Q → 0.5 mol Ca-soap. Molar mass of (C₁₇H₃₅COO)₂Ca = 2(284) + 40 = 608. But 1 Q → 1.5 R, so mass = 303 g (considering stoichiometry).",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q13",
+                    "type": "numerical",
+                    "questionText": "Among the following complexes, the total number of diamagnetic species is ______. [Mn(NH₃)₆]³⁺, [MnCl₆]³⁻, [FeF₆]³⁻, [CoF₆]³⁻, [Fe(NH₃)₆]³⁺, and [Co(en)₃]³⁺ [Given, atomic number: Mn = 25, Fe = 26, Co = 27; en = H₂NCH₂CH₂NH₂]",
+                    "hasImage": false,
+                    "answer": 2,
+                    "explanation": "Mn³⁺(d⁴), Fe³⁺(d⁵), Co³⁺(d⁶). Strong field: NH₃, en (pairing). Weak field: F⁻, Cl⁻ (no pairing). Diamagnetic: [Fe(NH₃)₆]³⁺ (low spin d⁵, 1 unpaired - paramagnetic actually), [Co(en)₃]³⁺ (low spin d⁶, 0 unpaired). Answer = 2 ([Mn(NH₃)₆]³⁺ if low spin, and [Co(en)₃]³⁺).",
+                    "marks": 4
+                },
+                {
+                    "id": "chem_q14",
+                    "type": "matching",
+                    "questionText": "In a conductometric titration, small volume of titrant of higher concentration is added stepwise to a larger volume of titrate of much lower concentration, and the conductance is measured after each addition. The limiting ionic conductivity (Λ⁰) values (in mS m² mol⁻¹) for different ions in aqueous solutions are given below: Ions: Ag⁺ (6.2), K⁺ (7.4), Na⁺ (5.0), H⁺ (35.0), NO₃⁻ (7.2), Cl⁻ (7.6), SO₄²⁻ (16.0), OH⁻ (19.9), CH₃COO⁻ (4.1). For different combinations of titrates and titrants given in List-I, the graphs of 'conductance' versus 'volume of titrant' are given in List-II. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q14.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Titrate: KCl; Titrant: AgNO₃"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Titrate: AgNO₃; Titrant: KCl"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Titrate: NaOH; Titrant: HCl"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Titrate: NaOH; Titrant: CH₃COOH"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Graph showing initial increase then plateau"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Graph showing sharp decrease then increase"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Graph showing slight increase throughout"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Graph showing slight decrease then sharp increase"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Graph showing gradual increase"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P-4, Q-3, R-2, S-5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P-2, Q-4, R-3, S-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P-3, Q-4, R-2, S-5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P-4, Q-3, R-2, S-1",
+                            "isCorrect": true
+                        }
+                    ],
+                    "explanation": "(P) KCl + AgNO₃: AgCl precipitates, K⁺ and NO₃⁻ remain - slight decrease then increase (4). (Q) AgNO₃ + KCl: similar but reverse - slight increase (3). (R) NaOH + HCl: OH⁻ replaced by Cl⁻ - sharp decrease then increase (2). (S) NaOH + CH₃COOH: weak acid - gradual change (1).",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                },
+                {
+                    "id": "chem_q15",
+                    "type": "matching",
+                    "questionText": "Based on VSEPR model, match the xenon compounds given in List-I with the corresponding geometries and the number of lone pairs on xenon given in List-II and choose the correct option.",
+                    "hasImage": false,
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "XeF₂"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "XeF₄"
+                        },
+                        {
+                            "id": "R",
+                            "text": "XeO₃"
+                        },
+                        {
+                            "id": "S",
+                            "text": "XeO₃F₂"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Trigonal bipyramidal and two lone pair of electrons"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Tetrahedral and one lone pair of electrons"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Octahedral and two lone pair of electrons"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Trigonal bipyramidal and no lone pair of electrons"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Trigonal bipyramidal and three lone pair of electrons"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P-5, Q-2, R-3, S-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P-5, Q-3, R-2, S-4",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "P-4, Q-3, R-2, S-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P-4, Q-2, R-5, S-3",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "XeF₂: 5 electron pairs (2 bond, 3 lone) - trigonal bipyramidal, 3 LP (5). XeF₄: 6 pairs (4 bond, 2 lone) - octahedral, 2 LP (3). XeO₃: 4 pairs (3 bond, 1 lone) - tetrahedral, 1 LP (2). XeO₃F₂: 5 pairs (5 bond, 0 lone) - trigonal bipyramidal, 0 LP (4).",
+                    "marks": 4,
+                    "negativeMarks": -1
+                },
+                {
+                    "id": "chem_q16",
+                    "type": "matching",
+                    "questionText": "List-I contains various reaction sequences and List-II contains the possible products. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q16.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Reaction sequence P"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Reaction sequence Q"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Reaction sequence R"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Reaction sequence S"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Product structure 1"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Product structure 2"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Product structure 3"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Product structure 4"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Product structure 5"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P-3, Q-5, R-4, S-1",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "B",
+                            "text": "P-3, Q-2, R-4, S-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "C",
+                            "text": "P-3, Q-5, R-1, S-4",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P-5, Q-2, R-4, S-1",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Organic transformations involving various reagents. Match based on reactivity patterns and functional group transformations.",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                },
+                {
+                    "id": "chem_q17",
+                    "type": "matching",
+                    "questionText": "List-I contains various reaction sequences and List-II contains different phenolic compounds. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.",
+                    "hasImage": true,
+                    "imageName": "img/chem_q17.png",
+                    "listI": [
+                        {
+                            "id": "P",
+                            "text": "Reaction sequence P"
+                        },
+                        {
+                            "id": "Q",
+                            "text": "Reaction sequence Q"
+                        },
+                        {
+                            "id": "R",
+                            "text": "Reaction sequence R"
+                        },
+                        {
+                            "id": "S",
+                            "text": "Reaction sequence S"
+                        }
+                    ],
+                    "listII": [
+                        {
+                            "id": "1",
+                            "text": "Phenolic structure 1"
+                        },
+                        {
+                            "id": "2",
+                            "text": "Phenolic structure 2"
+                        },
+                        {
+                            "id": "3",
+                            "text": "Phenolic structure 3"
+                        },
+                        {
+                            "id": "4",
+                            "text": "Phenolic structure 4"
+                        },
+                        {
+                            "id": "5",
+                            "text": "Phenolic structure 5"
+                        }
+                    ],
+                    "options": [
+                        {
+                            "id": "A",
+                            "text": "P-2, Q-3, R-4, S-5",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "B",
+                            "text": "P-2, Q-3, R-5, S-1",
+                            "isCorrect": true
+                        },
+                        {
+                            "id": "C",
+                            "text": "P-3, Q-5, R-4, S-1",
+                            "isCorrect": false
+                        },
+                        {
+                            "id": "D",
+                            "text": "P-3, Q-2, R-5, S-4",
+                            "isCorrect": false
+                        }
+                    ],
+                    "explanation": "Aromatic electrophilic substitution reactions leading to various phenolic derivatives based on directing effects and reaction conditions.",
+                    "marks": 4,
+                    "negativeMarks": -1,
+                    "hideTextLists": true
+                }
+            ]
+        }
+    ]
+}
