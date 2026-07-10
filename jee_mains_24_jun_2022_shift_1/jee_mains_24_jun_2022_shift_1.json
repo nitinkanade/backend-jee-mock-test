@@ -1,0 +1,2241 @@
+{
+    "examTitle": "JEE Main 2022 - 24 June Shift 1",
+    "examDate": "June 24, 2022",
+    "duration": "3 Hours",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "subsections": [
+                {
+                    "id": "math_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "math_q1",
+                            "type": "single_correct",
+                            "questionText": "If the sum of the squares of the reciprocals of the roots $\\alpha$ and $\\beta$ of the equation $3x^2 + \\lambda x - 1 = 0$ is $15$, then $6(\\alpha^3+\\beta^3)^2$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "46",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "36",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "24",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "18",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q2",
+                            "type": "single_correct",
+                            "questionText": "Let $A = \\{z \\in \\mathbb{C} : 1 \\leqslant |z-(1+i)| \\leqslant 2\\}$ and $B = \\{z \\in A : |z-(1-i)| = 1\\}$. Then, $B$",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "is an empty set",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "contains exactly two elements",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "contains exactly three elements",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "is an infinite set",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q3",
+                            "type": "single_correct",
+                            "questionText": "If $\\{a_i\\}_{i=1}^n$, where $n$ is an even integer, is an arithmetic progression with common difference $1$, and $\\sum_{i=1}^n a_i = 192$, $\\sum_{i=1}^{n/2} a_{2i} = 120$, then $n$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "18",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "36",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "96",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "48",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q4",
+                            "type": "single_correct",
+                            "questionText": "The remainder when $3^{2022}$ is divided by $5$ is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q5",
+                            "type": "single_correct",
+                            "questionText": "Let $S = \\{\\theta \\in [-\\pi, \\pi] - \\{\\pm\\frac{\\pi}{2}\\} : \\sin\\theta\\tan\\theta + \\tan\\theta = \\sin 2\\theta\\}$. If $T = \\sum_{\\theta \\in S}\\cos 2\\theta$, then $T + n(S)$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$7+\\sqrt{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$8+\\sqrt{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "9",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q6",
+                            "type": "single_correct",
+                            "questionText": "Let $x^2+y^2+Ax+By+C=0$ be a circle passing through $(0,6)$ and touching the parabola $y=x^2$ at $(2,4)$. Then $A+C$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "16",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{88}{5}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "72",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "-8",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q7",
+                            "type": "single_correct",
+                            "questionText": "Let $\\lambda x - 2y = \\mu$ be a tangent to the hyperbola $a^2x^2 - y^2 = b^2$. Then $\\left(\\frac{\\lambda}{a}\\right)^2 - \\left(\\frac{\\mu}{b}\\right)^2$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "-2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "-4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q8",
+                            "type": "single_correct",
+                            "questionText": "The number of choices for $\\Delta \\in \\{\\wedge, \\vee, \\Rightarrow, \\Leftrightarrow\\}$, such that $(p\\Delta q) \\Rightarrow ((p\\Delta \\sim q)\\vee((\\sim p)\\Delta q))$ is a tautology, is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q9",
+                            "type": "single_correct",
+                            "questionText": "Let $S = \\{\\sqrt{n} : 1 \\leqslant n \\leqslant 50 \\text{ and } n \\text{ is odd}\\}$. Let $a \\in S$ and $A = \\begin{bmatrix} 1 & 0 & a \\\\ -1 & 1 & 0 \\\\ -a & 0 & 1 \\end{bmatrix}$. If $\\sum_{a \\in S}\\det(\\text{adj } A) = 100\\lambda$, then $\\lambda$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "218",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "221",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "663",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1717",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q10",
+                            "type": "single_correct",
+                            "questionText": "The number of values of $\\alpha$ for which the system of equations $x+y+z=\\alpha$, $\\alpha x+2\\alpha y+3z=-1$, $x+3\\alpha y+5z=4$ is inconsistent, is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q11",
+                            "type": "single_correct",
+                            "questionText": "The set of all values of $k$ for which $(\\tan^{-1}x)^3+(\\cot^{-1}x)^3 = k\\pi^3, x \\in \\mathbb{R}$, is the interval",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\left[\\frac{1}{32}, \\frac{7}{8}\\right)$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\left(\\frac{1}{24}, \\frac{13}{16}\\right)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\left[\\frac{1}{48}, \\frac{13}{16}\\right]$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\left[\\frac{1}{32}, \\frac{9}{8}\\right)$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q12",
+                            "type": "single_correct",
+                            "questionText": "The domain of $f(x) = \\dfrac{\\cos^{-1}\\left(\\frac{x^2-5x+6}{x^2-9}\\right)}{\\log(x^2-3x+2)}$ is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$x \\in \\left[\\frac{-1}{2}, 1\\right) \\cup (2, \\infty) - \\{3\\}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$x \\in \\left[\\frac{-1}{2}, 1\\right] \\cup (2, \\infty) - \\{3\\}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$x \\in \\left(\\frac{-1}{2}, 1\\right) \\cup [2, \\infty) - \\{3\\}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$x \\in \\left[\\frac{-1}{2}, 1\\right) \\cup [2, \\infty) - \\{3\\}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q13",
+                            "type": "single_correct",
+                            "questionText": "For the function $f(x) = 4\\log_e(x-1) - 2x^2+4x+5, x>1$, which one of the following is NOT correct?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$f(x)$ is increasing in $(1,2)$ and decreasing in $(2,\\infty)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$f(x)=-1$ has exactly two solutions",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$f'(e) - f''(2) < 0$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$f(x)=0$ has a root in the interval $(e, e+1)$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q14",
+                            "type": "single_correct",
+                            "questionText": "If the tangent at the point $(x_1,y_1)$ on the curve $y=x^3+3x^2+5$ passes through the origin, then $(x_1,y_1)$ does NOT lie on the curve",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$x^2+\\frac{y^2}{81}=2$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{y^2}{9}-x^2=8$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$y=4x^2+5$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\frac{x}{3}-y^2=2$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q15",
+                            "type": "single_correct",
+                            "questionText": "The sum of absolute maximum and absolute minimum values of the function $f(x) = 2x^2+3x-2+\\sin x\\cos x$ in the interval $[0,1]$ is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$3+\\frac{\\sin(1)\\cos^2\\left(\\frac{1}{2}\\right)}{2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$3+\\frac{1}{2}(1+2\\cos(1))\\sin(1)$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$5+\\frac{1}{2}(\\sin(1)+\\sin(2))$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$2+\\sin\\left(\\frac{1}{2}\\right)\\cos\\left(\\frac{1}{2}\\right)$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q16",
+                            "type": "single_correct",
+                            "questionText": "The surface area of a balloon of spherical shape being inflated, increases at a constant rate. If initially, the radius of balloon is 3 units and after 5 seconds, it becomes 7 units, then its radius after 9 seconds is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "9",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "7",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q17",
+                            "type": "single_correct",
+                            "questionText": "If $x=x(y)$ is the solution of the differential equation $y\\frac{dx}{dy} = 2x+y^3(y+1)e^y, x(1)=0$; then $x(e)$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$e^e(e^3-1)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$e^3(e^e-1)$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$e^e-1$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$e^e(e^2-1)$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q18",
+                            "type": "single_correct",
+                            "questionText": "Let $\\hat{a},\\hat{b}$ be unit vectors. If $\\vec{c}$ be a vector such that the angle between $\\hat{a}$ and $\\vec{c}$ is $\\frac{\\pi}{12}$, and $\\hat{b}=\\vec{c}+2(\\vec{c}\\times\\hat{a})$, then $\\left|6\\vec{c}\\right|^2$ is equal to:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$6(3-\\sqrt{3})$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$6(3+\\sqrt{3})$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$3+\\sqrt{3}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$6(\\sqrt{3}+1)$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q19",
+                            "type": "single_correct",
+                            "questionText": "Bag $A$ contains 2 white, 1 black and 3 red balls and bag $B$ contains 3 black, 2 red and $n$ white balls. One bag is chosen at random and 2 balls drawn from it at random are found to be 1 red and 1 black. If the probability that both balls come from Bag $A$ is $\\frac{6}{11}$, then $n$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "13",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q20",
+                            "type": "single_correct",
+                            "questionText": "If a random variable $X$ follows the Binomial distribution $B(33,p)$ such that $3P(X=0)=P(X=1)$, then the value of $\\frac{P(X=15)}{P(X=18)} - \\frac{P(X=16)}{P(X=17)}$ is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{1}{1320}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1088",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\frac{1088}{1089}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\frac{120}{1331}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "math_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "math_q21",
+                            "type": "numerical",
+                            "questionText": "In an examination, there are 5 multiple choice questions with 3 choices, out of which exactly one is correct. There are 3 marks for each correct answer, -2 marks for each wrong answer and 0 mark if the question is not attempted. Then, the number of ways a student appearing in the examination gets 5 marks is _____",
+                            "hasImage": false,
+                            "answer": "40",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q22",
+                            "type": "numerical",
+                            "questionText": "Let $A\\left(\\frac{3}{\\sqrt{a}}, \\sqrt{a}\\right), a>0$, be a fixed point in the $xy$-plane. The image of $A$ in $y$-axis be $B$ and the image of $B$ in $x$-axis be $C$. If $D(3\\cos\\theta, a\\sin\\theta)$ is a point in the fourth quadrant such that the maximum area of $\\Delta ACD$ is 12 square units, then $a$ is equal to _____",
+                            "hasImage": false,
+                            "answer": "8",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q23",
+                            "type": "numerical",
+                            "questionText": "If two tangents drawn from a point $(\\alpha,\\beta)$ lying on the ellipse $25x^2+4y^2=1$ to the parabola $y^2=4x$ are such that the slope of one tangent is four times the other, then the value of $(10\\alpha+5)^2+(16\\beta^2+50)^2$ equals _____",
+                            "hasImage": false,
+                            "answer": "2929",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q24",
+                            "type": "numerical",
+                            "questionText": "The number of one-one functions $f : \\{a,b,c,d\\} \\to \\{0,1,2,\\ldots,10\\}$ such that $2f(a)-f(b)+3f(c)+f(d)=0$ is _____",
+                            "hasImage": false,
+                            "answer": "31",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q25",
+                            "type": "numerical",
+                            "questionText": "The number of points where the function $f(x) = \\begin{cases} 2x^2-3x-7 & \\text{if } x \\leqslant -1 \\\\ [4x^2-1] & \\text{if } -1<x<1 \\\\ |x+1|+|x-2| & \\text{if } x \\geqslant 1 \\end{cases}$, where $[t]$ denotes the greatest integer $\\leqslant t$, is discontinuous is _____",
+                            "hasImage": false,
+                            "answer": "7",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q26",
+                            "type": "numerical",
+                            "questionText": "If $f(\\theta) = \\sin\\theta + \\int_{-\\pi/2}^{\\pi/2}(\\sin\\theta+t\\cos\\theta)\\cdot f(t)\\,dt$, then $\\left|\\int_0^{\\pi/2} f(\\theta)\\,d\\theta\\right|$ is _____",
+                            "hasImage": false,
+                            "answer": "1",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q27",
+                            "type": "numerical",
+                            "questionText": "Let $\\text{Max}_{0\\leqslant x\\leqslant2}\\left\\{\\frac{9-x^2}{5-x}\\right\\}=\\alpha$ and $\\text{Min}_{0\\leqslant x\\leqslant2}\\left\\{\\frac{9-x^2}{5-x}\\right\\}=\\beta$. If $\\int_{\\beta-\\frac{8}{3}}^{2\\alpha-1}\\text{Max}\\left\\{\\frac{9-x^2}{5-x},x\\right\\}dx=\\alpha_1+\\alpha_2\\log_e\\left(\\frac{8}{15}\\right)$, then $\\alpha_1+\\alpha_2$ is equal to _____",
+                            "hasImage": false,
+                            "answer": "34",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q28",
+                            "type": "numerical",
+                            "questionText": "Let $S$ be the region bounded by the curves $y=x^3$ and $y^2=x$. The curve $y=2|x|$ divides $S$ into two regions of areas $R_1$ and $R_2$. If $\\max\\{R_1,R_2\\}=R_2$, then $\\frac{R_2}{R_1}$ is equal to _____",
+                            "hasImage": false,
+                            "answer": "19",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q29",
+                            "type": "numerical",
+                            "questionText": "Let a line having direction ratios $1,-4,2$ intersect the lines $\\frac{x-7}{3}=\\frac{y-1}{-1}=\\frac{z+2}{1}$ and $\\frac{x}{2}=\\frac{y-7}{3}=\\frac{z}{1}$ at the points $A$ and $B$. Then $(AB)^2$ is equal to _____",
+                            "hasImage": false,
+                            "answer": "84",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "math_q30",
+                            "type": "numerical",
+                            "questionText": "If the shortest distance between the lines $\\vec{r} = (-\\hat{i}+3\\hat{k})+\\lambda(\\hat{i}-a\\hat{j})$ and $\\vec{r} = (-\\hat{j}+2\\hat{k})+\\mu(\\hat{i}-\\hat{j}+\\hat{k})$ is $\\sqrt{\\frac{2}{3}}$, then the integral value of $a$ is equal to _____",
+                            "hasImage": false,
+                            "answer": "2",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "physics",
+            "name": "Physics",
+            "subsections": [
+                {
+                    "id": "phys_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "phys_q1",
+                            "type": "single_correct",
+                            "questionText": "Identify the pair of physical quantities which have different dimensions:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Wave number and Rydberg's constant",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Stress and Coefficient of elasticity",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Coercivity and Magnetisation",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Specific heat capacity and Latent heat",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q2",
+                            "type": "single_correct",
+                            "questionText": "A projectile is projected with velocity of $25\\ \\text{m s}^{-1}$ at an angle $\\theta$ with the horizontal. After $t$ seconds its inclination with horizontal becomes zero. If $R$ represents horizontal range of the projectile, the value of $\\theta$ will be: [use $g = 10\\ \\text{m s}^{-2}$]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{1}{2}\\sin^{-1}\\left(\\frac{5t^2}{4R}\\right)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\frac{1}{2}\\sin^{-1}\\left(\\frac{4R}{5t^2}\\right)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\tan^{-1}\\left(\\frac{4t^2}{5R}\\right)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\cot^{-1}\\left(\\frac{R}{20t^2}\\right)$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q3",
+                            "type": "single_correct",
+                            "questionText": "A boy ties a stone of mass $100\\ \\text{g}$ to the end of a $2\\ \\text{m}$ long string and whirls it around in a horizontal plane. The string can withstand the maximum tension of $80\\ \\text{N}$. If the maximum speed with which the stone can revolve is $\\frac{K}{\\pi}\\ \\text{rev min}^{-1}$, the value of $K$ is: (Assume the string is massless and un-stretchable)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "400",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "300",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "600",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "800",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q4",
+                            "type": "single_correct",
+                            "questionText": "A block of mass $10\\ \\text{kg}$ starts sliding on a surface with an initial velocity of $9.8\\ \\text{ms}^{-1}$. The coefficient of friction between the surface and block is $0.5$. The distance covered by the block before coming to rest is: [use $g = 9.8\\ \\text{ms}^{-2}$]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$9.8\\ \\text{m}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$4.9\\ \\text{m}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$12.5\\ \\text{m}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$19.6\\ \\text{m}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q5",
+                            "type": "single_correct",
+                            "questionText": "A particle experiences a variable force $\\vec{F} = (4x\\hat{i} + 3y^2\\hat{j})$ in a horizontal $x-y$ plane. Assume distance in meters and force is newton. If the particle moves from point $(1, 2)$ to point $(2, 3)$ in the $x-y$ plane, then Kinetic Energy changes by:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$25\\ \\text{J}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$50\\ \\text{J}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$12.5\\ \\text{J}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$0\\ \\text{J}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q6",
+                            "type": "single_correct",
+                            "questionText": "The approximate height from the surface of earth at which the weight of the body becomes $\\frac{1}{3}$ of its weight on the surface of earth is: [Radius of earth $R = 6400\\ \\text{km}$ and $\\sqrt{3} = 1.732$]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$3840\\ \\text{km}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$4685\\ \\text{km}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$2133\\ \\text{km}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$4267\\ \\text{km}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q7",
+                            "type": "single_correct",
+                            "questionText": "The bulk modulus of a liquid is $3 \\times 10^{10}\\ \\text{Nm}^{-2}$. The pressure required to reduce the volume of liquid by $2\\%$ is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$3 \\times 10^{8}\\ \\text{N m}^{-2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$6 \\times 10^{8}\\ \\text{N m}^{-2}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$9 \\times 10^{8}\\ \\text{N m}^{-2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$12 \\times 10^{8}\\ \\text{N m}^{-2}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q8",
+                            "type": "single_correct",
+                            "questionText": "Two metallic blocks $M_1$ and $M_2$ of same area of cross-section are connected to each other (as shown in figure). If the thermal conductivity of $M_2$ is $K$ then the thermal conductivity of $M_1$ will be: [Assume steady state heat conduction]",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$10K$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$8K$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$12.5K$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$2K$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q8.png"
+                        },
+                        {
+                            "id": "phys_q9",
+                            "type": "single_correct",
+                            "questionText": "A Carnot engine whose heat sinks at $27^{\\circ}\\text{C}$, has an efficiency of $25\\%$. By how many degrees should the temperature of the source be changed to increase the efficiency by $100\\%$ of the original efficiency?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Increases by $18^{\\circ}\\text{C}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Increases by $200^{\\circ}\\text{C}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Increases by $120^{\\circ}\\text{C}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Increases by $73^{\\circ}\\text{C}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q10",
+                            "type": "single_correct",
+                            "questionText": "The equations of two waves are given by: $y_1 = 5\\sin 2\\pi(x - vt)\\ \\text{cm}$, $y_2 = 3\\sin 2\\pi(x - vt + 1.5)\\ \\text{cm}$. These waves are simultaneously passing through a string. The amplitude of the resulting wave is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$2\\ \\text{cm}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$4\\ \\text{cm}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$5.8\\ \\text{cm}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$8\\ \\text{cm}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q11",
+                            "type": "single_correct",
+                            "questionText": "A vertical electric field of magnitude $4.9 \\times 10^5\\ \\text{N C}^{-1}$ just prevents a water droplet of a mass $0.1\\ \\text{g}$ from falling. The value of charge on the droplet will be: (Given $g = 9.8\\ \\text{m s}^{-2}$)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$1.6 \\times 10^{-9}\\text{C}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$2.0 \\times 10^{-9}\\text{C}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$3.2 \\times 10^{-9}\\text{C}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$0.5 \\times 10^{-9}\\text{C}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q12",
+                            "type": "single_correct",
+                            "questionText": "A parallel plate capacitor is formed by two plates each of area $30\\pi\\ \\text{cm}^2$ separated by $1\\ \\text{mm}$. A material of dielectric strength $3.6 \\times 10^7\\ \\text{V m}^{-1}$ is filled between the plates. If the maximum charge that can be stored on the capacitor without causing any dielectric breakdown is $7 \\times 10^{-6}\\ \\text{C}$, the value of dielectric constant of the material is: [Use $\\frac{1}{4\\pi\\varepsilon_o} = 9 \\times 10^9\\ \\text{N m}^2\\text{C}^{-2}$]",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$1.66$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$1.75$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$2.25$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$2.33$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q13",
+                            "type": "single_correct",
+                            "questionText": "Two identical cells each of emf $1.5\\ \\text{V}$ are connected in parallel across a parallel combination of two resistors each of resistance $20\\ \\Omega$. A voltmeter connected in the circuit measures $1.2\\ \\text{V}$. The internal resistance of each cell is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$2.5\\ \\Omega$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$4\\ \\Omega$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$5\\ \\Omega$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$10\\ \\Omega$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q14",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A): In an uniform magnetic field, speed and energy remains the same for a moving charged particle. Reason (R): Moving charged particle experiences magnetic force perpendicular to its direction of motion.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Assertion and Reason are true and Reason is the correct explanation of Assertion.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Assertion and Reason are true but Reason is NOT the correct explanation of Assertion.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Assertion is true but Reason is false.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Assertion is false but Reason is true.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q15",
+                            "type": "single_correct",
+                            "questionText": "The magnetic field at the centre of a circular coil of radius $r$, due to current $I$ flowing through it, is $B$. The magnetic field at a point along the axis at a distance $\\frac{r}{2}$ from the centre is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\frac{B}{2}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$2B$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\left(\\frac{2}{\\sqrt{5}}\\right)^3 B$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\left(\\frac{2}{\\sqrt{3}}\\right)^3 B$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q16",
+                            "type": "single_correct",
+                            "questionText": "A resistance of $40\\ \\Omega$ is connected to a source of alternating current rated $220\\ \\text{V}, 50\\ \\text{Hz}$. Find the time taken by the current to change from its maximum value to the rms value:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$2.5\\ \\text{ms}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$1.25\\ \\text{ms}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$2.5\\ \\text{s}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$0.25\\ \\text{s}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q17",
+                            "type": "single_correct",
+                            "questionText": "A plane electromagnetic wave travels in a medium of relative permeability $1.61$ and relative permittivity $6.44$. If magnitude of magnetic intensity is $4.5 \\times 10^{-2}\\ \\text{A m}^{-1}$ at a point, what will be the approximate magnitude of electric field intensity at that point? (Given: Permeability of free space $\\mu_0 = 4\\pi \\times 10^{-7}\\ \\text{N A}^{-2}$, speed of light in vacuum $c = 3 \\times 10^8\\ \\text{m s}^{-1}$)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$16.96\\ \\text{V m}^{-1}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$2.25 \\times 10^{-2}\\ \\text{V m}^{-1}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$8.48\\ \\text{V m}^{-1}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$6.75 \\times 10^{6}\\ \\text{V m}^{-1}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q18",
+                            "type": "single_correct",
+                            "questionText": "Choose the correct option from the following options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "In the ground state of Rutherford's model electrons are in stable equilibrium. While in Thomson's model electrons always experience a net-force.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "An atom has a nearly continuous mass distribution in a Rutherford's model but has a highly non-uniform mass distribution in Thomson's model.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "A classical atom based on Rutherford's model is doomed to collapse.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "The positively charged part of the atom possesses most of the mass in Rutherford's model but not in Thomson's model.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q19",
+                            "type": "single_correct",
+                            "questionText": "Nucleus $A$ is having mass number $220$ and its binding energy per nucleon is $5.6\\ \\text{MeV}$. It splits in two fragments $B$ and $C$ of mass numbers $105$ and $115$. The binding energy of nucleons in $B$ and $C$ is $6.4\\ \\text{MeV}$ per nucleon. The energy $Q$ released per fission will be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$0.8\\ \\text{MeV}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$275\\ \\text{MeV}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$220\\ \\text{MeV}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$176\\ \\text{MeV}$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q20",
+                            "type": "single_correct",
+                            "questionText": "A baseband signal of $3.5\\ \\text{MHz}$ frequency is modulated with a carrier signal of $3.5\\ \\text{GHz}$ frequency using amplitude modulation method. What should be the minimum size of antenna required to transmit the modulated signal?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$42.8\\ \\text{m}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$42.8\\ \\text{mm}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$21.4\\ \\text{mm}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$21.4\\ \\text{m}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "phys_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "phys_q21",
+                            "type": "numerical",
+                            "questionText": "From the top of a tower, a ball is thrown vertically upward which reaches the ground in $6\\ \\text{s}$. A second ball thrown vertically downward from the same position with the same speed reaches the ground in $1.5\\ \\text{s}$. A third ball released, from the rest from the same location, will reach the ground in _____ s.",
+                            "hasImage": false,
+                            "answer": "3",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$t_3 = \\sqrt{t_1 t_2} = \\sqrt{6 \\times 1.5} = 3\\ \\text{s}$."
+                        },
+                        {
+                            "id": "phys_q22",
+                            "type": "numerical",
+                            "questionText": "A ball of mass $100\\ \\text{g}$ is dropped from a height $h = 10\\ \\text{cm}$ on a platform fixed at the top of a vertical spring (as shown in figure). The ball stays on the platform and the platform is depressed by a distance $\\frac{h}{2}$. The spring constant is _____ $\\text{N m}^{-1}$ (Use $g = 10\\ \\text{m s}^{-2}$)",
+                            "hasImage": true,
+                            "answer": "120",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "imageName": "img/phys_q22.png",
+                            "explanation": "Energy conservation: $mg\\left(h+\\frac{h}{2}\\right) = \\frac{1}{2}k\\left(\\frac{h}{2}\\right)^2 \\Rightarrow k = \\frac{12mg}{h} = 120\\ \\text{N m}^{-1}$."
+                        },
+                        {
+                            "id": "phys_q23",
+                            "type": "numerical",
+                            "questionText": "A metre scale is balanced on a knife edge at its centre. When two coins, each of mass $10\\ \\text{g}$ are put one on the top of the other at the $10.0\\ \\text{cm}$ mark the scale is found to be balanced at $40.0\\ \\text{cm}$ mark. The mass of the metre scale is found to be $x \\times 10^{-2}\\ \\text{kg}$. The value of $x$ is _____.",
+                            "hasImage": false,
+                            "answer": "6",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "Torque balance about the new pivot (40 cm mark): $M \\times 10 = 20 \\times 30 \\Rightarrow M = 60\\ \\text{g} = 6\\times10^{-2}\\ \\text{kg}$."
+                        },
+                        {
+                            "id": "phys_q24",
+                            "type": "numerical",
+                            "questionText": "$0.056\\ \\text{kg}$ of Nitrogen is enclosed in a vessel at a temperature of $127^{\\circ}\\text{C}$. The amount of heat required to double the speed of its molecules is _____ kcal. (Take $R = 2\\ \\text{cal mole}^{-1}\\text{K}^{-1}$)",
+                            "hasImage": false,
+                            "answer": "12",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$n=2\\ \\text{mol}$, doubling $v_{rms}$ needs $T_2=4T_1$, $\\Delta T = 1200\\ \\text{K}$. $Q = nC_v\\Delta T = 2 \\times \\frac{5}{2}(2) \\times 1200 = 12000\\ \\text{cal} = 12\\ \\text{kcal}$."
+                        },
+                        {
+                            "id": "phys_q25",
+                            "type": "numerical",
+                            "questionText": "In a potentiometer arrangement, a cell gives a balancing point at $75\\ \\text{cm}$ length of wire. This cell is now replaced by another cell of unknown emf. If the ratio of the emf's of two cells respectively is $3:2$, the difference in the balancing length of the potentiometer wire in above two cases will be _____ cm.",
+                            "hasImage": false,
+                            "answer": "25",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$l_2 = \\frac{2}{3}\\times 75 = 50\\ \\text{cm}$, difference $= 75-50 = 25\\ \\text{cm}$."
+                        },
+                        {
+                            "id": "phys_q26",
+                            "type": "numerical",
+                            "questionText": "As shown in the figure an inductor of inductance $200\\ \\text{mH}$ is connected to an AC source of emf $220\\ \\text{V}$ and frequency $50\\ \\text{Hz}$. The instantaneous voltage of the source is $0\\ \\text{V}$ when the peak value of current is $\\frac{\\sqrt{a}}{\\pi}\\ \\text{A}$. The value of $a$ is _____.",
+                            "hasImage": true,
+                            "answer": "242",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "imageName": "img/phys_q26.png",
+                            "explanation": "$I_0 = \\frac{220\\sqrt{2}}{\\omega L} = \\frac{11\\sqrt{2}}{\\pi} \\Rightarrow \\sqrt{a} = 11\\sqrt{2} \\Rightarrow a = 242$."
+                        },
+                        {
+                            "id": "phys_q27",
+                            "type": "numerical",
+                            "questionText": "Two identical thin biconvex lenses of focal length $15\\ \\text{cm}$ and refractive index $1.5$ are in contact with each other. The space between the lenses is filled with a liquid of refractive index $1.25$. The focal length of the combination is _____ cm.",
+                            "hasImage": false,
+                            "answer": "10",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "phys_q28",
+                            "type": "numerical",
+                            "questionText": "Sodium light of wavelengths $650\\ \\text{nm}$ and $655\\ \\text{nm}$ is used to study diffraction at a single slit of aperture $0.5\\ \\text{mm}$. The distance between the slit and the screen is $2.0\\ \\text{m}$. The separation between the positions of the first maxima of diffraction pattern obtained in the two cases is _____ $\\times10^{-5}\\ \\text{m}$",
+                            "hasImage": false,
+                            "answer": "3",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$\\Delta y = \\frac{3}{2}\\frac{\\Delta\\lambda \\cdot D}{a} = \\frac{3}{2}\\times\\frac{5\\times10^{-9}\\times2}{0.5\\times10^{-3}} = 3\\times10^{-5}\\ \\text{m}$."
+                        },
+                        {
+                            "id": "phys_q29",
+                            "type": "numerical",
+                            "questionText": "When light of frequency twice the threshold frequency is incident on the metal plate, the maximum velocity of emitted electron is $v_1$. When the frequency of incident radiation is increased to five times the threshold value, the maximum velocity of emitted electron becomes $v_2$. If $v_2 = xv_1$, the value of $x$ will be _____.",
+                            "hasImage": false,
+                            "answer": "2",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$v_1 \\propto \\sqrt{h\\nu_0}$, $v_2 \\propto \\sqrt{4h\\nu_0}=2\\sqrt{h\\nu_0} \\Rightarrow x=2$."
+                        },
+                        {
+                            "id": "phys_q30",
+                            "type": "numerical",
+                            "questionText": "A transistor is used in common-emitter mode in an amplifier circuit. When a signal of $10\\ \\text{mV}$ is added to the base-emitter voltage, the base current changes by $10\\ \\mu\\text{A}$ and the collector current changes by $1.5\\ \\text{mA}$. The load resistance is $5\\text{k}\\Omega$. The voltage gain of the transistor will be _____.",
+                            "hasImage": false,
+                            "answer": "750",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$A_v = \\frac{\\Delta I_c \\cdot R_L}{\\Delta V_{in}} = \\frac{1.5\\times10^{-3}\\times5000}{0.01} = 750$."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "subsections": [
+                {
+                    "id": "chem_sec_a",
+                    "name": "Section-A",
+                    "questions": [
+                        {
+                            "id": "chem_q1",
+                            "type": "single_correct",
+                            "questionText": "If a rocket runs on a fuel $(\\text{C}_{15}\\text{H}_{30})$ and liquid oxygen, the weight of oxygen required and $\\text{CO}_2$ released for every litre of fuel respectively are: (Given: density of the fuel is $0.756\\ \\text{g/mL}$)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$1188\\ \\text{g and } 1296\\ \\text{g}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$2376\\ \\text{g and } 2592\\ \\text{g}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$2592\\ \\text{g and } 2376\\ \\text{g}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$3429\\ \\text{g and } 3142\\ \\text{g}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "$\\text{C}_{15}\\text{H}_{30} + 22.5\\text{O}_2 \\rightarrow 15\\text{CO}_2 + 15\\text{H}_2\\text{O}$. Moles fuel per litre $=756/210=3.6$; $\\text{O}_2 = 3.6\\times22.5\\times32=2592\\ \\text{g}$; $\\text{CO}_2=3.6\\times15\\times44=2376\\ \\text{g}$."
+                        },
+                        {
+                            "id": "chem_q2",
+                            "type": "single_correct",
+                            "questionText": "Consider the following pairs of electrons: (A) (a) $n=3, l=1, m_l=1, m_s=+\\frac{1}{2}$ (b) $n=3, l=2, m_l=1, m_s=+\\frac{1}{2}$; (B) (a) $n=3, l=2, m_l=-2, m_s=-\\frac{1}{2}$ (b) $n=3, l=2, m_l=-1, m_s=-\\frac{1}{2}$; (C) (a) $n=4, l=2, m_l=2, m_s=+\\frac{1}{2}$ (b) $n=3, l=2, m_l=2, m_s=+\\frac{1}{2}$. The pairs of electrons present in degenerate orbitals is/are",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Only (A)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Only (B)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Only (C)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(B) and (C) both",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Degenerate orbitals require the same $n$ and $l$. Only pair (B) has identical $n=3,l=2$ for both electrons."
+                        },
+                        {
+                            "id": "chem_q3",
+                            "type": "single_correct",
+                            "questionText": "For a reaction at equilibrium $A(g) \\rightleftharpoons B(g) + \\frac{1}{2}C(g)$ the relation between dissociation constant (K), degree of dissociation ($\\alpha$) and equilibrium pressure (p) is given by:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$K = \\dfrac{\\alpha^{3/2}p^{1/2}}{(2+\\alpha)^{1/2}(1-\\alpha)}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$K = \\dfrac{\\alpha^{1/2}p^{3/2}}{\\left(1+\\frac{3}{2}\\alpha\\right)^{1/2}(1-\\alpha)}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$K = \\dfrac{(\\alpha p)^{3/2}}{\\left(1+\\frac{3}{2}\\alpha\\right)^{1/2}(1-\\alpha)}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$K = \\dfrac{(\\alpha p)^{3/2}}{(1+\\alpha)(1-\\alpha)^{1/2}}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q4",
+                            "type": "single_correct",
+                            "questionText": "The highest industrial consumption of molecular hydrogen is to produce compound of element:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Carbon",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Oxygen",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Chlorine",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Nitrogen",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "The Haber process (production of ammonia) is the largest industrial consumer of hydrogen gas."
+                        },
+                        {
+                            "id": "chem_q5",
+                            "type": "single_correct",
+                            "questionText": "Which of the following statements are correct? (A) Both LiCl and $\\text{MgCl}_2$ are soluble in ethanol. (B) The oxides $\\text{Li}_2\\text{O}$ and MgO combine with excess of oxygen to give superoxide. (C) LiF is less soluble in water than other alkali metal fluorides. (D) $\\text{Li}_2\\text{O}$ is more soluble in water than other alkali metal oxides. Choose the most appropriate answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A) and (C) only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A), (C) and (D) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(B) and (C) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A) and (D) only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "LiCl and MgCl₂ show covalent character and dissolve in ethanol (A, true). Li and Mg do not form superoxides (B, false). LiF has high lattice energy and low solubility (C, true). Li₂O has high lattice energy and is less soluble than other alkali oxides (D, false)."
+                        },
+                        {
+                            "id": "chem_q6",
+                            "type": "single_correct",
+                            "questionText": "Identify the correct statement for $\\text{B}_2\\text{H}_6$ from those given below. (A) In $\\text{B}_2\\text{H}_6$, all $\\text{B}-\\text{H}$ bonds are equivalent. (B) In $\\text{B}_2\\text{H}_6$, there are four 3-centre-2-electron bonds. (C) $\\text{B}_2\\text{H}_6$ is a Lewis acid. (D) $\\text{B}_2\\text{H}_6$ can be synthesized from both $\\text{BF}_3$ and $\\text{NaBH}_4$. (E) $\\text{B}_2\\text{H}_6$ is a planar molecule. Choose the most appropriate answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A) and (E) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(B), (C) and (E) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(C) and (D) only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(C) and (E) only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "B₂H₆ has 4 terminal (equivalent to each other, but different from bridging) and 2 bridging B–H–B bonds (not four), so A and B are false. It is electron-deficient hence a Lewis acid (C, true). It can be made from both BF₃ and NaBH₄ (D, true). It is non-planar due to bridging hydrogens (E, false)."
+                        },
+                        {
+                            "id": "chem_q7",
+                            "type": "single_correct",
+                            "questionText": "Which of the following is an example of conjugated diketone?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{CH}_3-\\text{CO}-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-\\text{CO}-\\text{CH}_3$ (heptane-2,6-dione)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4-(2-oxopropyl)cyclohexan-1-one: $\\text{CH}_3-\\text{CO}-\\text{CH}_2-[\\text{cyclohexane ring}]-\\text{C}(=\\text{O})$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Cyclohexa-2,5-diene-1,4-dione (p-benzoquinone)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1-Phenyl-hexane-1,5-dione: phenyl$-\\text{CO}-\\text{CH}_2-\\text{CH}_2-\\text{CO}-\\text{CH}_3$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "p-Benzoquinone has its two carbonyl groups conjugated through the alternating ring double bonds; the other options have saturated (sp3) carbons separating the two carbonyl groups."
+                        },
+                        {
+                            "id": "chem_q8",
+                            "type": "single_correct",
+                            "questionText": "In the given reaction sequence, the major product 'C' is: $\\text{C}_8\\text{H}_{10} \\xrightarrow[\\text{H}_2\\text{SO}_4]{\\text{HNO}_3} A \\xrightarrow[\\Delta]{\\text{Br}_2} B \\xrightarrow[\\text{KOH}]{\\text{alcoholic}} C$",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{C}_6\\text{H}_5-\\text{C}(\\text{NO}_2)=\\text{CH}_2$ ((1-nitroethenyl)benzene)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\text{O}_2\\text{N}-\\text{C}_6\\text{H}_4-\\text{CH}=\\text{CH}_2$ (p-nitrostyrene)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\text{O}_2\\text{N}-\\text{C}_6\\text{H}_4-\\text{C}(\\text{NO}_2)=\\text{CH}_2$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "o-$\\text{O}_2\\text{N}-\\text{C}_6\\text{H}_4-\\text{CH}=\\text{CH}_2$ (o-nitrostyrene)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Ethylbenzene ($\\text{C}_8\\text{H}_{10}$) undergoes para-nitration (A), benzylic bromination with $\\text{Br}_2/\\Delta$ (B, at the alpha carbon), then dehydrohalogenation with alcoholic KOH to give p-nitrostyrene (C)."
+                        },
+                        {
+                            "id": "chem_q9",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements: Statement I: Emulsions of oil in water are unstable and sometimes they separate into two layers on standing. Statement II: For stabilisation of an emulsion, excess of electrolyte is added. In the light of the above statements, choose the most appropriate answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are correct.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are incorrect.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement I is correct but Statement II is incorrect.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is incorrect but Statement II is correct.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q10",
+                            "type": "matching",
+                            "questionText": "Match List - I with List - II:",
+                            "hasImage": false,
+                            "listI": [
+                                {
+                                    "id": "A",
+                                    "text": "Sphalerite"
+                                },
+                                {
+                                    "id": "B",
+                                    "text": "Calamine"
+                                },
+                                {
+                                    "id": "C",
+                                    "text": "Galena"
+                                },
+                                {
+                                    "id": "D",
+                                    "text": "Siderite"
+                                }
+                            ],
+                            "listII": [
+                                {
+                                    "id": "I",
+                                    "text": "$\\text{FeCO}_3$"
+                                },
+                                {
+                                    "id": "II",
+                                    "text": "PbS"
+                                },
+                                {
+                                    "id": "III",
+                                    "text": "$\\text{ZnCO}_3$"
+                                },
+                                {
+                                    "id": "IV",
+                                    "text": "ZnS"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(II), (B)-(II), (C)-(I), (D)-(IV)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": ""
+                        },
+                        {
+                            "id": "chem_q11",
+                            "type": "single_correct",
+                            "questionText": "Given below are the oxides: $\\text{Na}_2\\text{O}, \\text{As}_2\\text{O}_3, \\text{N}_2\\text{O}, \\text{NO}$ and $\\text{Cl}_2\\text{O}_7$. Number of amphoteric oxides is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "$\\text{As}_2\\text{O}_3$ is amphoteric; $\\text{Na}_2\\text{O}$ is basic, $\\text{N}_2\\text{O}$ and NO are neutral, $\\text{Cl}_2\\text{O}_7$ is acidic."
+                        },
+                        {
+                            "id": "chem_q12",
+                            "type": "single_correct",
+                            "questionText": "The most stable trihalide of nitrogen is.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{NF}_3$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\text{NCl}_3$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\text{NBr}_3$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\text{NI}_3$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q13",
+                            "type": "single_correct",
+                            "questionText": "Which one of the following elemental forms is not present in the enamel of the teeth?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$\\text{Ca}^{2+}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$\\text{P}^{3+}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$\\text{F}^{-}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$\\text{P}^{5+}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Enamel is hydroxyapatite-based (calcium phosphate + fluoride), containing Ca²⁺, PO₄³⁻ (P in the +5 state) and F⁻; P³⁺ is not present."
+                        },
+                        {
+                            "id": "chem_q14",
+                            "type": "matching",
+                            "questionText": "Match List - I with List - II:",
+                            "hasImage": false,
+                            "listI": [
+                                {
+                                    "id": "A",
+                                    "text": "$[\\text{PtCl}_4]^{2-}$"
+                                },
+                                {
+                                    "id": "B",
+                                    "text": "$\\text{BrF}_5$"
+                                },
+                                {
+                                    "id": "C",
+                                    "text": "$\\text{PCl}_5$"
+                                },
+                                {
+                                    "id": "D",
+                                    "text": "$[\\text{Co(NH}_3)_6]^{3+}$"
+                                }
+                            ],
+                            "listII": [
+                                {
+                                    "id": "I",
+                                    "text": "$sp^3d$"
+                                },
+                                {
+                                    "id": "II",
+                                    "text": "$d^2sp^3$"
+                                },
+                                {
+                                    "id": "III",
+                                    "text": "$dsp^2$"
+                                },
+                                {
+                                    "id": "IV",
+                                    "text": "$sp^3d^2$"
+                                }
+                            ],
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": ""
+                        },
+                        {
+                            "id": "chem_q15",
+                            "type": "single_correct",
+                            "questionText": "$\\text{4-(bromomethyl)anisole} \\xrightarrow{\\text{(i) NaCN (ii) OH}^- \\text{(iii) cyclohexanone (iv) H}_2/\\text{Ni}} \\text{Product}$. The major product of the above reactions is",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1-(amino(4-methoxyphenyl)methyl)cyclohexan-1-ol: $\\text{HO-C}_6\\text{H}_{10}-\\text{CH(NH}_2)-\\text{C}_6\\text{H}_4\\text{OCH}_3$ (amine directly on the ring-adjacent carbon)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "amide (not reduced): $\\text{C}_6\\text{H}_4(\\text{OCH}_3)-\\text{CH}(\\text{C}_6\\text{H}_{10})-\\text{CONH}_2$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1-(2-amino-1-(4-methoxyphenyl)ethyl)cyclohexan-1-ol: $\\text{HO-C}_6\\text{H}_{10}-\\text{CH}(\\text{C}_6\\text{H}_4\\text{OCH}_3)-\\text{CH}_2\\text{NH}_2$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "without the ring hydroxyl: $\\text{C}_6\\text{H}_{10}-\\text{CH}(\\text{C}_6\\text{H}_4\\text{OCH}_3)-\\text{CH}_2\\text{NH}_2$ (no OH)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q15.png",
+                            "explanation": "ArCH₂Br + NaCN gives ArCH₂CN; OH⁻ deprotonates alpha to the nitrile/ring to form a stabilized carbanion which adds to cyclohexanone giving a β-hydroxy nitrile; H₂/Ni then reduces the nitrile to a CH₂NH₂ group without touching the alcohol."
+                        },
+                        {
+                            "id": "chem_q16",
+                            "type": "single_correct",
+                            "questionText": "Two statements are given below: Statement I: The melting point of monocarboxylic acid with even number of carbon atoms is higher than that of with odd number of carbon atoms acid immediately below and above it in the series. Statement II: The solubility of monocarboxylic acids in water decreases with increase in molar mass. Choose the most appropriate option:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are correct.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are incorrect.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement I is correct but Statement II is incorrect.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is incorrect but Statement II is correct.",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q17",
+                            "type": "single_correct",
+                            "questionText": "Which of the following is an example of polyester?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Butadiene-styrene copolymer",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Melamine polymer",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Neoprene",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Poly-$\\beta$-hydroxybutyrate-co-$\\beta$-hydroxyvalerate",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Poly-β-hydroxybutyrate-co-β-hydroxyvalerate (PHBV) is a biodegradable polyester copolymer."
+                        },
+                        {
+                            "id": "chem_q18",
+                            "type": "single_correct",
+                            "questionText": "Which of the following is not a broad spectrum antibiotic?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Vancomycin",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Penicillin G",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Ofloxacin",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Ampicillin",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Penicillin G has a narrow spectrum of activity, effective mainly against Gram-positive bacteria."
+                        },
+                        {
+                            "id": "chem_q19",
+                            "type": "single_correct",
+                            "questionText": "During the qualitative analysis of salt with cation $y^{2+}$, addition of a reagent (X) to alkaline solution of the salt gives a bright red precipitate. The reagent (X) and the cation $(y^{2+})$ present respectively are:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Dimethylglyoxime and $\\text{Ni}^{2+}$",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Dimethylglyoxime and $\\text{Co}^{2+}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Nessler's reagent and $\\text{Hg}^{2+}$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Nessler's reagent and $\\text{Ni}^{2+}$",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Ni²⁺ with dimethylglyoxime in ammoniacal (alkaline) medium gives a characteristic bright (rosy-)red precipitate."
+                        },
+                        {
+                            "id": "chem_q20",
+                            "type": "single_correct",
+                            "questionText": "A polysaccharide 'X' on boiling with dil $\\text{H}_2\\text{SO}_4$ at $393\\ \\text{K}$ under $2-3\\ \\text{atm}$ pressure yields 'Y'; 'Y' on treatment with bromine water gives gluconic acid. 'X' contains $\\beta$-glycosidic linkages only. Compound 'X' is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "starch",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "cellulose",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "amylose",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "amylopectin",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "explanation": "Y = glucose (oxidized by bromine water to gluconic acid). X, containing only β-glycosidic linkages, is cellulose (starch/amylose/amylopectin contain α-linkages)."
+                        }
+                    ]
+                },
+                {
+                    "id": "chem_sec_b",
+                    "name": "Section-B",
+                    "questions": [
+                        {
+                            "id": "chem_q21",
+                            "type": "numerical",
+                            "questionText": "$2\\text{O}_3(g) \\rightleftharpoons 3\\text{O}_2(g)$. At $300\\ \\text{K}$, ozone is fifty percent dissociated. The standard free energy change at this temperature and $1\\ \\text{atm}$ pressure is $(-)$______ $\\text{J mol}^{-1}$. (Nearest integer) [Given: $\\ln 1.35 = 0.3$ and $R = 8.3\\ \\text{J K}^{-1}\\text{mol}^{-1}$]",
+                            "hasImage": false,
+                            "answer": "747",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "With $2\\ \\text{mol}$ $\\text{O}_3$ initial and $\\alpha=0.5$: $K_p = \\frac{p_{O_2}^3}{p_{O_3}^2} = \\frac{0.6^3}{0.4^2} = 1.35$. $\\Delta G^\\circ = -RT\\ln K_p = -8.3\\times300\\times0.3 = -747\\ \\text{J mol}^{-1}$."
+                        },
+                        {
+                            "id": "chem_q22",
+                            "type": "numerical",
+                            "questionText": "A $0.166\\ \\text{g}$ sample of an organic compound was digested with conc. $\\text{H}_2\\text{SO}_4$ and then distilled with NaOH. The ammonia gas evolved was passed through $50.0\\ \\text{mL}$ of $0.5\\ \\text{N}\\ \\text{H}_2\\text{SO}_4$. The used acid required $30.0\\ \\text{mL}$ of $0.25\\ \\text{N}$ NaOH for complete neutralization. The mass percentage of nitrogen in the organic compound is _____.",
+                            "hasImage": false,
+                            "answer": "63",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "chem_q23",
+                            "type": "numerical",
+                            "questionText": "Number of electrophillic centres in the given compound is _____",
+                            "hasImage": true,
+                            "answer": "3",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "imageName": "img/chem_q23.png"
+                        },
+                        {
+                            "id": "chem_q24",
+                            "type": "numerical",
+                            "questionText": "The major product 'A' of the following given reaction has _____ $sp^2$ hybridized carbon atoms. $\\text{2,7-Dimethyl-2,6-octadiene} \\xrightarrow[\\text{Major Product}]{\\text{H}^+} A$",
+                            "hasImage": false,
+                            "answer": "2",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "chem_q25",
+                            "type": "numerical",
+                            "questionText": "Atoms of element X form hcp lattice and those of element Y occupy $\\frac{2}{3}$ of its tetrahedral voids. The percentage of element X in the lattice is _____ (Nearest integer)",
+                            "hasImage": false,
+                            "answer": "43",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "For $N$ atoms X, tetrahedral voids $=2N$; Y atoms $=\\frac{2}{3}(2N)=\\frac{4N}{3}$. $\\%X = \\frac{N}{N+4N/3}\\times100 = \\frac{3}{7}\\times100 \\approx 43\\%$."
+                        },
+                        {
+                            "id": "chem_q26",
+                            "type": "numerical",
+                            "questionText": "The osmotic pressure of blood is $7.47\\ \\text{bar}$ at $300\\ \\text{K}$. To inject glucose to a patient intravenously, it has to be isotonic with blood. The concentration of glucose solution in $\\text{gL}^{-1}$ is (Molar mass of glucose $= 180\\ \\text{g mol}^{-1}$, $R = 0.083\\ \\text{Lbar}^{-1}\\text{mol}^{-1}$) (Nearest integer)",
+                            "hasImage": false,
+                            "answer": "54",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "$C = \\frac{\\pi}{RT} = \\frac{7.47}{0.083\\times300} = 0.3\\ \\text{mol/L}$; concentration $= 0.3\\times180 = 54\\ \\text{g/L}$."
+                        },
+                        {
+                            "id": "chem_q27",
+                            "type": "numerical",
+                            "questionText": "The cell potential for the following cell $\\text{Pt}|\\text{H}_2(g)|\\text{H}^+(aq)\\ ||\\ \\text{Cu}^{2+}(0.01\\ \\text{M})|\\text{Cu}(s)$ is $0.576\\ \\text{V}$ at $298\\ \\text{K}$. The pH of the solution is _____ (Nearest integer) (Given: $E^\\circ_{\\text{Cu}^{2+}/\\text{Cu}} = 0.34\\ \\text{V}$ and $\\frac{2.303RT}{F} = 0.06\\ \\text{V}$)",
+                            "hasImage": false,
+                            "answer": "5",
+                            "marks": 4,
+                            "negativeMarks": 0
+                        },
+                        {
+                            "id": "chem_q28",
+                            "type": "numerical",
+                            "questionText": "The rate constants for decomposition of acetaldehyde have been measured over the temperature range $700-1000\\ \\text{K}$. The data has been analysed by plotting $\\ln k$ vs $\\frac{10^3}{T}$ graph (slope $=-18.5$). The value of activation energy for the reaction is _____ $\\text{kJmol}^{-1}$. (Nearest integer) (Given: $R = 8.31\\ \\text{JK}^{-1}\\text{mol}^{-1}$)",
+                            "hasImage": true,
+                            "answer": "154",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "imageName": "img/chem_q28.png",
+                            "explanation": "$E_a = |\\text{slope}|\\times1000\\times R = 18.5\\times1000\\times8.31 \\approx 153735\\ \\text{J/mol} \\approx 154\\ \\text{kJ/mol}$."
+                        },
+                        {
+                            "id": "chem_q29",
+                            "type": "numerical",
+                            "questionText": "The difference in oxidation state of chromium in chromate and dichromate salts is _____",
+                            "hasImage": false,
+                            "answer": "0",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "Chromium is in the +6 oxidation state in both chromate ($\\text{CrO}_4^{2-}$) and dichromate ($\\text{Cr}_2\\text{O}_7^{2-}$)."
+                        },
+                        {
+                            "id": "chem_q30",
+                            "type": "numerical",
+                            "questionText": "In the cobalt-carbonyl complex: $[\\text{Co}_2(\\text{CO})_8]$, number of $\\text{Co}-\\text{Co}$ bonds is \\\"X\\\" and terminal CO ligands is \\\"Y\\\". $X + Y =$ _____",
+                            "hasImage": false,
+                            "answer": "7",
+                            "marks": 4,
+                            "negativeMarks": 0,
+                            "explanation": "The bridged structure has 1 Co–Co bond and 6 terminal CO ligands (plus 2 bridging CO); X+Y = 1+6 = 7."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

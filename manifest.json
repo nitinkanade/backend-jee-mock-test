@@ -1,6 +1,14 @@
 {
     "papers": [
         {
+            "id": "2022_mains_jun_24_s1",
+            "title": "JEE Mains 2022 - 24 June Shift 1",
+            "year": 2022,
+            "filename": "jee_mains_24_jun_2022_shift_1/jee_mains_24_jun_2022_shift_1.json",
+            "description": "JEE Main 2022 24 June Morning Shift.",
+            "version": 1
+        },
+        {
             "id": "2025_mains_apr_02_s1",
             "title": "JEE Main 2025 Session-2 - 2 April Shift 1",
             "year": 2025,
