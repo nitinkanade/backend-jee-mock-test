@@ -280,7 +280,7 @@
               "listI": [
                 {
                   "id": "A",
-                  "text": "The object moves on the x-axis under a conservative force such that $v = c_1\\sqrt{c_2 - x^2}$, where $c_1$ and $c_2$ are positive constants."
+                  "text": "The object moves on the x-axis under a conservative force such that $v = c_1 \\sqrt{c_2 - x^2}$, where $c_1$ and $c_2$ are positive constants."
                 },
                 {
                   "id": "B",
@@ -292,7 +292,7 @@
                 },
                 {
                   "id": "D",
-                  "text": "The object is projected vertically upwards from Earth's surface with speed $2\\sqrt{GM_e/R_e}$."
+                  "text": "The object is projected vertically upwards from Earth's surface with speed $2 \\sqrt{\\frac{G M_e}{R_e}}$."
                 }
               ],
               "listII": [
@@ -335,7 +335,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "(A) $v = c_1\\sqrt{c_2 - x^2}$ implies SHM (p). (B) $v = -kx$: if $x > 0$, $v < 0$ and object moves toward origin and decelerates — does not change direction (q), KE decreases (r). (C) In the elevator frame, the spring-mass system oscillates about a new equilibrium — SHM (p). (D) Speed $= 2\\sqrt{GM_e/R_e} > v_e = \\sqrt{2GM_e/R_e}$, so the object escapes — doesn't change direction (q), KE keeps decreasing (r).",
+              "explanation": "(A) $v = c_1 \\sqrt{c_2 - x^2}$ implies SHM (p). (B) $v = -kx$: if $x > 0$, $v < 0$ and object moves toward origin and decelerates — does not change direction (q), KE decreases (r). (C) In the elevator frame, the spring-mass system oscillates about a new equilibrium — SHM (p). (D) Speed $= 2 \\sqrt{\\frac{G M_e}{R_e}} > v_e = \\sqrt{\\frac{2 G M_e}{R_e}}$, so the object escapes — doesn't change direction (q), KE keeps decreasing (r).",
               "marks": 6,
               "negativeMarks": 0
             },
