@@ -645,7 +645,8 @@
                             "hasImage": false,
                             "answer": 34,
                             "explanation": "Continuity and differentiability at x=1: -3a-2=a²+b and -6a=b. Solving: a=2 (since a>1), b=-12. f(x)=-6x²-2 for x<1 and 4-12x for x≥1. Area=∫_{-√3}^{1}(-6x²-2+20)dx + ∫_{1}^{2}(4-12x+20)dx = 16+12√3+6 = 22+12√3. α+β=34.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "math_q22",
@@ -654,7 +655,8 @@
                             "hasImage": false,
                             "answer": 2035,
                             "explanation": "Using binomial expansion of (1+x)^11 integrated from 0 to 1 and -1 to 0. Sum = (2^11-2)/12 = 2046/12 = 341/2. m=2047, n=12, but after simplification m-n=2035.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "math_q23",
@@ -663,7 +665,8 @@
                             "hasImage": false,
                             "answer": 34,
                             "explanation": "det(3adj(-6adj(3A))) = 3³·det(adj(-6adj(3A))) = 3³·(-6)⁶·(det(adj(3A)))² ... = 3²¹×2¹⁰. m=10, n=21... wait m>n so m=21, n=10 adjusted: 4m+2n=84+20=... Recalculating: m=7, n=3. 4m+2n=28+6=34.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "math_q24",
@@ -672,7 +675,8 @@
                             "hasImage": false,
                             "answer": 216,
                             "explanation": "Lines intersect: α=3. P=(40/13, 0, -31/13). 26·3·(PB)²=26×3×(144/169+324/169)=216.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "math_q25",
@@ -681,11 +685,13 @@
                             "hasImage": false,
                             "answer": 16,
                             "explanation": "c̄ = (b·a/|a|²)a = ((λ+8)/9)(î+2ĵ+2k̂). |ā+c̄|=7 ⟹ λ=4. Area = |b̄×c̄| = 16.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         },
         {
             "id": "physics",
@@ -1142,7 +1148,8 @@
                             "hasImage": false,
                             "answer": 4,
                             "explanation": "r = r₁r₂/(r₂-r₁) = 2×4/(4-2) = 4 cm.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "phys_q22",
@@ -1151,7 +1158,8 @@
                             "hasImage": false,
                             "answer": 8,
                             "explanation": "v = uf/(u-f). With u=-24, f=1: v=24/25. m=-v/u=1/25. aᵢ=-m²·v₀=(-1/625)×25=-1/25. Diff. gives a₁=2/25·v₁²-2/(24)³·v₀²·25=-2/25. 100a=8.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "phys_q23",
@@ -1160,7 +1168,8 @@
                             "hasImage": false,
                             "answer": 40,
                             "explanation": "R₁=2L/(K₁A), R₂=2L/(K₂A), R₃=L/(K₃A). (θ-100)/(R₁R₂/(R₁+R₂)) + θ/R₃ = 0. θ=40°C.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "phys_q24",
@@ -1169,7 +1178,8 @@
                             "hasImage": false,
                             "answer": 90,
                             "explanation": "V_A·V_B=0 and |V_A|=|V_B| gives p=-1/4, n=1/3. r_A/B×V_A gives |L|=√90. L=90.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "phys_q25",
@@ -1178,11 +1188,13 @@
                             "hasImage": false,
                             "answer": 5,
                             "explanation": "u_y=30 m/s. h_0=30×1-(1/2)×10×1=25m. Last second before max: h₁=30×(-10/2)×(2×3-1)=5m. h₀:h₁=25:5=5.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         },
         {
             "id": "chemistry",
@@ -1825,7 +1837,8 @@
                             "hasImage": false,
                             "answer": 45,
                             "explanation": "n(HCl)=0.1×40/1000=4×10⁻³ mol=n(excess Ca(OH)₂). n(CO₂)=n(Ca(OH)₂) reacted=4×10⁻³ mol. n(CO₂)=2×10⁻³ mol total... V=2×10⁻³×22400=44.8≈45 cm³.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "chem_q22",
@@ -1834,7 +1847,8 @@
                             "hasImage": false,
                             "answer": 20,
                             "explanation": "n_Cl = n_AgCl = 143.5/143.5 = 10⁻³ mol. % Cl = (10⁻³×35.5)/(180×10⁻³) × 100 = 19.72 ≈ 20%.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "chem_q23",
@@ -1843,7 +1857,8 @@
                             "hasImage": false,
                             "answer": 6,
                             "explanation": "Linear species: BeCl₂ (sp), CO₂ (sp), N₃⁻ (sp), XeF₂ (sp³d, linear), NO₂⁺ (sp), I₃⁻ (sp³d). Total = 6.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "chem_q24",
@@ -1852,7 +1867,8 @@
                             "hasImage": false,
                             "answer": 69,
                             "explanation": "K = Ae^{-Ea/RT} = 10²⁰×e^{-23.03} = 10²⁰/10¹⁰ = 10¹⁰ s⁻¹. t₁/₂=0.693/10¹⁰=6.93×10⁻¹¹s=69.3 ps ≈ 69 ps.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         },
                         {
                             "id": "chem_q25",
@@ -1861,11 +1877,13 @@
                             "hasImage": false,
                             "answer": 154,
                             "explanation": "Nitrobenzene → aniline → diazonium salt → chlorobenzene (Sandmeyer) → biphenyl (Wurtz-Fittig). Biphenyl C₁₂H₁₀, M=154 g/mol.",
-                            "marks": 4
+                            "marks": 4,
+                            "negativeMarks": 0
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         }
     ]
 }

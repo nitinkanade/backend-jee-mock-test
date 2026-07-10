@@ -245,7 +245,8 @@
                     "hasImage": false,
                     "answer": 15,
                     "explanation": "Combinatorics of relations with reflexive and symmetric properties.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q9",
@@ -254,7 +255,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Vector geometry and section formula applications.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q10",
@@ -263,7 +265,8 @@
                     "hasImage": false,
                     "answer": 1176,
                     "explanation": "Combinatorics and counting with digit restrictions.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q11",
@@ -272,7 +275,8 @@
                     "hasImage": false,
                     "answer": 18,
                     "explanation": "Limit evaluation using L'Hospital's rule and Taylor series.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q12",
@@ -281,7 +285,8 @@
                     "hasImage": false,
                     "answer": 93,
                     "explanation": "Functional equations and arithmetic progression properties.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q13",
@@ -290,7 +295,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Differential equations and limit evaluation.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q14",
@@ -756,7 +762,8 @@
                     "hasImage": false,
                     "answer": 40,
                     "explanation": "Non-inertial frame with varying acceleration. Maximum variation occurs at maximum acceleration.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q9",
@@ -765,7 +772,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "Energy density of electromagnetic waves and relation between energy and magnetic field amplitude.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q10",
@@ -775,7 +783,8 @@
                     "imageName": "img/phys_q10.png",
                     "answer": 3,
                     "explanation": "Stefan-Boltzmann law with radiation shields in steady state.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q11",
@@ -785,7 +794,8 @@
                     "imageName": "img/phys_q11.png",
                     "answer": 0.5,
                     "explanation": "Brewster's angle condition for complete polarization upon reflection.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q12",
@@ -794,7 +804,8 @@
                     "hasImage": false,
                     "answer": 72,
                     "explanation": "Error propagation in single slit diffraction measurements.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q13",
@@ -803,7 +814,8 @@
                     "hasImage": false,
                     "answer": 81,
                     "explanation": "de Broglie wavelength equality for electron in hydrogen-like atom and thermal neutron.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q14",
@@ -1268,7 +1280,8 @@
                     "hasImage": false,
                     "answer": 100,
                     "explanation": "Cr2O7^2- + 14H+ + 6e- → 2Cr^3+ + 7H2O. For 1 mole Cr3+, 3 moles e- needed. Q = 3F = 3×96500 C. I = Q/t = 289500/(48.25×60) = 100 A",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q9",
@@ -1277,7 +1290,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "For weak acid in water, considering both acid dissociation and water ionization. [H+] = 2×10^-7 M, so X = 2.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q10",
@@ -1286,7 +1300,8 @@
                     "hasImage": false,
                     "answer": 12.2,
                     "explanation": "Van der Waals equation: (P + a/Vm²)(Vm - b) = RT. Expanding gives cubic equation. Ratio of coefficients calculated from given values.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q11",
@@ -1295,7 +1310,8 @@
                     "hasImage": false,
                     "answer": 29.88,
                     "explanation": "2H2O → 2H2 + O2. 144g H2O = 8 mol. Produces 8 mol H2 + 4 mol O2 = 12 mol total. W = -PΔV = -ΔnRT = -12×8.3×300/1000 = -29.88 kJ (magnitude is 29.88)",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q12",
@@ -1304,7 +1320,8 @@
                     "hasImage": false,
                     "answer": 140,
                     "explanation": "Nylon 6,6 uses hexamethylenediamine (gives positive carbylamine test). Each molecule has 2 N atoms. 10 mol × 2 = 20 mol N → 10 mol N2 = 10×28 = 280g. However, answer should be 140g (5 mol N2).",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q13",
@@ -1314,7 +1331,8 @@
                     "imageName": "img/chem_q13.png",
                     "answer": 1632,
                     "explanation": "Multi-step organic synthesis with given yields. Calculate mass of final product S considering yields at each step.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q14",

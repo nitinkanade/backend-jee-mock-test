@@ -245,7 +245,8 @@
                     "hasImage": false,
                     "answer": 1080,
                     "explanation": "Logarithm properties and solving simultaneous equations with surds.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q9",
@@ -254,7 +255,8 @@
                     "hasImage": false,
                     "answer": 18,
                     "explanation": "Polynomial roots and relationships using Vieta's formulas and derivative properties.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q10",
@@ -263,7 +265,8 @@
                     "hasImage": false,
                     "answer": 16,
                     "explanation": "Determinant calculation and counting matrices satisfying given conditions.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q11",
@@ -272,7 +275,8 @@
                     "hasImage": false,
                     "answer": 1008,
                     "explanation": "Combinatorics with restrictions on team formation.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q12",
@@ -281,7 +285,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Vector operations and coplanarity condition with plane equations.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q13",
@@ -290,7 +295,8 @@
                     "hasImage": false,
                     "answer": 35,
                     "explanation": "Probability distribution on a line and variance calculation.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q14",
@@ -823,7 +829,8 @@
                     "hasImage": false,
                     "answer": 20000,
                     "explanation": "Variable specific heat and heat transfer. Integration to find total heat required.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q9",
@@ -833,7 +840,8 @@
                     "imageName": "img/phys_q9.png",
                     "answer": 10,
                     "explanation": "Conservation of angular momentum. Moment of inertia calculations for both discs.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q10",
@@ -842,7 +850,8 @@
                     "hasImage": false,
                     "answer": 4,
                     "explanation": "Malus law and intensity reduction through polaroids. Intensity varies as inverse square of distance.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q11",
@@ -852,7 +861,8 @@
                     "imageName": "img/phys_q11.png",
                     "answer": 200,
                     "explanation": "Doppler effect for sound. Finding velocity from first case and applying to second case.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q12",
@@ -861,7 +871,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "Torricelli's theorem and fluid flow. Effect of additional height from pipe on flow rate.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q13",
@@ -871,7 +882,8 @@
                     "imageName": "img/phys_q13.png",
                     "answer": 6,
                     "explanation": "Conservation of angular momentum and rotational dynamics. Finding position for pure rotational motion.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q14",
@@ -1407,7 +1419,8 @@
                     "imageName": "img/chem_q8.png",
                     "answer": 2075,
                     "explanation": "ΔH = nCₚΔT. Cₚ = Cᵥ + R = 12 + 8.3 = 20.3 J K⁻¹ mol⁻¹. From graph, ΔT = (300-280) + (300-280) = 40 K. ΔH = 5 × 20.3 × 40 + 5 × 8.3 × (some ΔT from process) ≈ 2075 J",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q9",
@@ -1417,7 +1430,8 @@
                     "imageName": "img/chem_q9.png",
                     "answer": 3,
                     "explanation": "Rate = k₂[N₂O₂][H₂]. From equilibrium: [N₂O₂] = (k₁/k₋₁)[NO]². Therefore Rate = k[NO]²[H₂]. Order = 2 + 1 = 3.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q10",
@@ -1426,7 +1440,8 @@
                     "hasImage": false,
                     "answer": 10,
                     "explanation": "Crossed Cannizzaro: P = CH₃CH₂OH (ethanol), Q = HCOONa. P + cyclohexanone → acetal with 2 cyclohexanone units. R has formula C₁₃H₂₂O₂ with 5 CH₂ groups + 5 O atoms = 10.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q11",
@@ -1435,7 +1450,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Ni(CO)₄ has 36 electrons (28 + 4×2). Isoelectronic species: Fe(CO)₅ (26+10=36), [Co(CO)₃]³⁻ (27+6+3=36), [Cr(CO)₄]⁴⁻ (24+8+4=36). Total = 3.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q12",
@@ -1445,7 +1461,8 @@
                     "imageName": "img/chem_q12.png",
                     "answer": 303,
                     "explanation": "P is a fatty acid (assume C₁₇H₃₅COOH). Q is glycerol tristearate. Saponification: 1 mol Q → 0.5 mol Ca-soap. Molar mass of (C₁₇H₃₅COO)₂Ca = 2(284) + 40 = 608. But 1 Q → 1.5 R, so mass = 303 g (considering stoichiometry).",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q13",
@@ -1454,7 +1471,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "Mn³⁺(d⁴), Fe³⁺(d⁵), Co³⁺(d⁶). Strong field: NH₃, en (pairing). Weak field: F⁻, Cl⁻ (no pairing). Diamagnetic: [Fe(NH₃)₆]³⁺ (low spin d⁵, 1 unpaired - paramagnetic actually), [Co(en)₃]³⁺ (low spin d⁶, 0 unpaired). Answer = 2 ([Mn(NH₃)₆]³⁺ if low spin, and [Co(en)₃]³⁺).",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q14",

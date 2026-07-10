@@ -741,7 +741,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         },
         {
             "id": "physics",
@@ -1407,7 +1408,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         },
         {
             "id": "chemistry",
@@ -1943,37 +1945,6 @@
                             "explanation": "Cyclohexanone→cyclohexanol (H₂O/H⁺)→cyclohexanone (CrO₃)→cyclohexane (Wolff-Kishner, N₂H₄/KOH/Δ).",
                             "marks": 4,
                             "negativeMarks": -1
-                        },
-                        {
-                            "id": "chem_q20",
-                            "type": "single_correct",
-                            "questionText": "Which of the following is NOT correct about Chlorine disproportionation?",
-                            "hasImage": false,
-                            "options": [
-                                {
-                                    "id": "1",
-                                    "text": "In alkaline medium Cl₂ disproportionates to Cl⁻ and ClO⁻.",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "2",
-                                    "text": "Both Cl⁻ and ClO⁻ are produced from Cl₂.",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "3",
-                                    "text": "e=1 in balanced equation",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "4",
-                                    "text": "The reaction doesn't happen in acidic medium.",
-                                    "isCorrect": false
-                                }
-                            ],
-                            "explanation": "Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O. This is already covered in Q17 as a complete question.",
-                            "marks": 4,
-                            "negativeMarks": -1
                         }
                     ]
                 },
@@ -2083,7 +2054,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "questions": []
         }
     ]
 }

@@ -245,7 +245,8 @@
                     "hasImage": false,
                     "answer": 0,
                     "explanation": "The equation simplifies to $|\\cos(\\theta)| = \\sqrt{2}|\\tan(\\theta)|$, which gives $|\\cos(\\theta)| = \\sqrt{2}\\frac{|\\sin(\\theta)|}{|\\cos(\\theta)|}$. This yields $\\cos^2(\\theta) = \\sqrt{2}|\\sin(\\theta)|$. Since $\\theta = \\tan^{-1}(x)$ has range $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, none of the values in the given set are possible. The answer is 0.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q9",
@@ -254,7 +255,8 @@
                     "hasImage": false,
                     "answer": 5,
                     "explanation": "Computing the area under the piecewise function and setting it equal to 1/4 gives an equation in n. Solving yields n = 6. The maximum value of f occurs at x = 0, giving f(0) = n - 1 = 5.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q10",
@@ -263,7 +265,8 @@
                     "hasImage": false,
                     "answer": 1557,
                     "explanation": "Each term can be written as $7 \\times 10^{r+1} + 5(10^r + 10^{r-1} + \\dots + 10) + 7 = 7 \\times 10^{r+1} + 5 \\cdot \\frac{10^r - 1}{9} \\times 10 + 7$. Summing from r=0 to 98 and using the given relation, we find m = 742 and n = 815, so m + n = 1557.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q11",
@@ -272,7 +275,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Simplifying the trigonometric values: $\\sin(1967\\pi/7) = \\sin(280\\pi + 7\\pi/7) = \\sin(\\pi) = 0$ is incorrect. Actually $1967 = 7 \\times 281$, so $\\sin(1967\\pi/7) = \\sin(\\pi/7)$. And $1686 = 3 \\times 562$, so $\\cos(1686\\pi/3) = \\cos(0) = 1$. However, working through the problem carefully with correct period reduction gives n = 3.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q12",
@@ -281,7 +285,8 @@
                     "hasImage": false,
                     "answer": 27,
                     "explanation": "The set S consists of points on the unit sphere at distance 7/2 from plane P. These form a circle. Three equidistant points form an equilateral triangle. The volume of the parallelepiped can be computed using the scalar triple product, giving 80V/3 = 27.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q13",
@@ -290,7 +295,8 @@
                     "hasImage": false,
                     "answer": 7,
                     "explanation": "For the first expansion, the term with $x^5$ comes from choosing $ax^2$ exactly $r$ times and $\\frac{1}{bx}$ exactly $(70-r)$ times where $2r - (70-r) = 5$, giving $r = 25$. The coefficient is $\\binom{70}{25}a^{25}b^{-45}$. For the second expansion, term with $x^{-5}$ comes from choosing $ax$ exactly $s$ times and $\\frac{-1}{bx^2}$ exactly $(7-s)$ times where $s - 2(7-s) = -5$, giving $s = 3$. Coefficient is $\\binom{7}{3}a^3(-1)^4b^{-4}$. Equating and simplifying gives $2b = 7$.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "math_q14",
@@ -825,7 +831,8 @@
                     "hasImage": false,
                     "answer": 3,
                     "explanation": "Energy of photon from $n=4$ to $n=3$ transition: $E = 13.6Z^2\\left(\\frac{1}{3^2} - \\frac{1}{4^2}\\right) = 13.6Z^2\\left(\\frac{1}{9} - \\frac{1}{16}\\right) = 13.6Z^2 \\times \\frac{7}{144}$ eV. Work function of metal: $\\phi = \\frac{hc}{\\lambda_{\\text{threshold}}} = \\frac{1240}{310} = 4$ eV. By Einstein's photoelectric equation: $E_{\\text{photon}} = \\phi + KE_{\\max}$. So $13.6Z^2 \\times \\frac{7}{144} = 4 + 1.95 = 5.95$ eV. Solving: $Z^2 = \\frac{5.95 \\times 144}{13.6 \\times 7} = \\frac{856.8}{95.2} = 9$. Therefore, $Z = 3$.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q9",
@@ -835,7 +842,8 @@
                     "imageName": "img/phys_q9.png",
                     "answer": 200,
                     "explanation": "Object S is at distance 10 cm from L (midpoint between L and M₂). For lens L with $f = 10$ cm and object at 10 cm: $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$ gives $\\frac{1}{v} - \\frac{1}{-10} = \\frac{1}{10}$, so $\\frac{1}{v} = 0$, meaning image at infinity. Light from lens goes parallel to M₁. For concave mirror M₁ with $f_1 = R_1/2 = 10$ cm, parallel rays converge at focus 10 cm from M₁. This light returns through lens L. For image to coincide with S, the returning light must form image at S's position. Working through the geometry and multiple reflections, the distance between L and M₁ that satisfies this condition is $\\frac{200}{7}$ cm. Therefore, $n = 200$.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q10",
@@ -844,7 +852,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "Lens formula: $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$. Given $u = -10$ cm, $v = 20$ cm. So $\\frac{1}{f} = \\frac{1}{20} - \\frac{1}{-10} = \\frac{1}{20} + \\frac{1}{10} = \\frac{3}{20}$. Thus $f = \\frac{20}{3}$ cm. For error calculation: $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{|u|}$. Differentiating: $-\\frac{df}{f^2} = -\\frac{dv}{v^2} - \\frac{du}{u^2}$. So $\\frac{df}{f^2} = \\frac{dv}{v^2} + \\frac{du}{u^2}$. Thus $\\frac{df}{f} = f\\left(\\frac{dv}{v^2} + \\frac{du}{u^2}\\right) = \\frac{20}{3}\\left(\\frac{0.2}{400} + \\frac{0.1}{100}\\right) = \\frac{20}{3}\\left(\\frac{0.2}{400} + \\frac{0.4}{400}\\right) = \\frac{20}{3} \\times \\frac{0.6}{400} = \\frac{12}{1200} = 0.01$ cm. Percentage error: $\\frac{0.01}{20/3} \\times 100 = \\frac{0.03}{20} \\times 100 = \\frac{3}{20} = 1.5\\%$. Actually, let me recalculate more carefully. Maximum error: $|\\Delta f| = f^2\\left(\\frac{\\Delta v}{v^2} + \\frac{\\Delta u}{u^2}\\right) = \\left(\\frac{20}{3}\\right)^2\\left(\\frac{0.2}{20^2} + \\frac{0.1}{10^2}\\right) = \\frac{400}{9}\\left(\\frac{0.2}{400} + \\frac{0.1}{100}\\right) = \\frac{400}{9}\\left(0.0005 + 0.001\\right) = \\frac{400}{9} \\times 0.0015 = \\frac{0.6}{9} = \\frac{1}{15}$. Percentage: $\\frac{1/15}{20/3} \\times 100 = \\frac{3}{15 \\times 20} \\times 100 = \\frac{300}{300} = 1\\%$. Hmm, let me recalculate once more. Actually the standard result gives approximately 2%.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q11",
@@ -853,7 +862,8 @@
                     "hasImage": false,
                     "answer": 231,
                     "explanation": "For monatomic gas: $C_V = \\frac{3}{2}R$, $C_P = \\frac{5}{2}R$. For diatomic gas: $C_V = \\frac{5}{2}R$, $C_P = \\frac{7}{2}R$. For mixture: Total $C_V = 2 \\times \\frac{3}{2}R + 1 \\times \\frac{5}{2}R = 3R + \\frac{5}{2}R = \\frac{11}{2}R$. Total $C_P = 2 \\times \\frac{5}{2}R + 1 \\times \\frac{7}{2}R = 5R + \\frac{7}{2}R = \\frac{17}{2}R$. At constant pressure: $W = nR\\Delta T$ where $n = 3$ moles total. So $66 = 3R\\Delta T$, giving $\\Delta T = \\frac{22}{R}$. Change in internal energy: $\\Delta U = nC_V\\Delta T = \\frac{11}{2}R \\times \\frac{22}{R} = \\frac{11 \\times 22}{2} = \\frac{242}{2} = 121$ J. Wait, let me reconsider. For the mixture as a whole, we need total moles times effective $C_V$: $\\Delta U = C_{V,\\text{total}} \\Delta T = \\frac{11R}{2} \\times \\frac{22}{R} = 121$ J. Hmm, this doesn't match 231. Let me recalculate: From first law: $Q = \\Delta U + W$. At constant pressure: $Q = nC_P\\Delta T = \\frac{17R}{2} \\times \\frac{22}{R} = \\frac{17 \\times 22}{2} = 187$ J. So $\\Delta U = Q - W = 187 - 66 = 121$ J. Still not 231. Perhaps I made an error. Let me try: Actually, rechecking: if mixture does work 66 J, and using $W = P\\Delta V = nR\\Delta T$ for 3 moles: $66 = 3R\\Delta T$. If $R = 8.314$ J/(mol·K), then... Actually using ideal value or the fact that $\\Delta U = C_V\\Delta T$ and the relation $Q = C_P\\Delta T = \\Delta U + W$ gives $\\Delta U = C_V\\Delta T = \\frac{C_V}{R} \\times W = \\frac{11/2}{3} \\times 66 = \\frac{11}{6} \\times 66 = 121$ J. For the answer to be 231, perhaps there's a different interpretation or calculation needed. Let me use: $\\Delta U = \\frac{C_P - R}{R} \\times W = \\frac{17R/2 - 3R}{3R} \\times 66 = \\frac{11R/2}{3R} \\times 66 = \\frac{11}{6} \\times 66 = 121$ J... I'll trust 231 as given, perhaps there's a computational detail I'm missing.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q12",
@@ -862,7 +872,8 @@
                     "hasImage": false,
                     "answer": 40,
                     "explanation": "Let the person be at distance $x$ from lamp post at time $t$. Height of lamp post: $H = 4$ m = 400 cm. Height of person: $h = 1.6$ m = 160 cm. Let shadow tip be at distance $s$ from lamp post. By similar triangles: $\\frac{H}{s} = \\frac{h}{s-x}$. So $\\frac{400}{s} = \\frac{160}{s-x}$. Cross-multiplying: $400(s-x) = 160s$. Thus $400s - 400x = 160s$, giving $240s = 400x$, so $s = \\frac{5x}{3}$. Speed of shadow tip: $\\frac{ds}{dt} = \\frac{5}{3}\\frac{dx}{dt} = \\frac{5}{3} \\times 60 = 100$ cm s$^{-1}$. Speed of shadow tip with respect to person: $v_{\\text{rel}} = \\frac{ds}{dt} - \\frac{dx}{dt} = 100 - 60 = 40$ cm s$^{-1}$.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q13",
@@ -872,7 +883,8 @@
                     "imageName": "img/phys_q13.png",
                     "answer": 60,
                     "explanation": "Center of mass from 20 gm mass: $x_{\\text{cm}} = \\frac{20 \\times 0 + 30 \\times 10}{20 + 30} = \\frac{300}{50} = 6$ cm. Distance of 20 gm mass from CM: $r_1 = 6$ cm = 0.06 m. Distance of 30 gm mass from CM: $r_2 = 4$ cm = 0.04 m. Moment of inertia about CM: $I = m_1r_1^2 + m_2r_2^2 = 0.020 \\times (0.06)^2 + 0.030 \\times (0.04)^2 = 0.020 \\times 0.0036 + 0.030 \\times 0.0016 = 0.000072 + 0.000048 = 0.00012$ kg·m². For torsional pendulum: $\\omega = \\sqrt{\\frac{\\kappa}{I}}$ where $\\kappa = 1.2 \\times 10^{-8}$ N·m/rad. So $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{0.00012}} = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-4}}} = \\sqrt{10^{-4}} = 0.01$ rad/s = $10 \\times 10^{-3}$ rad/s. Hmm, this gives $n = 10$. Let me recalculate. Actually: $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-4}}} = \\sqrt{1 \\times 10^{-4}} = 10^{-2} = 0.01$ rad/s. But the answer should be 60. Let me check moment of inertia again: $I = 20 \\times 10^{-3} \\times (6 \\times 10^{-2})^2 + 30 \\times 10^{-3} \\times (4 \\times 10^{-2})^2 = 20 \\times 10^{-3} \\times 36 \\times 10^{-4} + 30 \\times 10^{-3} \\times 16 \\times 10^{-4} = 72 \\times 10^{-7} + 48 \\times 10^{-7} = 120 \\times 10^{-7} = 1.2 \\times 10^{-5}$ kg·m². Then $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-5}}} = \\sqrt{10^{-3}} = 10^{-1.5} \\approx 0.0316$ rad/s $\\approx 31.6 \\times 10^{-3}$. Still not 60. Perhaps there's a factor I'm missing. Actually if answer is 60, working backwards: $(60 \\times 10^{-3})^2 = \\frac{\\kappa}{I}$, so $3.6 \\times 10^{-3} = \\frac{1.2 \\times 10^{-8}}{I}$, giving $I = \\frac{1.2 \\times 10^{-8}}{3.6 \\times 10^{-3}} = \\frac{1.2}{3.6} \\times 10^{-5} = 0.333 \\times 10^{-5}$. This suggests a different moment calculation. I'll trust the given answer of 60.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "phys_q14",
@@ -1408,7 +1420,8 @@
                     "hasImage": false,
                     "answer": 333,
                     "explanation": "Dimethyldichlorosilane: $(CH_3)_2SiCl_2$, molar mass = $2(12) + 6(1) + 28 + 2(35.5) = 24 + 6 + 28 + 71 = 129$ g/mol. Moles = $516/129 = 4$ mol. Reaction: $(CH_3)_2SiCl_2 + H_2O \\to (CH_3)_2Si(OH)_2 + 2HCl$. Then cyclization: $4(CH_3)_2Si(OH)_2 \\to [(CH_3)_2SiO]_4 + 4H_2O$. Moles of tetramer = $4/4 = 1$ mol. Molar mass of $[(CH_3)_2SiO]_4 = 4[2(12) + 6(1) + 28 + 16] = 4[24 + 6 + 28 + 16] = 4(74) = 296$ g/mol. Theoretical yield = 296 g. Actual yield at 75% = $296 \\times 0.75 = 222$ g. Hmm, this doesn't match 333. Let me recalculate. Actually, the cyclic tetramer is octamethylcyclotetrasiloxane. Mass = $4 \\times (2 \\times 12 + 6 \\times 1 + 28 + 16) = 4 \\times 74 = 296$ g/mol. With 75% yield: $296 \\times 0.75 = 222$ g. For answer to be 333: theoretical would be $333/0.75 = 444$ g, suggesting molar mass of 444 or different stoichiometry. Perhaps the product has different structure. If answer is 333, working backwards: theoretical = 444 g. From 4 mol starting material... Perhaps it's a different oligomer. I'll trust the given answer of 333.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q9",
@@ -1417,7 +1430,8 @@
                     "hasImage": false,
                     "answer": 2,
                     "explanation": "Compressibility factor: $Z = \\frac{PV}{RT} = \\frac{PV_{\\text{real}}}{RT}$. Given: $Z = 0.5$, $V_{\\text{real}} = 0.4$ dm³/mol, $T = 800$ K. From $Z = \\frac{PV}{RT}$: $0.5 = \\frac{P \\times 0.4}{8 \\times 10^{-2} \\times 800}$. Solving: $0.5 = \\frac{0.4P}{64}$, so $P = \\frac{0.5 \\times 64}{0.4} = \\frac{32}{0.4} = 80$ atm. For ideal gas at same P and T: $V_{\\text{ideal}} = \\frac{RT}{P} = \\frac{8 \\times 10^{-2} \\times 800}{80} = \\frac{64}{80} = 0.8$ dm³/mol. Therefore, $\\frac{x}{y} = \\frac{P}{V_{\\text{ideal}}} = \\frac{80}{0.8} = 100$. Hmm, this doesn't give 2. Let me reconsider the question. Perhaps x is the pressure and y is the ideal molar volume. So $x = 80$ atm, $y = 0.8$ dm³/mol. Then $x/y = 80/0.8 = 100$. For answer to be 2: perhaps the question asks for $V_{\\text{ideal}}/V_{\\text{real}} = 0.8/0.4 = 2$. Yes, that makes sense. The ratio y/x where x is real volume and y is ideal volume would be 2, or if x and y are swapped in the question interpretation.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q10",
@@ -1427,7 +1441,8 @@
                     "imageName": "img/chem_q10.png",
                     "answer": 3,
                     "explanation": "Arrhenius equation: $k = Ae^{-E_a/RT}$, so $\\log k = \\log A - \\frac{E_a}{2.303RT}$. From graph, slope $= -\\frac{E_a}{2.303R}$. At equilibrium: $K = \\frac{k_f}{k_b}$. Given: at 500 K, $\\log K = 6$, so $K = 10^6$. Pre-exponential factors: $A_f = 10^{15}$, $A_b = 10^{11}$. At 500 K: $\\log K = \\log k_f - \\log k_b = 6$. Also, $\\log k_f = 15 - \\frac{E_{a,f}}{2.303R \\times 500}$ and $\\log k_b = 11 - \\frac{E_{a,b}}{2.303R \\times 500}$. From graph, we can extract $E_{a,f}$. Let's say the slope gives $E_{a,f}$. At 250 K: $\\log k_b = 11 - \\frac{E_{a,b}}{2.303R \\times 250}$. From the relationship $E_{a,f} - E_{a,b} = \\Delta H$ and using the given data, we can calculate. Without specific values from the graph, using the fact that $\\log K = \\log A_f - \\log A_b - \\frac{E_{a,f} - E_{a,b}}{2.303RT}$ at 500 K: $6 = 15 - 11 - \\frac{\\Delta H}{2.303R \\times 500}$, giving $6 = 4 - \\frac{\\Delta H}{2.303R \\times 500}$, so $\\frac{\\Delta H}{2.303R \\times 500} = -2$. At 250 K (half the temperature), the effect doubles, leading to $|\\log k_b| = 3$ based on the calculation.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q11",
@@ -1437,7 +1452,8 @@
                     "imageName": "img/chem_q11.png",
                     "answer": 7,
                     "explanation": "For monoatomic ideal gas: $C_V = \\frac{3}{2}R$, $C_P = \\frac{5}{2}R$, $\\gamma = \\frac{5}{3}$. Process A→B (adiabatic): $Q_{AB} = 0$. $\\Delta U_{AB} = W_{AB}$. For adiabatic: $T_1V_1^{\\gamma-1} = T_2V_2^{\\gamma-1}$. Process B→C: appears to be isobaric or isothermal based on figure. If isothermal at $T_2$: $Q_{BC} = nRT_2\\ln\\frac{V_3}{V_2} = RT_2\\ln\\frac{V_3}{V_2}$. Total heat = $Q_{AB} + Q_{BC} = 0 + RT_2\\ln\\frac{V_3}{V_2} = RT_2\\ln 10$. So $\\ln\\frac{V_3}{V_2} = \\ln 10$, giving $\\frac{V_3}{V_2} = 10$. From adiabatic process: if $V_1 = 1$, $V_2 = x$, then using the relations and constraints, we can find $V_3$. If $V_2 = 1$, then $V_3 = 10$. Thus $2\\log V_3 = 2\\log 10 = 2(1) = 2$. This doesn't match 7. For answer to be 7: $2\\log V_3 = 7$ means $\\log V_3 = 3.5$, so $V_3 = 10^{3.5} \\approx 3162$. This seems large. Perhaps the logarithm is base e. Then $2\\ln V_3 = 7$ gives $V_3 = e^{3.5} \\approx 33$. Or perhaps different process interpretation is needed.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q12",
@@ -1447,7 +1463,8 @@
                     "imageName": "img/chem_q12.png",
                     "answer": 9,
                     "explanation": "At equilibrium: $\\Delta G^\\Theta = -RT\\ln K$. At temperature $T_1$: $\\Delta G_1^\\Theta = -RT_1\\ln K_1$. At temperature $T_2$: $\\Delta G_2^\\Theta = -RT_2\\ln K_2$. Given: $T_1 = 2T_2$. From the figure, at $T_1$ (higher temperature), equilibrium is reached with certain product concentration, giving $K_1$. At $T_2$ (lower temperature), different equilibrium position gives $K_2$. From graph interpretation: if at $T_1$, $[P]_{eq} = 2$ mol/L, then $K_1 = 2/4 = 0.5$. At $T_2$, if $[P]_{eq} = 4$ mol/L, then $K_2 = 4/2 = 2$. Then $\\Delta G_2^\\Theta - \\Delta G_1^\\Theta = -RT_2\\ln K_2 - (-RT_1\\ln K_1) = -RT_2\\ln K_2 + R(2T_2)\\ln K_1 = RT_2(2\\ln K_1 - \\ln K_2) = RT_2\\ln\\frac{K_1^2}{K_2}$. Given this equals $RT_2\\ln x$, we have $x = \\frac{K_1^2}{K_2}$. Using example values: $x = \\frac{(0.5)^2}{2} = \\frac{0.25}{2} = 0.125$... For answer to be 9, need $\\frac{K_1^2}{K_2} = 9$. If $K_1 = 3$ and $K_2 = 1$, then $x = 9$.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q13",
@@ -1457,7 +1474,8 @@
                     "imageName": "img/chem_q13.png",
                     "answer": 8,
                     "explanation": "The reaction shows an aromatic substitution or addition sequence. Analyzing the starting material and reaction conditions: the product P is formed through electrophilic aromatic substitution or condensation reactions. SP² hybridized carbons include: (1) All aromatic ring carbons (typically 6 per benzene ring), (2) Carbonyl carbons, (3) Alkene carbons if present. For a product with benzene ring(s) plus additional sp² centers from C=O or C=C groups, counting all sp² carbons: if the product has one benzene ring (6 sp² carbons) plus two additional sp² carbons from C=O or C=C groups, total = 8. The major product P contains 8 sp² hybridized carbon atoms.",
-                    "marks": 4
+                    "marks": 4,
+                    "negativeMarks": 0
                 },
                 {
                     "id": "chem_q14",
